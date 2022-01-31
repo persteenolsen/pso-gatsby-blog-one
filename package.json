@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-3-md-blog",
+  "private": true,
+  "description": "A Gatsby MD Blog",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.16",
+    "@mdx-js/react": "^1.6.16",
+    "gatsby": "^3.14.6",
+    "gatsby-plugin-mdx": "^1.2.39",
+    "gatsby-source-filesystem": "^3.14.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/persteenolsen/pso-gatsby-blog-one"
+  }
+}
