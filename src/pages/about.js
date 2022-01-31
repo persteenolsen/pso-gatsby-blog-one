@@ -39,7 +39,7 @@ const About = () => {
 			
 			<h1 className={heading}>{title}</h1>
 						
-            <p><b>Web Developer</b></p>
+            <p>Web Developer</p>
              
 			<img src={me} alt="Me" />
              
