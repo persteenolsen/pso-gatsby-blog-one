@@ -1,16 +1,17 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-import logo from "../../static/favicon.ico"  
+ 
+// Webpack will resolve the .js extension and it is optional to use the .js extension
+import Header from './header';
+import Menu from './menu';
+import Bottom from './bottom'; 
 
 import {
   container,
   heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
-} from './layout.module.css'
+ } from './layout.module.css'
 
 export const query = graphql
     `
@@ -33,27 +34,20 @@ const PostPageTemplate = ({ data }) => {
     const { frontmatter, body } = data.mdx
 	
     return (
+	
         <div className={container}>
-		    <img src={logo} alt="Logo" />
-			<br /><br />
+		    
+			<Header />
+            <Menu />			
 			
-			<nav>
-				 <ul className={navLinks}>
-				     <li className={navLinkItem}>
-			             <Link className={navLinkText} to="/">Back to Home</Link>
-				     </li>
-			    </ul>
-			</nav>
-				
+			   <title>{title}</title>	
+			   <h1 className={heading}>{title}</h1>
 			
-			<title>{title}</title>	
-			<h1 className={heading}>{title}</h1>
+			   <h1>{frontmatter.title}</h1>
+               <p>{frontmatter.date}</p>
+               <MDXRenderer>{body}</MDXRenderer>
 			
-			<h1>{frontmatter.title}</h1>
-            <p>{frontmatter.date}</p>
-            <MDXRenderer>{body}</MDXRenderer>
-			
-			<h2>Hi there! I'm the proud creator of this site, which I built with Gatsby.</h2>
+			<Bottom />
 			
         </div>
     )

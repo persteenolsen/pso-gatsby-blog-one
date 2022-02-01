@@ -1,15 +1,16 @@
 import * as React from 'react'
 import { graphql, Link } from 'gatsby'
-import logo from "../../static/favicon.ico" 
 
 import {
   container,
   heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
-} from '../components/layout.module.css'
-
+  } from '../components/layout.module.css'
+  
+ 
+// Webpack will resolve the .js extension and it is optional to use the .js extension
+import Header from '../components/header';
+import Menu from '../components/menu';
+import Bottom from '../components/bottom';
 
 export const query = graphql
 `
@@ -41,27 +42,15 @@ const ListPosts = ({ data }) => {
     return (
 	
         <div className={container}>
-            <div>
-			    
-				<img src={logo} alt="Logo" />
-				<br /><br />
+            
+			<div>
+			   	
+                <Header />
+                <Menu />
 				
-				<nav>
-				   <ul className={navLinks}>
-             
-				        <li className={navLinkItem}>
-			               <Link className={navLinkText} to="/about">About me</Link>
-                </li>
-                <li className={navLinkItem}>
-						         <Link className={navLinkText} to="/">Back to Home</Link>
-				       </li>
-				   
-				  </ul>
-				</nav>
-				
-				<title>Welcome to the {data.site.siteMetadata.title}</title>	
+				<title>{data.site.siteMetadata.title}</title>	
 				 
-				<h1 className={heading}>Welcome to the {data.site.siteMetadata.title}</h1>
+				<h1 className={heading}>{data.site.siteMetadata.title}</h1>
                 <p>{data.site.siteMetadata.description}</p>
 							
 				 
@@ -79,7 +68,8 @@ const ListPosts = ({ data }) => {
                 ))}
             </div>
 			
-			 <h2>Hi there! I'm the proud creator of this site, which I built with Gatsby.</h2>
+			<Bottom />
+						
         </div>
     )
 }

@@ -1,17 +1,18 @@
 import React from "react"
-import { Link } from 'gatsby'
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 
 import me from "../../static/persteenolsen.jpg"
-import logo from "../../static/favicon.ico"  
 
 import {
   container,
   heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
-} from '../components/layout.module.css'
+  } from '../components/layout.module.css'
+  
+ 
+// Webpack will resolve the .js extension and it is optional to use the .js extension
+import Header from '../components/header';
+import Menu from '../components/menu';
+import Bottom from '../components/bottom';
 
 const About = () => {
 	
@@ -20,30 +21,19 @@ const About = () => {
     return (
 	
         <div className={container}>
-		    <img src={logo} alt="Logo" />
-			<br /><br />
+		    
+            <Header />			
+			<Menu />				
 			
-			<nav>
-				 <ul className={navLinks}>
-				     <li className={navLinkItem}>
-			             <Link className={navLinkText} to="/">Back to Home</Link>
-					 </li>
-					 <li className={navLinkItem}>
-						 <Link className={navLinkText} to="/listposts">View Posts</Link>
-				     </li>
-			    </ul>
-			</nav>
-				
+			   <title>About me</title>
 			
-			<title>About me</title>
-			
-			<h1 className={heading}>{title}</h1>
+			   <h1 className={heading}>{title}</h1>
 						
-            <p>Web Developer</p>
+               <p>Web Developer</p>
              
-			<img src={me} alt="Me" />
-             
-			<h2>Hi there! I'm the proud creator of this site, which I built with Gatsby.</h2>
+			   <img src={me} alt="Me" />
+           
+		    <Bottom />
 			 
         </div>
     )
