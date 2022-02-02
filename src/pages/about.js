@@ -27,13 +27,12 @@ const About = () => {
 			
 			   <h1 className={heading}>{title}</h1>
 				
-			    <h2>Description</h2>
-  
+			      
                 - A Gatsby Markdown Blog made as a static Site
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 01-02-2022 <br /> <br />
+                - 02-02-2022 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
