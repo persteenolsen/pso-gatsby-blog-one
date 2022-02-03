@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-import logoreact from "../../static/images-pages/react.png"
+import logoreact from "/static/images-pages/react.png"
 
 import {
   container,

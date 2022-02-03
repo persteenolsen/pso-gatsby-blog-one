@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from 'gatsby'
-import logo from "../../static/images-components/favicon.ico"  
+import logo from "/static/images-components/favicon.ico"  
 
 import {
   navLinks,

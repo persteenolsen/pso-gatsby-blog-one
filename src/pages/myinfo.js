@@ -1,7 +1,7 @@
 import React from "react"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 
-import me from "../../static/images-pages/persteenolsen.jpg"
+import me from "/static/images-pages/persteenolsen.jpg"
 
 import {
   container,
