@@ -28,19 +28,20 @@ const About = () => {
 			   <h1 className={heading}>{title}</h1>
 				
 			      
-                - A Gatsby Markdown Blog made as a static Site
+                - A Gatsby Blog made as a static site using Markdown in the Posts which can have Tags included
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 03-02-2022 <br /> <br />
+                - 04-02-2022 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
-                - Upgraded from Node 12.16 to Node 14.17 <br />				
+                - Upgraded from Node 12.16 to Node 14.17 <br />	
+                - Markdown used in the Posts of the Blog<br />
+				- Tags can be added to the Posts<br />				
 			    - Showing some of the power Gatsby <br />
 				- GraphQL => A query language<br />
-				- Markdown used in the Posts of the Blog<br />
-                - Routing by Gatsby and React <br />
+				- Routing by Gatsby and React <br />
 				- Custom 404 Error page<br />
 				- Serving static assets like images, styles and fonts <br />
 				- Support for the IE 11 Browser<br /><br />

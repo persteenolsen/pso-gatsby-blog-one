@@ -4,14 +4,14 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { useSiteMetadata } from "../hooks/use-site-metadata"
  
 // Webpack will resolve the .js extension and it is optional to use the .js extension
-import Header from './header';
-import Menu from './menu';
-import Bottom from './bottom'; 
+import Header from '../components/header';
+import Menu from '../components/menu';
+import Bottom from '../components/bottom'; 
 
 import {
   container,
   heading,
- } from './layout.module.css'
+ } from '../components/layout.module.css'
 
 export const query = graphql
     `
@@ -22,7 +22,7 @@ export const query = graphql
             body
             frontmatter {
                 title
-                date(formatString: "YYYY MMMM Do")
+                date(formatString: "DD-MMMM-YYYY")
             }
         }
     }
