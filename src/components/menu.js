@@ -26,6 +26,9 @@ export default function Menu() {
 					 <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/listposts">View Posts</Link>
 				     </li>
+					  <li className={navLinkItem}>
+						 <Link className={navLinkText} to="/listtags">View Tags</Link>
+				     </li>
 					 
 			    </ul>
 			</nav>

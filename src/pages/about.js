@@ -32,13 +32,14 @@ const About = () => {
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 04-02-2022 <br /> <br />
+                - 05-02-2022 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 
                 - Upgraded from Node 12.16 to Node 14.17 <br />	
                 - Markdown used in the Posts of the Blog<br />
-				- Tags can be added to the Posts<br />				
+				- Tags can be added to the Posts<br />
+                - A Page showing all Tags there may be and the number of Posts in which the Tag appear<br />				
 			    - Showing some of the power Gatsby <br />
 				- GraphQL => A query language<br />
 				- Routing by Gatsby and React <br />

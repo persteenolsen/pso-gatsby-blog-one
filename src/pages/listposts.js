@@ -63,19 +63,19 @@ const ListPosts = ({ data }) => {
 				
 				  				   
                     <div key={id}>
+					
                     <Link to={fields.slug}>
                         <h1>{frontmatter.title}</h1>
                     </Link>
+
                     <p>{frontmatter.date}</p>
-						
-                    <p>{excerpt}</p>
+					
 					
                     <div style={{
                         display: 'flex',
                         flexFlow: 'row wrap',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        paddingBottom: '2%',
+                        alignItems: 'left',
+                        justifyContent: 'left',
                         fontSize: 12,
                         color: 'grey',
                       }}>	
@@ -86,17 +86,22 @@ const ListPosts = ({ data }) => {
                       
 					  <div
                           key={tag}
-                          variant="outlined"
-                          onClick={event => { navigate(`/tag/${ tag.toLowerCase() }`) }}
+                          variant="outlined"  
+                          onClick={event => { navigate(`/tag/${ tag.toLowerCase() }`) }} 
+						 
                           style={{
-                                 marginRight: '2.5%',
-                                 marginLeft: '2.5%',
+                                 marginRight: '1.5%',
+                                 marginLeft: '1.5%',
                                  cursor: 'pointer',
                                  whiteSpace: 'nowrap'
                            }}
+						   
+						   role={'button'}
+                           tabIndex={0}
+						   aria-hidden="true"
                          >
                          <p>
-                           {tag}
+                            # {tag}
                          </p>
 						
                       </div>
@@ -105,8 +110,13 @@ const ListPosts = ({ data }) => {
                     })}
 						
                    </div>
-				</div>
+				   
+				   				
 					
+                 <p>{excerpt}</p>
+					
+				</div>
+
                ))}
             </div>
 			

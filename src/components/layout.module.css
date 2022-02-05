@@ -1,6 +1,6 @@
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 450px;
   font-family: sans-serif;
 }
 .heading {
@@ -13,7 +13,19 @@
 }
 .nav-link-item {
   padding-right: 2rem;
-}
+ }
 .nav-link-text {
   color: black;
+}
+
+.tags-nav-links {
+  list-style: none;
+  padding: 5px;
+  
+}
+.tags-nav-link-item {
+  margin: 10px;
+ }
+.tags-nav-link-text {
+  color: grey;
 }

@@ -71,6 +71,7 @@ Tags.propTypes = {
     }),
 	
     data: PropTypes.shape({
+		
         allMarkdownRemark: PropTypes.shape({
             totalCount: PropTypes.number.isRequired,
             edges: PropTypes.arrayOf(
