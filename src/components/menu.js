@@ -18,16 +18,16 @@ export default function Menu() {
 			             <Link className={navLinkText} to="/">Home</Link>
 					 </li>
 					   <li className={navLinkItem}>
-						 <Link className={navLinkText} to="/about">About this App</Link>
+						 <Link className={navLinkText} to="/about">About</Link>
 				     </li>
 					  <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/myinfo">Per Steen Olsen</Link>
 				     </li>
 					 <li className={navLinkItem}>
-						 <Link className={navLinkText} to="/listposts">View Posts</Link>
+						 <Link className={navLinkText} to="/listposts">Posts</Link>
 				     </li>
 					  <li className={navLinkItem}>
-						 <Link className={navLinkText} to="/listtags">View Tags</Link>
+						 <Link className={navLinkText} to="/listtags">Tags</Link>
 				     </li>
 					 
 			    </ul>

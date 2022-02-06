@@ -7,7 +7,7 @@
 module.exports = {
     siteMetadata: {
         title: `Gatsby Markdown Blog`,
-        description: `Learn how to make a blog with Gatsby and Markdown posts.`,
+        description: `The list of Posts`,
     },
     plugins: [
         {

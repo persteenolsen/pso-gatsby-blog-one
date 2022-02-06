@@ -32,7 +32,7 @@ const About = () => {
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 05-02-2022 <br /> <br />
+                - 06-02-2022 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                 

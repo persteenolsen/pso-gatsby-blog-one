@@ -1,10 +1,13 @@
 import * as React from 'react'
-import { navigate, graphql, Link } from 'gatsby'
-
+import { graphql, Link } from 'gatsby'
+import { kebabCase } from 'lodash';
 
 import {
   container,
   heading,
+  postTagsNavLinks,
+  postTagsNavLinkItem,
+  postTagsNavLinkText
   } from '../components/layout.module.css'
   
  
@@ -25,7 +28,7 @@ export const query = graphql
           allMdx(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {published: {eq: true}}}) {
             nodes {
               id
-              excerpt(pruneLength: 250)
+              excerpt(pruneLength: 35)
               frontmatter {
                 title
                 date(formatString: "DD-MMMM-YYYY")
@@ -58,66 +61,41 @@ const ListPosts = ({ data }) => {
 				 
             </div>
 
+			
             <div>
                 {data.allMdx.nodes.map(({ id, excerpt, frontmatter, fields }) => (
 				
 				  				   
                     <div key={id}>
-					
+										
                     <Link to={fields.slug}>
-                        <h1>{frontmatter.title}</h1>
+                        <h2>{frontmatter.title}</h2>
                     </Link>
 
                     <p>{frontmatter.date}</p>
 					
-					
-                    <div style={{
-                        display: 'flex',
-                        flexFlow: 'row wrap',
-                        alignItems: 'left',
-                        justifyContent: 'left',
-                        fontSize: 12,
-                        color: 'grey',
-                      }}>	
+					<ul className={postTagsNavLinks}>
+			   
+                      {frontmatter.tags.map(tag => (
+				 
+                        <li className={postTagsNavLinkItem} key={tag}>
+                           <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}>
+                             # {tag} 
+                           </Link>
+                        </li>
 				
-				   {frontmatter.tags.map((tag) => {
-							 
-                    return [
-                      
-					  <div
-                          key={tag}
-                          variant="outlined"  
-                          onClick={event => { navigate(`/tag/${ tag.toLowerCase() }`) }} 
-						 
-                          style={{
-                                 marginRight: '1.5%',
-                                 marginLeft: '1.5%',
-                                 cursor: 'pointer',
-                                 whiteSpace: 'nowrap'
-                           }}
-						   
-						   role={'button'}
-                           tabIndex={0}
-						   aria-hidden="true"
-                         >
-                         <p>
-                            # {tag}
-                         </p>
-						
-                      </div>
-                     ]
-					 
-                    })}
-						
-                   </div>
-				   
-				   				
+                      ))}
+				 
+                    </ul>	
 					
-                 <p>{excerpt}</p>
+                  <p>{excerpt}</p>				
 					
 				</div>
 
                ))}
+			   
+			   ... <br />
+			   
             </div>
 			
 		 <Bottom />
