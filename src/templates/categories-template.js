@@ -16,16 +16,16 @@ import {
  } from '../components/layout.module.css'
 
 
-const Tags = ({ pageContext, data }) => {
+const Categories = ({ pageContext, data }) => {
 	
 	const { title } = useSiteMetadata()
 	
-    const { tag } = pageContext
+    const { category } = pageContext
     const { edges, totalCount } = data.allMdx
 	
-    const tagHeader = `${totalCount} post${
+    const categoryHeader = `${totalCount} post${
         totalCount === 1 ? "" : "s"
-        } tagged with "${tag}"`
+        } categorized with "${category}"`
     
 	return (
        
@@ -35,7 +35,7 @@ const Tags = ({ pageContext, data }) => {
             <Menu />	
 		    <title>{title}</title>	
 			
-            <h1>{tagHeader}</h1>
+            <h1>{categoryHeader}</h1>
 			
             <ul>
                 {edges.map(({ node }) => {
@@ -64,10 +64,10 @@ const Tags = ({ pageContext, data }) => {
     )
 }
 
-Tags.propTypes = {
+Categories.propTypes = {
 	
     pageContext: PropTypes.shape({
-        tag: PropTypes.string.isRequired,
+        category: PropTypes.string.isRequired,
     }),
 	
     data: PropTypes.shape({
@@ -89,16 +89,16 @@ Tags.propTypes = {
         }),
     }),
 }
-export default Tags
+export default Categories
 
 export const pageQuery = graphql`
 
-  query($tag: String) {
+  query($category: String) {
 	  
      allMdx(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { categories: { in: [$category] } } }
     ) {
       totalCount
       edges {

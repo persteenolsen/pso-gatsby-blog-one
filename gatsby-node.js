@@ -33,6 +33,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 						 frontmatter {
                                title
                                tags
+							   categories
                         }
                     }
                 }
@@ -42,13 +43,35 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
                 fieldValue
                }
             }
+			categoriesGroup: allMdx(limit: 2000) {
+              group(field: frontmatter___categories) {
+                fieldValue
+               }
+            }
         }
     `)
 
     if (result.errors) {
         reporter.panicOnBuild('ERROR: Loading "createPages" query')
     }
-      
+     
+       
+	// Extract categories data from query
+    const categories = result.data.categoriesGroup.group
+
+    // Make category pages
+    categories.forEach(category => {
+		
+	  // Make the category page
+      createPage({
+        path: `/category/${_.kebabCase(category.fieldValue)}/`,
+		component: path.resolve(`./src/templates/categories-template.js`),
+        context: {
+          category: category.fieldValue,
+      },
+    })
+  })
+     	 
 	// Extract tag data from query
     const tags = result.data.tagsGroup.group
 
@@ -70,7 +93,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     posts.forEach(({ node }, index) => {
         createPage({
             path: node.fields.slug,
-            component: path.resolve(`./src/templates/post-page-template.js`),
+            component: path.resolve(`./src/templates/post-template.js`),
             context: { id: node.id },
         })
     })

@@ -7,6 +7,7 @@
   color: rebeccapurple;
 }
 
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -17,6 +18,19 @@
  }
 .nav-link-text {
   color: black;
+}
+
+
+.categories-nav-links {
+  list-style: none;
+  padding: 2px;
+  
+}
+.categories-nav-link-item {
+  margin: 2px;
+ }
+.categories-nav-link-text {
+  color: green;
 }
 
 

@@ -14,7 +14,10 @@ import {
   heading,
   postTagsNavLinks,
   postTagsNavLinkItem,
-  postTagsNavLinkText
+  postTagsNavLinkText,
+  categoriesNavLinks,
+  categoriesNavLinkItem,
+  categoriesNavLinkText
  } from '../components/layout.module.css'
 
 export const query = graphql
@@ -28,6 +31,7 @@ export const query = graphql
                 title
                 date(formatString: "DD-MMMM-YYYY")
 				tags
+				categories
             }
         }
     }
@@ -50,6 +54,20 @@ const PostPageTemplate = ({ data }) => {
 			
 			   <h2>{frontmatter.title}</h2>
                <p>{frontmatter.date}</p>
+			   
+			    <ul className={categoriesNavLinks}>
+			   
+                 {frontmatter.categories.map(category => (
+				 
+                     <li className={categoriesNavLinkItem} key={category}>
+                        <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
+                          {category} 
+                        </Link>
+                    </li>
+				
+                 ))}
+				 
+               </ul>	
 			   
 			   <ul className={postTagsNavLinks}>
 			   

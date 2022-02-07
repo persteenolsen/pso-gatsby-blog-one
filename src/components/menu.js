@@ -23,6 +23,10 @@ export default function Menu() {
 					  <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/myinfo">Per Steen Olsen</Link>
 				     </li>
+					 
+					  <li className={navLinkItem}>
+						 <Link className={navLinkText} to="/listcategories">Categories</Link>
+				     </li>
 					 <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/listposts">Posts</Link>
 				     </li>
