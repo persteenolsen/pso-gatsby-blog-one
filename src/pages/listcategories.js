@@ -40,8 +40,8 @@ const ListCategories = ({ data }) => {
 	
         <div className={container}>
 		    
-            <Header />			
-			<Menu />				
+        <Header />			
+		  	<Menu />				
 			
 			   <title>View Categories</title>
 			

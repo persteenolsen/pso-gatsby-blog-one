@@ -33,14 +33,14 @@ export const pageQuery = graphql
 
 const ListTags = ({ data }) => {
 	
-    const { title } = useSiteMetadata()
+   const { title } = useSiteMetadata()
 	 const allTags = data.allMdx.group;
 	
     return (
 	
-        <div className={container}>
+      <div className={container}>
 		    
-            <Header />			
+      <Header />			
 			<Menu />				
 			
 			   <title>View Tags</title>

@@ -35,7 +35,7 @@ const Tags = ({ pageContext, data }) => {
             <Menu />	
 		    <title>{title}</title>	
 			
-            <h1>{tagHeader}</h1>
+            <h2>{tagHeader}</h2>
 			
             <ul>
                 {edges.map(({ node }) => {
@@ -44,11 +44,11 @@ const Tags = ({ pageContext, data }) => {
                     return (
                         <article key={node.fields.slug}>
                             <header>
-                                <h2>
+                                <h3>
                                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                                         {title}
                                     </Link>
-                                </h2>
+                                </h3>
                             </header>
                             <section>
                               
