@@ -8,8 +8,13 @@
 }
 
 a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: grey;
+}
+
+
+a:hover {
+  text-decoration: underline;
 }
 
 input[type=text] {
