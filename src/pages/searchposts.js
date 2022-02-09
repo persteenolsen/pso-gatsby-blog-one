@@ -13,9 +13,9 @@ import {
   categoriesNavLinks,
   categoriesNavLinkItem,
   categoriesNavLinkText
- } from '../components/layout.module.css'
-  
- 
+} from '../components/layout.module.css'
+
+
 // Webpack will resolve the .js extension and it is optional to use the .js extension
 import Header from '../components/header';
 import Menu from '../components/menu';
@@ -23,7 +23,7 @@ import Bottom from '../components/bottom';
 
 
 export const pageQuery = graphql
-`
+  `
   query {
     allMdx(sort: { order: DESC, fields: frontmatter___date }) {
       edges {
@@ -34,7 +34,7 @@ export const pageQuery = graphql
             title
             date(formatString: "DD-MMMM-YYYY")
             tags
-			categories
+		      	categories
           }
 
           fields {
@@ -65,20 +65,20 @@ const BlogIndex = props => {
     const { data } = props
     const posts = data.allMdx.edges || []
 
-    const filteredData = posts.filter( post => {
-    
-         const { title, tags } = post.node.frontmatter      
-         return (
-          
-           //  description.toLowerCase().includes(query.toLowerCase()) ||
-           title.toLowerCase().includes(query.toLowerCase()) ||
-          (tags &&
-            tags
-              .join("")
-              .toLowerCase()
-              .includes(query.toLowerCase()))
-         )
-       })
+    const filteredData = posts.filter(post => {
+
+      const { title, tags } = post.node.frontmatter
+      return (
+
+        //  description.toLowerCase().includes(query.toLowerCase()) ||
+        title.toLowerCase().includes(query.toLowerCase()) ||
+        (tags &&
+          tags
+            .join("")
+            .toLowerCase()
+            .includes(query.toLowerCase()))
+      )
+    })
 
     setState({
       query,
@@ -91,15 +91,15 @@ const BlogIndex = props => {
   const posts = hasSearchResults ? filteredData : allPosts
 
   return (
-    
+
     <div className={container}>
-        	
-       <Header />
-       <Menu />
+
+      <Header />
+      <Menu />
 
       <title>View Tags</title>
-			
-	  <h1 className={heading}>{title}</h1>
+
+      <h1 className={heading}>{title}</h1>
 
       <h3 style={{ textAlign: `left` }}>Type to filter the Posts by Title or Tags...</h3>
 
@@ -122,45 +122,45 @@ const BlogIndex = props => {
         return (
 
           <article key={slug}>
-           
+
             <header>
               <h2>
                 <Link to={slug}>{title}</Link>
               </h2>
-           
-   		      <p>{date}</p>
-			 </header>
-             
-			 <section>
-			     <ul className={categoriesNavLinks}>
-			         {node.frontmatter.categories.map(category => (
-				         <li className={categoriesNavLinkItem} key={category}>
-                            <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
-                               {category} 
-                            </Link>
-                        </li>
-				       ))}
-				 </ul>	
-			 </section>
-			 
-			 <section>
-			  	<ul className={postTagsNavLinks}>
-			        {node.frontmatter.tags.map(tag => (
-				       <li className={postTagsNavLinkItem} key={tag}>
-                           <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}>
-                             # {tag} 
-                           </Link>
-                      </li>
-				     ))}
-				  </ul>	
-			   </section>
-			
+
+              <p>{date}</p>
+            </header>
+
+            <section>
+              <ul className={categoriesNavLinks}>
+                {node.frontmatter.categories.map(category => (
+                  <li className={categoriesNavLinkItem} key={category}>
+                    <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
+                      {category}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section>
+              <ul className={postTagsNavLinks}>
+                {node.frontmatter.tags.map(tag => (
+                  <li className={postTagsNavLinkItem} key={tag}>
+                    <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}>
+                      # {tag}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+
             <hr />
           </article>
         )
       })}
 
-    <Bottom />
+      <Bottom />
 
     </div>
   )
