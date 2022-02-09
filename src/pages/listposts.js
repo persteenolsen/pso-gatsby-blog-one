@@ -54,12 +54,12 @@ const ListPosts = ({ data }) => {
             
 			<div>
 			   	
-        <Header />
-        <Menu />
+       <Header />
+       <Menu />
 				
-				<title>{data.site.siteMetadata.title}</title>	
+			       	<title>{data.site.siteMetadata.title}</title>	
 				 
-				<h1 className={heading}>{data.site.siteMetadata.title}</h1>
+			      	<h1 className={heading}>{data.site.siteMetadata.title}</h1>
                 <p>{data.site.siteMetadata.description}</p>
 							
 				 
@@ -79,7 +79,7 @@ const ListPosts = ({ data }) => {
                     <p>{frontmatter.date}</p>
 					
 					
-				          	<ul className={categoriesNavLinks}>
+				      <ul className={categoriesNavLinks}>
 			   
                       {frontmatter.categories.map(category => (
 				 

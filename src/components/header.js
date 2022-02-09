@@ -18,6 +18,11 @@ export default function Header() {
 				<li className={navLinkItem}>
 			         <Link className={navLinkText} to="/"> <img src={logo} alt="Logo" /></Link>
 				</li>
+				
+				 <li className={navLinkItem}>
+				     <br />
+					 <Link className={navLinkText} to="/myinfo">Per Steen Olsen</Link>
+				 </li>
 					 					 
 			</ul>
 			

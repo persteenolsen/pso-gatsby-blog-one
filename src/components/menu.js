@@ -14,25 +14,28 @@ export default function Menu() {
       <div>
 	      	<nav>
 				 <ul className={navLinks}>
-				     <li className={navLinkItem}>
+                    <li className={navLinkItem}>
 			             <Link className={navLinkText} to="/">Home</Link>
 					 </li>
-					   <li className={navLinkItem}>
+					 
+					 <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/about">About</Link>
 				     </li>
-					  <li className={navLinkItem}>
-						 <Link className={navLinkText} to="/myinfo">Per Steen Olsen</Link>
-				     </li>
-					 
+										 
 					  <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/listcategories">Categories</Link>
 				     </li>
 					 <li className={navLinkItem}>
-						 <Link className={navLinkText} to="/listposts">Posts</Link>
+						 <Link className={navLinkText} to="/listposts">View Posts</Link>
+				    </li>
+					 <li className={navLinkItem}>
+						<Link className={navLinkText} to="/searchposts">Search Posts</Link>
 				     </li>
+					 
 					  <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/listtags">Tags</Link>
 				     </li>
+					 
 					 
 			    </ul>
 			</nav>
