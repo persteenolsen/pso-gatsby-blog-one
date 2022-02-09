@@ -31,7 +31,7 @@ export const query = graphql
           allMdx(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {published: {eq: true}}}) {
             nodes {
               id
-              excerpt(pruneLength: 35)
+              excerpt(pruneLength: 50)
               frontmatter {
                 title
                 date(formatString: "DD-MMMM-YYYY")
@@ -54,12 +54,12 @@ const ListPosts = ({ data }) => {
             
 			<div>
 			   	
-       <Header />
-       <Menu />
+               <Header />
+               <Menu />
 				
-			       	<title>{data.site.siteMetadata.title}</title>	
+			   	<title>{data.site.siteMetadata.title}</title>	
 				 
-			      	<h1 className={heading}>{data.site.siteMetadata.title}</h1>
+			   	<h1 className={heading}>{data.site.siteMetadata.title}</h1>
                 <p>{data.site.siteMetadata.description}</p>
 							
 				 
@@ -68,8 +68,7 @@ const ListPosts = ({ data }) => {
 			
             <div>
                 {data.allMdx.nodes.map(({ id, excerpt, frontmatter, fields }) => (
-				
-				  				   
+								  				   
                     <div key={id}>
 										
                     <Link to={fields.slug}>

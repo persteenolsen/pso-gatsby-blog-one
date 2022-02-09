@@ -2,12 +2,18 @@
 import React, { useState } from "react"
 import { Link, graphql } from "gatsby"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
-
+import { kebabCase } from 'lodash';
 
 import {
   container,
-  heading
-  } from '../components/layout.module.css'
+  heading,
+  postTagsNavLinks,
+  postTagsNavLinkItem,
+  postTagsNavLinkText,
+  categoriesNavLinks,
+  categoriesNavLinkItem,
+  categoriesNavLinkText
+ } from '../components/layout.module.css'
   
  
 // Webpack will resolve the .js extension and it is optional to use the .js extension
@@ -28,6 +34,7 @@ export const pageQuery = graphql
             title
             date(formatString: "DD-MMMM-YYYY")
             tags
+			categories
           }
 
           fields {
@@ -92,26 +99,25 @@ const BlogIndex = props => {
 
       <title>View Tags</title>
 			
-		  <h1 className={heading}>{title}</h1>
+	  <h1 className={heading}>{title}</h1>
 
-      <h2 style={{ textAlign: `left` }}>Type to filter the Posts...</h2>
+      <h3 style={{ textAlign: `left` }}>Type to filter the Posts by Title or Tags...</h3>
 
       <div className="searchBox">
         <input
           className="searchInput"
           type="text"
           aria-label="Search"
-          placeholder="Type here to filter the posts..."
+          placeholder="Type here to filter the Posts by Title or Tags..."
           onChange={handleInputChange}
         />
       </div>
 
       {posts.map(({ node }) => {
 
-        const { excerpt } = node
-
+        //  const { excerpt } = node
         const { slug } = node.fields
-        const { tags, title, date } = node.frontmatter
+        const { title, date } = node.frontmatter
 
         return (
 
@@ -121,18 +127,34 @@ const BlogIndex = props => {
               <h2>
                 <Link to={slug}>{title}</Link>
               </h2>
-
-              <p>{date}</p>
-            </header>
-
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: tags || excerpt,
-                }}
-              />
-            </section>
-
+           
+   		      <p>{date}</p>
+			 </header>
+             
+			 <section>
+			     <ul className={categoriesNavLinks}>
+			         {node.frontmatter.categories.map(category => (
+				         <li className={categoriesNavLinkItem} key={category}>
+                            <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
+                               {category} 
+                            </Link>
+                        </li>
+				       ))}
+				 </ul>	
+			 </section>
+			 
+			 <section>
+			  	<ul className={postTagsNavLinks}>
+			        {node.frontmatter.tags.map(tag => (
+				       <li className={postTagsNavLinkItem} key={tag}>
+                           <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}>
+                             # {tag} 
+                           </Link>
+                      </li>
+				     ))}
+				  </ul>	
+			   </section>
+			
             <hr />
           </article>
         )

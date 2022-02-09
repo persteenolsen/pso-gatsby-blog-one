@@ -38,12 +38,12 @@ const About = () => {
                 
                 - Upgraded from Node 12.16 to Node 14.17 <br />	
                 - Markdown used in the Posts of the Blog<br />
-                - Searching / filtering the List of Posts <br />
+                - Searching / filtering the List of Posts by Title or Tags <br />
 				- A Post belongs to one Category. However it is possible that a Post belongs to multible categories<br />
 				- A Page showing all Categories there may be and the number of Post in which the Category appear<br />
 				- Tags can be added to the Posts<br />
                 - A Page showing all Tags there may be and the number of Posts in which the Tag appear<br />				
-                 - Showing some of the power Gatsby <br />
+                - Showing some of the power Gatsby <br />
                 - GraphQL - A query language<br />
 				- Routing by Gatsby and React <br />
 				- Custom 404 Error page<br />

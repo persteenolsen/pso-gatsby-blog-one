@@ -6,7 +6,7 @@ export default function Bottom() {
        
       <div>
 	  	         
-		<h2>Hi there! I'm the proud creator of this site, which I built with Gatsby and React</h2>
+		<h2>Hi there! I'm the of this site, which I built with Gatsby and React</h2>
 			
       </div>
    
