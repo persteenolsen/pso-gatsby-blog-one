@@ -7,6 +7,21 @@
   color: rebeccapurple;
 }
 
+.page-navigation {
+	display: flex;
+    flex-wrap: wrap;
+	padding: 10px;
+	width: 400px;
+}
+
+.page-navigation-space {
+	width: 10px;
+}
+
+.page-navigation-link {
+     padding: 10px;
+}
+
 a {
   text-decoration: none;
   color: grey;

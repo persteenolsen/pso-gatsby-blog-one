@@ -86,8 +86,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   })
 	
+
 	
-    // Create blog post pages.
+    // Create blog post pages without pagnition
     const posts = result.data.allMdx.edges
 
     posts.forEach(({ node }, index) => {
@@ -97,5 +98,27 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             context: { id: node.id },
         })
     })
+	
+	    
+		
+// Create blog post pages with pagnition
+const postspagnition = result.data.allMdx.edges
+const postsPerPage = 2
+const numPages = Math.ceil(postspagnition.length / postsPerPage)
+Array.from({ length: numPages }).forEach((_, i) => {
+  createPage({
+    path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+    component: path.resolve("./src/templates/post-list-pagnition-template.js"),
+    context: {
+      limit: postsPerPage,
+      skip: i * postsPerPage,
+      numPages,
+      currentPage: i + 1,
+    },
+  })
+})
+	
+	
 }
+
 
