@@ -45,8 +45,10 @@ const ListTags = ({ data }) => {
 
       <title>View Tags</title>
 
-      <h1 className={heading}>{title}</h1>
-
+     <h1 className={heading}>{title}</h1>
+      
+	 <div>View Posts by browsing the Tags...</div>
+	   
       <ul className={tagsNavLinks}>
 
         {allTags.map(tag => (

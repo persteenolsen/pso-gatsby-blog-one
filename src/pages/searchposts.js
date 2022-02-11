@@ -97,12 +97,13 @@ const BlogIndex = props => {
       <Header />
       <Menu />
 
-      <title>View Tags</title>
+      <title>Search the Posts</title>
 
       <h1 className={heading}>{title}</h1>
 
-      <h3 style={{ textAlign: `left` }}>Type to filter the Posts by Title or Tags...</h3>
-
+                  
+	  <div>Filter the Posts by Title or Tags...</div>
+		
       <div className="searchBox">
         <input
           className="searchInput"

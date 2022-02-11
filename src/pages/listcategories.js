@@ -46,6 +46,8 @@ const ListCategories = ({ data }) => {
       <title>View Categories</title>
 
       <h1 className={heading}>{title}</h1>
+	  
+	  <div>View Posts by browsing the Categories...</div>
 
       <ul className={categoriesNavLinks}>
 

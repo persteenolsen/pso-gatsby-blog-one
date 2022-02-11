@@ -57,11 +57,11 @@ const ListPosts = ({ data }) => {
         <Header />
         <Menu />
 
-        <title>{data.site.siteMetadata.title}</title>
+        <title>View Posts by scolling down the List</title>
 
         <h1 className={heading}>{data.site.siteMetadata.title}</h1>
-        <p>{data.site.siteMetadata.description}</p>
-
+		       
+	    <div>View Posts by scrolling the down List...</div>
 
       </div>
 

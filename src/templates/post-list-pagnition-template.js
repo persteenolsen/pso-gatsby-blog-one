@@ -2,6 +2,8 @@ import { kebabCase } from 'lodash';
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 
+import { useSiteMetadata } from "../hooks/use-site-metadata"
+
 
 import {
   container,
@@ -11,10 +13,7 @@ import {
   pageNavigationLink,
   postTagsNavLinks,
   postTagsNavLinkItem,
-  postTagsNavLinkText,
-  categoriesNavLinks,
-  categoriesNavLinkItem,
-  categoriesNavLinkText
+  postTagsNavLinkText
 } from '../components/layout.module.css'
 
 
@@ -24,7 +23,9 @@ import Menu from '../components/menu';
 import Bottom from '../components/bottom';
 
 const BlogPage = ({ data, pageContext }) => {
-
+  
+  const { title } = useSiteMetadata()
+  
   const posts = data.allMdx.edges;
   const { currentPage, numPages } = pageContext;
   const pathPrefix = '/blog';
@@ -40,85 +41,91 @@ const BlogPage = ({ data, pageContext }) => {
 
     <div className={container}>
 
-       <div>
-
-      <Header />
-      <Menu />
+      <div>
+        		 
+        <Header />
+        <Menu />
+		
+		<title>View Posts by pagnition</title>
+		<h1 className={heading}>{title}</h1>
+				   
+		<div>View Posts by the navigation at the bottom of the Page...</div>
+		
       </div>
 
-      <div className="post-list">
-        
+      <div>
+
         {posts.map(post => (
-		
-          <div key={post.node.id} className="post-list__item">
-           
-            <div className="post-list__content">
-			
+
+          <div key={post.node.id} >
+
+            <div>
+
               <h2>{post.node.frontmatter.title}</h2>
-			  
+			  <p>{post.node.frontmatter.date}</p>
+			   
               {post.node.frontmatter.tags ? (
-               
-			   <div className="tags-container">
-                  <ul className="taglist">
+
+                <div>
+                  <ul className={postTagsNavLinks}>
                     {post.node.frontmatter.tags.map(tag => (
-                      <li key={tag + `tag`}>
-                        <Link to={`/tag/${kebabCase(tag)}/`}>{tag}</Link>
+                      <li className={postTagsNavLinkItem} key={tag + `tag`}>
+                        <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}> # {tag}</Link>
                       </li>
                     ))}
                   </ul>
                 </div>
               ) : null}
-			  
-              <p>{post.node.frontmatter.date}</p>
-              <div className="post-list__excerpt">
+
+             			  
+              <div>
                 <p>{post.node.excerpt}</p>
               </div>
-			  
-              <Link className="button button--small" to={post.node.fields.slug}>
+
+              <Link to={post.node.fields.slug}>
                 Read More
               </Link>
-			  
+
             </div>
           </div>
         ))}
-		
+
       </div>
-	  
-     <br/>
-	 <hr />
-		
+
+      <br />
+      <hr />
+
       <div className={pageNavigation}>
-	   		
-					
+
         {!isFirst && (
           <Link className={pageNavigationLink} to={prevPage} rel="prev">
             Previous Page
           </Link>
         )}
-        
-		<div className={pageNavigationSpace}></div>
-		
+
+        <div className={pageNavigationSpace}></div>
+
         {Array.from({ length: numPages }, (_, i) => (
-         <Link className={pageNavigationLink} 
+          <Link className={pageNavigationLink}
             key={`pagination-number${i + 1}`}
             to={`${pathPrefix}/${i === 0 ? '' : i + 1}`}
           >
             {i + 1}
           </Link>
-		  		 		  
+
         ))}
-        
-		<div className={pageNavigationSpace}></div>
-				 
+
+        <div className={pageNavigationSpace}></div>
+
         {!isLast && (
           <Link className={pageNavigationLink} to={nextPage} rel="next">
             Next Page
           </Link>
         )}
       </div>
-        
-	  <hr />
-	  <br />
+
+      <hr />
+      <br />
       <Bottom />
 
     </div>
@@ -128,8 +135,8 @@ const BlogPage = ({ data, pageContext }) => {
 export default BlogPage;
 
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
-export const pageQuery = graphql 
-`
+export const pageQuery = graphql
+  `
   query($skip: Int!, $limit: Int!) {
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }

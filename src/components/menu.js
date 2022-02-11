@@ -25,19 +25,21 @@ export default function Menu() {
 					  <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/listcategories">Categories</Link>
 				     </li>
+					 					 
+					  <li className={navLinkItem}>
+						 <Link className={navLinkText} to="/listtags">Tags</Link>
+				     </li>
+					 
 					 <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/listposts">View Posts</Link>
 				    </li>
 					<li className={navLinkItem}>
-						 <Link className={navLinkText} to="/blog">Posts Pagnition</Link>
+						 <Link className={navLinkText} to="/blog">View Posts by pagnition</Link>
 				    </li>
 					 <li className={navLinkItem}>
 						<Link className={navLinkText} to="/searchposts">Search Posts</Link>
 				     </li>
 					 
-					  <li className={navLinkItem}>
-						 <Link className={navLinkText} to="/listtags">Tags</Link>
-				     </li>
 					 
 					 
 			    </ul>
