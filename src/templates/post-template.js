@@ -12,12 +12,13 @@ import Bottom from '../components/bottom';
 import {
   container,
   heading,
+  postCategoriesNavLinks,
+  postCategoriesNavLinkItem,
+  postCategoriesNavLinkText,
   postTagsNavLinks,
   postTagsNavLinkItem,
-  postTagsNavLinkText,
-  categoriesNavLinks,
-  categoriesNavLinkItem,
-  categoriesNavLinkText
+  postTagsNavLinkText
+ 
  } from '../components/layout.module.css'
 
 export const query = graphql
@@ -55,12 +56,12 @@ const PostPageTemplate = ({ data }) => {
 			   <h2>{frontmatter.title}</h2>
                <p>{frontmatter.date}</p>
 			   
-			    <ul className={categoriesNavLinks}>
+			    <ul className={postCategoriesNavLinks}>
 			   
                  {frontmatter.categories.map(category => (
 				 
-                     <li className={categoriesNavLinkItem} key={category}>
-                        <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
+                     <li className={postCategoriesNavLinkItem} key={category}>
+                        <Link className={postCategoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
                           {category} 
                         </Link>
                     </li>

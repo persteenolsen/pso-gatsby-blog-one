@@ -8,9 +8,10 @@ import {
   postTagsNavLinks,
   postTagsNavLinkItem,
   postTagsNavLinkText,
-  categoriesNavLinks,
-  categoriesNavLinkItem,
-  categoriesNavLinkText
+  postCategoriesNavLinks,
+  postCategoriesNavLinkItem,
+  postCategoriesNavLinkText
+  
 } from '../components/layout.module.css'
 
 
@@ -35,8 +36,8 @@ export const query = graphql
               frontmatter {
                 title
                 date(formatString: "DD-MMMM-YYYY")
-			        	tags
-			        	categories
+			    tags
+			    categories
               }
               fields {
                 slug
@@ -61,7 +62,7 @@ const ListPosts = ({ data }) => {
 
         <h1 className={heading}>{data.site.siteMetadata.title}</h1>
 		       
-	    <div>View Posts by scrolling the down List...</div>
+	    <div>View Posts by scrolling down the List...</div>
 
       </div>
 
@@ -78,12 +79,12 @@ const ListPosts = ({ data }) => {
             <p>{frontmatter.date}</p>
 
 
-            <ul className={categoriesNavLinks}>
+            <ul className={postCategoriesNavLinks}>
 
               {frontmatter.categories.map(category => (
 
-                <li className={categoriesNavLinkItem} key={category}>
-                  <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
+                <li className={postCategoriesNavLinkItem} key={category}>
+                  <Link className={postCategoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
                     {category}
                   </Link>
                 </li>

@@ -1,7 +1,7 @@
 .container {
   margin: auto;
   max-width: 450px;
-  font-family: sans-serif;
+  font-family: verdana;
 }
 .heading {
   color: rebeccapurple;
@@ -26,7 +26,6 @@ a {
   text-decoration: none;
   color: grey;
 }
-
 
 a:hover {
   text-decoration: underline;
@@ -63,16 +62,15 @@ input[type=text]:focus {
 
 .categories-nav-links {
   list-style: none;
-  padding: 2px;
+  padding: 5px;
   
 }
 .categories-nav-link-item {
-  margin: 2px;
+  margin: 10px;
  }
 .categories-nav-link-text {
   color: green;
 }
-
 
 .tags-nav-links {
   list-style: none;
@@ -86,6 +84,20 @@ input[type=text]:focus {
   color: grey;
 }
 
+
+
+.post-categories-nav-links {
+  display: flex;
+  list-style: none;
+  padding: 1px;
+  
+}
+.post-categories-nav-link-item {
+  margin: 3px;
+ }
+.post-categories-nav-link-text {
+  color: green;
+}
 
 .post-tags-nav-links {
   display: flex;

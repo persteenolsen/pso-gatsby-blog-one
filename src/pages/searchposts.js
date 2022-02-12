@@ -10,9 +10,10 @@ import {
   postTagsNavLinks,
   postTagsNavLinkItem,
   postTagsNavLinkText,
-  categoriesNavLinks,
-  categoriesNavLinkItem,
-  categoriesNavLinkText
+  postCategoriesNavLinks,
+  postCategoriesNavLinkItem,
+  postCategoriesNavLinkText
+  
 } from '../components/layout.module.css'
 
 
@@ -133,10 +134,10 @@ const BlogIndex = props => {
             </header>
 
             <section>
-              <ul className={categoriesNavLinks}>
+              <ul className={postCategoriesNavLinks}>
                 {node.frontmatter.categories.map(category => (
-                  <li className={categoriesNavLinkItem} key={category}>
-                    <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
+                  <li className={postCategoriesNavLinkItem} key={category}>
+                    <Link className={postCategoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
                       {category}
                     </Link>
                   </li>

@@ -11,9 +11,13 @@ import {
   pageNavigation,
   pageNavigationSpace,
   pageNavigationLink,
+  postCategoriesNavLinks,
+  postCategoriesNavLinkItem,
+  postCategoriesNavLinkText,
   postTagsNavLinks,
   postTagsNavLinkItem,
-  postTagsNavLinkText
+  postTagsNavLinkText,
+ 
 } from '../components/layout.module.css'
 
 
@@ -63,7 +67,22 @@ const BlogPage = ({ data, pageContext }) => {
 
               <h2>{post.node.frontmatter.title}</h2>
 			  <p>{post.node.frontmatter.date}</p>
-			   
+			  
+			  <ul className={postCategoriesNavLinks}>
+
+                {post.node.frontmatter.categories.map(category => (
+
+                <li className={postCategoriesNavLinkItem} key={category}>
+                  <Link className={postCategoriesNavLinkText} to={`/category/${kebabCase(category)}/`}>
+                    {category}
+                  </Link>
+                </li>
+
+              ))}
+
+              </ul>
+			  
+			  
               {post.node.frontmatter.tags ? (
 
                 <div>
@@ -77,7 +96,7 @@ const BlogPage = ({ data, pageContext }) => {
                 </div>
               ) : null}
 
-             			  
+              						  
               <div>
                 <p>{post.node.excerpt}</p>
               </div>
@@ -154,7 +173,7 @@ export const pageQuery = graphql
             date(formatString: "MMMM DD, YYYY")
             title
             tags
-           
+			categories           
           }
         }
       }
