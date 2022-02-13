@@ -1,6 +1,6 @@
 .container {
   margin: auto;
-  max-width: 450px;
+  max-width: 750px;
   font-family: verdana;
 }
 .heading {
@@ -9,9 +9,8 @@
 
 .page-navigation {
 	display: flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 	padding: 10px;
-	width: 400px;
 }
 
 .page-navigation-space {

@@ -99,7 +99,7 @@ const ListPosts = ({ data }) => {
 
                 <li className={postTagsNavLinkItem} key={tag}>
                   <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}>
-                    # {tag}
+                    #{tag}
                   </Link>
                 </li>
 

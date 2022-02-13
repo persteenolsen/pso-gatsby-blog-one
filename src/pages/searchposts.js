@@ -150,7 +150,7 @@ const BlogIndex = props => {
                 {node.frontmatter.tags.map(tag => (
                   <li className={postTagsNavLinkItem} key={tag}>
                     <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}>
-                      # {tag}
+                      #{tag}
                     </Link>
                   </li>
                 ))}

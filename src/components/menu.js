@@ -34,7 +34,7 @@ export default function Menu() {
 						 <Link className={navLinkText} to="/listposts">View Posts</Link>
 				    </li>
 					<li className={navLinkItem}>
-						 <Link className={navLinkText} to="/blog">View Posts by pagnition</Link>
+						 <Link className={navLinkText} to="/blog">View Posts by Pagnition</Link>
 				    </li>
 					 <li className={navLinkItem}>
 						<Link className={navLinkText} to="/searchposts">Search Posts</Link>

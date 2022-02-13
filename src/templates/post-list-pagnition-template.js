@@ -64,8 +64,11 @@ const BlogPage = ({ data, pageContext }) => {
           <div key={post.node.id} >
 
             <div>
-
-              <h2>{post.node.frontmatter.title}</h2>
+              
+			  <Link to={post.node.fields.slug}>
+                  <h2>{post.node.frontmatter.title}</h2>
+			  </Link>
+			  
 			  <p>{post.node.frontmatter.date}</p>
 			  
 			  <ul className={postCategoriesNavLinks}>
@@ -89,7 +92,7 @@ const BlogPage = ({ data, pageContext }) => {
                   <ul className={postTagsNavLinks}>
                     {post.node.frontmatter.tags.map(tag => (
                       <li className={postTagsNavLinkItem} key={tag + `tag`}>
-                        <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}> # {tag}</Link>
+                        <Link className={postTagsNavLinkText} to={`/tag/${kebabCase(tag)}/`}> #{tag}</Link>
                       </li>
                     ))}
                   </ul>
