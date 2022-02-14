@@ -29,7 +29,7 @@ export const pageQuery = graphql
     allMdx(sort: { order: DESC, fields: frontmatter___date }) {
       edges {
         node {
-          excerpt(pruneLength: 200)
+          excerpt(pruneLength: 50)
           id
           frontmatter {
             title
