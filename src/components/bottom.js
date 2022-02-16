@@ -12,7 +12,7 @@ export default function Bottom() {
       <div className={containerBottom}>
        
        <br />
-       <p>My Blog = Gatsby + React</p>	       
+             
        <img src={logoreact} alt="React" />
 
       </div>

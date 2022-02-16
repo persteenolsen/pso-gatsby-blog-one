@@ -40,8 +40,8 @@ const ListTags = ({ data }) => {
 
     <div className={container}>
 
-      <Header />
-      <Menu />
+     <Header />
+     <Menu />
 
      <title>View Tags</title>
 
@@ -55,7 +55,7 @@ const ListTags = ({ data }) => {
 
           <li className={tagsNavLinkItem} key={tag.fieldValue}>
             <Link className={tagsNavLinkText} to={`/tag/${kebabCase(tag.fieldValue)}/`}>
-              #{tag.fieldValue} ({tag.totalCount})
+              <h3>#{tag.fieldValue} ({tag.totalCount})</h3>
             </Link>
           </li>
 

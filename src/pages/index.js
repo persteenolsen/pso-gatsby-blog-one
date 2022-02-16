@@ -47,7 +47,7 @@ const HomePage = ({ data }) => {
 
       <h1 className={heading}>{title}</h1>
 	  
-	    <div>View the Posts by the Categories...</div>
+	  <div>View the Posts by the Categories...</div>
       
 	 
       <ul className={categoriesNavLinks}>
@@ -56,7 +56,7 @@ const HomePage = ({ data }) => {
 
             <li className={categoriesNavLinkItem} key={category.fieldValue}>
               <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category.fieldValue)}/`}>
-                {category.fieldValue} ({category.totalCount})
+                <h3>{category.fieldValue} ({category.totalCount})</h3>
               </Link>
             </li>
 

@@ -12,7 +12,10 @@ import Menu from '../components/menu';
 import Bottom from '../components/bottom'; 
 
 import {
-  container
+  container,
+  categoriesNavLinks,
+  categoriesNavLinkItem,
+  categoriesNavLinkText
  } from '../components/layout.module.css'
 
 
@@ -32,12 +35,13 @@ const Categories = ({ pageContext, data }) => {
      	  <div className={container}>
 		   		    
 			<Header />
-            <Menu />	
+            <Menu />
+			
 		    <title>{title}</title>	
 			
-            <h2>{categoryHeader}</h2>
+            <h3>{categoryHeader}</h3>
 			
-            <ul>
+            <ul className={categoriesNavLinks}>
                
    			    {edges.map(({ node }) => {
                     
@@ -45,25 +49,22 @@ const Categories = ({ pageContext, data }) => {
 					const { date } = node.frontmatter
 										
                     return (
-                         
-   						 <article key={node.fields.slug}>
-                            <header>
-                                
-								<h3>
-                                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                                        {title} 
-                                    </Link> 
-                                </h3>
-							   {date} <br/><br/>							
-                            </header>
-                            <section>
+   						
+						  <li className={categoriesNavLinkItem}>
+                            
+ 							 <Link className={categoriesNavLinkText} to={node.fields.slug}>
+                                  <h3>{title}</h3> 
+                             </Link> 
+                            							 
+							 {date} 
+							 <br /><br />
 							
 							{ node.excerpt }
-                            <br /><br />
+                            
+							<br /><br />
 							<hr />
 							
-                            </section>
-                        </article>
+						</li>
                      )
                  })}
 				 

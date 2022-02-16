@@ -12,7 +12,10 @@ import Menu from '../components/menu';
 import Bottom from '../components/bottom'; 
 
 import {
-  container
+  container,
+  tagsNavLinks,
+  tagsNavLinkItem,
+  tagsNavLinkText
  } from '../components/layout.module.css'
 
 
@@ -35,30 +38,29 @@ const Tags = ({ pageContext, data }) => {
             <Menu />	
 		    <title>{title}</title>	
 			
-            <h2>{tagHeader}</h2>
+            <h3>{tagHeader}</h3>
 			
-            <ul>
+            
+			<ul className={tagsNavLinks}>
+			
                 {edges.map(({ node }) => {
                    
                     const { title } = node.frontmatter
 					const { date } = node.frontmatter
 					
                     return (
-                        <article key={node.fields.slug}>
-                            
-							<header>
-                               
-							   <h3>
-                                    <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                                        {title} - {date}
-                                    </Link>
-								</h3>
-									
-                            </header>
-                            <section>
-                              
-                            </section>
-                        </article>
+                           
+						   <li className={tagsNavLinkItem}>
+						                              
+							 <Link className={tagsNavLinkText} to={node.fields.slug}>
+                                  <h3>{title}</h3> 
+                             </Link> 
+							
+							{date} 
+							<br /><br />
+							<hr />
+							 
+						</li>
                     )
                 })}
             </ul>
