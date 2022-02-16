@@ -7,6 +7,12 @@
   color: rebeccapurple;
 }
 
+.container-bottom {
+ 
+  font-family: verdana;
+  text-align: center;
+}
+
 .page-navigation {
 	display: flex;
   flex-wrap: wrap;

@@ -14,6 +14,7 @@ export default function Menu() {
       <div>
 	      	<nav>
 				 <ul className={navLinks}>
+				 
                     <li className={navLinkItem}>
 			             <Link className={navLinkText} to="/">Home</Link>
 					 </li>
@@ -23,14 +24,14 @@ export default function Menu() {
 				     </li>
 										 
 					  <li className={navLinkItem}>
-						 <Link className={navLinkText} to="/listcategories">Categories</Link>
+						 <Link className={navLinkText} to="/">Categories</Link>
 				     </li>
 					 					 
 					  <li className={navLinkItem}>
 						 <Link className={navLinkText} to="/listtags">Tags</Link>
 				     </li>
 					 
-					 <li className={navLinkItem}>
+					<li className={navLinkItem}>
 						 <Link className={navLinkText} to="/listposts">View Posts</Link>
 				    </li>
 					<li className={navLinkItem}>

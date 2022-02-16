@@ -38,28 +38,37 @@ const Categories = ({ pageContext, data }) => {
             <h2>{categoryHeader}</h2>
 			
             <ul>
-                {edges.map(({ node }) => {
+               
+   			    {edges.map(({ node }) => {
                     
                     const { title } = node.frontmatter
 					const { date } = node.frontmatter
-					
+										
                     return (
-                        <article key={node.fields.slug}>
+                         
+   						 <article key={node.fields.slug}>
                             <header>
-                                <h3>
+                                
+								<h3>
                                     <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                                        {title} - {date}
-                                    </Link>
+                                        {title} 
+                                    </Link> 
                                 </h3>
+							   {date} <br/><br/>							
                             </header>
                             <section>
-                              
+							
+							{ node.excerpt }
+                            <br /><br />
+							<hr />
+							
                             </section>
                         </article>
-                    )
-                })}
-            </ul>
-			
+                     )
+                 })}
+				 
+             </ul>
+						
 			<Bottom />
 			
         </div>
@@ -105,13 +114,14 @@ export const pageQuery = graphql`
       totalCount
       edges {
         node {
-            excerpt
-          fields {
-            slug
-          }
-          frontmatter {
+             excerpt(pruneLength: 50)
+             fields {
+                 slug
+             }
+            frontmatter {
             title
             date(formatString: "DD-MMMM-YYYY")
+			
           }
         }
       }
