@@ -66,7 +66,7 @@ const BlogPage = ({ data, pageContext }) => {
             <div>
               
 			  <Link to={post.node.fields.slug}>
-                  <h2>{post.node.frontmatter.title}</h2>
+                  <h3>{post.node.frontmatter.title}</h3>
 			  </Link>
 			  
 			  <p>{post.node.frontmatter.date}</p>

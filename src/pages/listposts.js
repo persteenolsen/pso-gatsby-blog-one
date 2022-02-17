@@ -73,7 +73,7 @@ const ListPosts = ({ data }) => {
           <div key={id}>
 
             <Link to={fields.slug}>
-              <h2>{frontmatter.title}</h2>
+              <h3>{frontmatter.title}</h3>
             </Link>
 
             <p>{frontmatter.date}</p>
