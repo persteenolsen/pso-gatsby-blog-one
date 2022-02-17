@@ -73,11 +73,10 @@ const ListPosts = ({ data }) => {
           <div key={id}>
 
             <Link to={fields.slug}>
-              <h3>{frontmatter.title}</h3>
+              <h4>{frontmatter.title}</h4>
             </Link>
 
             <p>{frontmatter.date}</p>
-
 
             <ul className={postCategoriesNavLinks}>
 
@@ -109,7 +108,9 @@ const ListPosts = ({ data }) => {
 
 
             <p>{excerpt}</p>
-
+            
+			<hr />
+			
           </div>
 
         ))}

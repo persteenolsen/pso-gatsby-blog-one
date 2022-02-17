@@ -101,9 +101,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
 
 
-  // Create blog post pages with pagnition
+  // Create blog post pages with pagnition of 5 Posts per Page
   const postspagnition = result.data.allMdx.edges
-  const postsPerPage = 2
+  const postsPerPage = 5
   const numPages = Math.ceil(postspagnition.length / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({

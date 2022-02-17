@@ -50,10 +50,10 @@ const Tags = ({ pageContext, data }) => {
 					
                     return (
                            
-						   <li className={tempTagsNavLinkItem}>
+						   <li className={tempTagsNavLinkItem} key={node.fields.slug}>
 						                              
 							 <Link className={tempTagsNavLinkText} to={node.fields.slug}>
-                                  <h3>{title}</h3> 
+                                  <h4>{title}</h4> 
                              </Link> 
 							
 							{date} 

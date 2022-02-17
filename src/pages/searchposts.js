@@ -126,9 +126,9 @@ const BlogIndex = props => {
           <article key={slug}>
 
             <header>
-              <h3>
+              <h4>
                 <Link to={slug}>{title}</Link>
-              </h3>
+              </h4>
 
               <p>{date}</p>
             </header>

@@ -54,7 +54,7 @@ const BlogPage = ({ data, pageContext }) => {
 		<h1 className={heading}>{title}</h1>
 				   
 		<div>View Posts by the navigation at the bottom of the Page...</div>
-		
+		<br />
       </div>
 
       <div>
@@ -65,10 +65,12 @@ const BlogPage = ({ data, pageContext }) => {
 
             <div>
               
+			  <hr />
 			  <Link to={post.node.fields.slug}>
-                  <h3>{post.node.frontmatter.title}</h3>
+                  <h4>{post.node.frontmatter.title}</h4>
 			  </Link>
-			  
+			  <hr />
+			   
 			  <p>{post.node.frontmatter.date}</p>
 			  
 			  <ul className={postCategoriesNavLinks}>
@@ -107,7 +109,8 @@ const BlogPage = ({ data, pageContext }) => {
               <Link to={post.node.fields.slug}>
                 Read More
               </Link>
-
+              
+			 			  
             </div>
           </div>
         ))}
@@ -115,7 +118,8 @@ const BlogPage = ({ data, pageContext }) => {
       </div>
 
       <br />
-      <hr />
+     
+	  <hr />
 
       <div className={pageNavigation}>
 

@@ -53,7 +53,7 @@ const PostPageTemplate = ({ data }) => {
 			   <title>{title}</title>	
 			   <h1 className={heading}>{title}</h1>
 			
-			   <h2>{frontmatter.title}</h2>
+			   <h3>{frontmatter.title}</h3>
                <p>{frontmatter.date}</p>
 			   
 			    <ul className={postCategoriesNavLinks}>

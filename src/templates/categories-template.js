@@ -13,9 +13,9 @@ import Bottom from '../components/bottom';
 
 import {
   container,
-  categoriesNavLinks,
-  categoriesNavLinkItem,
-  categoriesNavLinkText
+  tempCategoriesNavLinks,
+  tempCategoriesNavLinkItem,
+  tempCategoriesNavLinkText
  } from '../components/layout.module.css'
 
 
@@ -41,7 +41,7 @@ const Categories = ({ pageContext, data }) => {
 			
             <h3>{categoryHeader}</h3>
 			
-            <ul className={categoriesNavLinks}>
+            <ul className={tempCategoriesNavLinks}>
                
    			    {edges.map(({ node }) => {
                     
@@ -50,10 +50,10 @@ const Categories = ({ pageContext, data }) => {
 										
                     return (
    						
-						  <li className={categoriesNavLinkItem}>
+						  <li className={tempCategoriesNavLinkItem} key={node.fields.slug}>
                             
- 							 <Link className={categoriesNavLinkText} to={node.fields.slug}>
-                                  <h3>{title}</h3> 
+ 							 <Link className={tempCategoriesNavLinkText} to={node.fields.slug}>
+                                  <h4>{title}</h4> 
                              </Link> 
                             							 
 							 {date} 
