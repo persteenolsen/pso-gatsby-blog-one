@@ -66,26 +66,44 @@ input[type=text]:focus {
 
 
 .categories-nav-links {
-  list-style: none;
-  padding: 5px;
+ display: flex;
+ flex-wrap: wrap;
+ list-style: none;
+ padding: 2px;
   
 }
 .categories-nav-link-item {
-  margin: 0px;
+  margin: 5px;
  }
 .categories-nav-link-text {
   color: green;
 }
 
 .tags-nav-links {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  padding: 5px;
-  
+  padding: 2px;
+      
 }
 .tags-nav-link-item {
-  margin: 0px;
+  margin: 5px;
  }
 .tags-nav-link-text {
+  color: grey;
+}
+
+
+
+.temp-tags-nav-links {
+  list-style: none;
+  padding: 2px;
+      
+}
+.temp-tags-nav-link-item {
+  margin: 5px;
+ }
+.temp-tags-nav-link-text {
   color: grey;
 }
 

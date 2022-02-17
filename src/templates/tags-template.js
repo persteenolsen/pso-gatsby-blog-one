@@ -13,9 +13,9 @@ import Bottom from '../components/bottom';
 
 import {
   container,
-  tagsNavLinks,
-  tagsNavLinkItem,
-  tagsNavLinkText
+  tempTagsNavLinks,
+  tempTagsNavLinkItem,
+  tempTagsNavLinkText
  } from '../components/layout.module.css'
 
 
@@ -41,7 +41,7 @@ const Tags = ({ pageContext, data }) => {
             <h3>{tagHeader}</h3>
 			
             
-			<ul className={tagsNavLinks}>
+			<ul className={tempTagsNavLinks}>
 			
                 {edges.map(({ node }) => {
                    
@@ -50,9 +50,9 @@ const Tags = ({ pageContext, data }) => {
 					
                     return (
                            
-						   <li className={tagsNavLinkItem}>
+						   <li className={tempTagsNavLinkItem}>
 						                              
-							 <Link className={tagsNavLinkText} to={node.fields.slug}>
+							 <Link className={tempTagsNavLinkText} to={node.fields.slug}>
                                   <h3>{title}</h3> 
                              </Link> 
 							
