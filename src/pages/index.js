@@ -21,7 +21,7 @@ import Bottom from '../components/bottom';
 export const pageQuery = graphql
   `
   query {
-        allMdx(limit: 2000) {
+	     allMdx(limit: 2000) {
           group(field: frontmatter___categories) {
           fieldValue
           totalCount
