@@ -3,8 +3,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
 
-//import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { useSiteMetadata } from "../hooks/use-site-metadata"
+
+// Gets both the Markdown content as well as HTML and JSX from the MDX Posts
+import { MDXRenderer } from 'gatsby-plugin-mdx'
  
 // Webpack will resolve the .js extension and it is optional to use the .js extension
 import Header from '../components/header';
@@ -57,11 +59,11 @@ const Categories = ({ pageContext, data }) => {
                              </Link> 
                             							 
 							 {date} 
-							 <br /><br />
+														
+							 <br />				                             
+							 <MDXRenderer>{node.body}</MDXRenderer>
+                             <br />
 							
-							{ node.excerpt }
-                            
-							<br /><br />
 							<hr />
 							
 						</li>
@@ -112,10 +114,11 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { categories: { in: [$category] } } }
     ) {
+	 
       totalCount
       edges {
         node {
-             excerpt(pruneLength: 50)
+             excerpt(pruneLength: 150)
              fields {
                  slug
              }
@@ -123,7 +126,8 @@ export const pageQuery = graphql`
             title
             date(formatString: "DD-MMMM-YYYY")
 			
-          }
+           }
+		    body
         }
       }
     }

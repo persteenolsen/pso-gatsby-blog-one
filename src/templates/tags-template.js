@@ -5,6 +5,9 @@ import { Link, graphql } from "gatsby"
 
 //import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { useSiteMetadata } from "../hooks/use-site-metadata"
+
+// Gets both the Markdown content as well as HTML and JSX from the MDX Posts
+import { MDXRenderer } from 'gatsby-plugin-mdx'
  
 // Webpack will resolve the .js extension and it is optional to use the .js extension
 import Header from '../components/header';
@@ -57,7 +60,11 @@ const Tags = ({ pageContext, data }) => {
                              </Link> 
 							
 							{date} 
-							<br /><br />
+														
+							<br />
+							<MDXRenderer>{node.body}</MDXRenderer>
+							<br />
+							
 							<hr />
 							 
 						</li>
@@ -111,13 +118,14 @@ export const pageQuery = graphql`
       edges {
         node {
             excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            date(formatString: "DD-MMMM-YYYY")
-          }
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              date(formatString: "DD-MMMM-YYYY")
+            }
+		    body
         }
       }
     }

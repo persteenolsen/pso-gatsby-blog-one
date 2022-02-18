@@ -3,9 +3,9 @@ import { Link } from 'gatsby'
 import logo from "/static/images-components/favicon.ico"  
 
 import {
-  navLinks,
-  navLinkItem,
-  navLinkText
+  headerNavLinks,
+  headerNavLinkItem,
+  headerNavLinkText
 } from '../components/layout.module.css'
 
 
@@ -13,15 +13,15 @@ export default function Header() {
   return (
        
       <div>
-	  		<ul className={navLinks}>
+	  		<ul className={headerNavLinks}>
 				
-				<li className={navLinkItem}>
-			         <Link className={navLinkText} to="/"> <img src={logo} alt="Logo" /></Link>
+				<li className={headerNavLinkItem}>
+			         <Link className={headerNavLinkText} to="/"> <img src={logo} alt="Logo" /></Link>
 				</li>
 				
-				 <li className={navLinkItem}>
+				 <li className={headerNavLinkItem}>
 				     <br />
-					 <Link className={navLinkText} to="/myinfo">Per Steen Olsen</Link>
+					 <Link className={headerNavLinkText} to="/myinfo">Per Steen Olsen</Link>
 				 </li>
 					 					 
 			</ul>

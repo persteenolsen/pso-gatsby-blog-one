@@ -32,13 +32,13 @@ export default function Menu() {
 				     </li>
 					 
 					<li className={navLinkItem}>
-						 <Link className={navLinkText} to="/listposts">View Posts</Link>
+						 <Link className={navLinkText} to="/listposts">View all Posts</Link>
 				    </li>
 					<li className={navLinkItem}>
 						 <Link className={navLinkText} to="/blog">View Posts by Pagnition</Link>
 				    </li>
 					 <li className={navLinkItem}>
-						<Link className={navLinkText} to="/searchposts">Search Posts</Link>
+						<Link className={navLinkText} to="/searchposts">Search in all Posts</Link>
 				     </li>
 					 
 					 

@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { graphql, Link } from 'gatsby'
 import { kebabCase } from 'lodash';
+//import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import {
   container,
@@ -32,7 +33,7 @@ export const query = graphql
           allMdx(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {published: {eq: true}}}) {
             nodes {
               id
-              excerpt(pruneLength: 50)
+              excerpt(pruneLength: 150)
               frontmatter {
                 title
                 date(formatString: "DD-MMMM-YYYY")
@@ -108,7 +109,7 @@ const ListPosts = ({ data }) => {
 
 
             <p>{excerpt}</p>
-            
+
 			<hr />
 			
           </div>
@@ -116,9 +117,10 @@ const ListPosts = ({ data }) => {
         ))}
 
         ... <br />
-
+      
+		  
       </div>
-
+     
       <Bottom />
 
     </div>
