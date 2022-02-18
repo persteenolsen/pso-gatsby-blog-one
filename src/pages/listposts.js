@@ -33,7 +33,7 @@ export const query = graphql
           allMdx(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {published: {eq: true}}}) {
             nodes {
               id
-              excerpt(pruneLength: 150)
+              excerpt(pruneLength: 50)
               frontmatter {
                 title
                 date(formatString: "DD-MMMM-YYYY")
