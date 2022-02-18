@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from 'gatsby'
-import logo from "/static/images-components/favicon.ico"  
+import me from "/static/images-components/persteenolsen.jpg" 
 
 import {
+  imageMe,
   headerNavLinks,
   headerNavLinkItem,
   headerNavLinkText
@@ -16,13 +17,15 @@ export default function Header() {
 	  		<ul className={headerNavLinks}>
 				
 				<li className={headerNavLinkItem}>
-			         <Link className={headerNavLinkText} to="/"> <img src={logo} alt="Logo" /></Link>
+			         <Link className={headerNavLinkText} to="/"> 
+					   <img className={imageMe} src={me} alt="Me" />
+					 </Link>
 				</li>
 				
-				 <li className={headerNavLinkItem}>
-				     <br />
+				<li className={headerNavLinkItem}>
+				     <br /> <br />
 					 <Link className={headerNavLinkText} to="/myinfo">Per Steen Olsen</Link>
-				 </li>
+				</li>
 					 					 
 			</ul>
 			

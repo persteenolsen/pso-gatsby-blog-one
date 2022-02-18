@@ -1,8 +1,9 @@
 import React from "react"
 
-import logoreact from "/static/images-pages/react.png"
+import logoreact from "/static/images-components/react.png"
 
 import {
+  imageReact,
   containerBottom
 } from '../components/layout.module.css'
 
@@ -12,8 +13,8 @@ export default function Bottom() {
       <div className={containerBottom}>
        
        <br />
-             
-       <img src={logoreact} alt="React" />
+	   
+       <img className={imageReact} src={logoreact} alt="React" />
 
       </div>
    

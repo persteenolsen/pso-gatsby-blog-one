@@ -29,6 +29,24 @@
 	
 }
 
+.image-me {
+	border-radius: 50%;
+	height: 81px;
+	width: 100px;
+}
+
+.image-me-lisboa {
+	height: 154px;
+	width: 260px;
+}
+.image-react {
+	
+	border-radius: 70%;
+	height: 150px;
+	width: 150px;
+}
+
+
 a {
   text-decoration: none;
   color: grey;
