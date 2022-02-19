@@ -4,6 +4,9 @@ import { graphql, Link } from 'gatsby';
 
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 
+// Get both the Markdown content as well as HTML and JSX from the MDX Posts
+import { MDXRenderer } from 'gatsby-plugin-mdx'
+
 
 import {
   container,
@@ -50,10 +53,10 @@ const BlogPage = ({ data, pageContext }) => {
         <Header />
         <Menu />
 		
-		<title>View Posts by pagnition</title>
-		<h1 className={heading}>{title}</h1>
+		<title>View the Projects by pagnition</title>
+		<h2 className={heading}>{title}</h2>
 				   
-		<div>View Posts by the navigation at the bottom of the Page...</div>
+		<div>View the Projects by the navigation at the bottom of the Page...</div>
 		<br />
       </div>
 
@@ -87,7 +90,10 @@ const BlogPage = ({ data, pageContext }) => {
 
               </ul>
 			  
-			  
+			                			                             
+			  <MDXRenderer>{post.node.body}</MDXRenderer>
+              			   
+			   
               {post.node.frontmatter.tags ? (
 
                 <div>
@@ -100,16 +106,7 @@ const BlogPage = ({ data, pageContext }) => {
                   </ul>
                 </div>
               ) : null}
-
-              						  
-              <div>
-                <p>{post.node.excerpt}</p>
-              </div>
-
-              <Link to={post.node.fields.slug}>
-                Read More
-              </Link>
-              
+			  
 			 			  
             </div>
           </div>
@@ -171,17 +168,18 @@ export const pageQuery = graphql
     ) {
       edges {
         node {
-          id
-          excerpt(pruneLength: 50)
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            tags
-			categories           
-          }
+            id
+            excerpt(pruneLength: 50)
+            fields {
+                slug
+            }
+            frontmatter {
+              date(formatString: "MMMM DD, YYYY")
+              title
+              tags
+			  categories           
+            }
+		  	body
         }
       }
     }

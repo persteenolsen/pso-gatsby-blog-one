@@ -6,14 +6,16 @@ import {
   imageMe,
   headerNavLinks,
   headerNavLinkItem,
-  headerNavLinkText
+  headerNavLinkText,
+  containerHeader
 } from '../components/layout.module.css'
 
 
 export default function Header() {
   return (
        
-      <div>
+      <div className={containerHeader}>
+	  
 	  		<ul className={headerNavLinks}>
 				
 				<li className={headerNavLinkItem}>
@@ -23,13 +25,11 @@ export default function Header() {
 				</li>
 				
 				<li className={headerNavLinkItem}>
-				     <br /> <br />
-					 <Link className={headerNavLinkText} to="/myinfo">Per Steen Olsen</Link>
+				    <Link className={headerNavLinkText} to="/myinfo">Per Steen Olsen</Link>
 				</li>
-					 					 
+				
 			</ul>
-			
-			
+				
       </div>
    
   );

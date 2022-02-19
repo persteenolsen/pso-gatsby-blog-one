@@ -25,7 +25,7 @@ const Page404 = () => {
 		  						
 			<title>404 - Page not found</title>	
 			
-			<h1 className={heading}>{title}</h1>
+			<h2 className={heading}>{title}</h2>
 			           		
             404 - Page not found
             			 

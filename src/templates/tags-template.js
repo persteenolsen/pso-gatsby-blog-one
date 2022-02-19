@@ -29,8 +29,8 @@ const Tags = ({ pageContext, data }) => {
     const { tag } = pageContext
     const { edges, totalCount } = data.allMdx
 	
-    const tagHeader = `${totalCount} post${
-        totalCount === 1 ? "" : "s"
+    const tagHeader = `${totalCount} project${
+          totalCount === 1 ? "" : "s"
         } tagged with "${tag}"`
     
 	return (
@@ -42,8 +42,7 @@ const Tags = ({ pageContext, data }) => {
 		    <title>{title}</title>	
 			
             <h3>{tagHeader}</h3>
-			
-            
+			            
 			<ul className={tempTagsNavLinks}>
 			
                 {edges.map(({ node }) => {

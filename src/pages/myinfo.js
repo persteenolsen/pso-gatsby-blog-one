@@ -28,18 +28,17 @@ const MyInfo = () => {
 			
 			   <title>About me</title>
 			
-			   <h1 className={heading}>{title}</h1>
+			   <h2 className={heading}>{title}</h2>
 				
                <h4>Per Steen Olsen</h4>				
                <p>Web Developer</p>
 			   <p>Denmark</p>
 			   
 			   <img className={imageMeLisboa} src={melisboa} alt="Me in Lisboa" />
-			   
-			   
+			   			   
 			   <p>In my spare time I like to run, and I have been a member of a running club for many years</p>
-             
-               <p>I like to travel and have been to many countries and in recent years, mainly in Portugal where I have lived for several periods</p>
+               
+			   <p>I have been to Portugal many times and passed an excam in portuguese at a language school in Lisbon</p>
 
                			   
 		    <Bottom />

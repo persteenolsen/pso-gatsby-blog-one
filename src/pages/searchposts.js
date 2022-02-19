@@ -98,19 +98,19 @@ const BlogIndex = props => {
       <Header />
       <Menu />
 
-      <title>Search the Posts</title>
+      <title>Search the Projects</title>
 
-      <h1 className={heading}>{title}</h1>
+      <h2 className={heading}>{title}</h2>
 
                   
-	  <div>Filter the Posts by Title or Tags...</div>
+	  <div>Filter the Projects by Title or Tags...</div>
 		
       <div className="searchBox">
         <input
           className="searchInput"
           type="text"
           aria-label="Search"
-          placeholder="Type here to filter the Posts by Title or Tags..."
+          placeholder="Type here to filter the Projects by Title or Tags..."
           onChange={handleInputChange}
         />
       </div>

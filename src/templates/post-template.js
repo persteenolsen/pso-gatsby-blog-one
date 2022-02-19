@@ -51,7 +51,7 @@ const PostPageTemplate = ({ data }) => {
             <Menu />			
 			
 			   <title>{title}</title>	
-			   <h1 className={heading}>{title}</h1>
+			   <h2 className={heading}>{title}</h2>
 			
 			   <h3>{frontmatter.title}</h3>
                <p>{frontmatter.date}</p>
@@ -69,6 +69,10 @@ const PostPageTemplate = ({ data }) => {
                  ))}
 				 
                </ul>	
+			   			  	
+			   			   
+               <MDXRenderer>{body}</MDXRenderer>
+			   
 			   
 			   <ul className={postTagsNavLinks}>
 			   
@@ -82,9 +86,7 @@ const PostPageTemplate = ({ data }) => {
 				
                  ))}
 				 
-               </ul>		
-			   			   
-               <MDXRenderer>{body}</MDXRenderer>
+               </ul>	
 			
 			<Bottom />
 			

@@ -43,11 +43,11 @@ const HomePage = ({ data }) => {
       <Header />
       <Menu />
 
-      <title>View the Posts by Categories</title>
+      <title>View the Projects by Categories</title>
 
-      <h1 className={heading}>{title}</h1>
+      <h2 className={heading}>{title}</h2>
 	  
-	  <div>View the Posts by the Categories...</div>
+	  <div>View the Projects by the Categories...</div>
       
 	 
       <ul className={categoriesNavLinks}>
@@ -63,7 +63,7 @@ const HomePage = ({ data }) => {
            ))}
 
          </ul>
-      
+       		
 	   
       <Bottom />
 

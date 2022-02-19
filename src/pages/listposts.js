@@ -59,11 +59,11 @@ const ListPosts = ({ data }) => {
         <Header />
         <Menu />
 
-        <title>View Posts by scolling down the List</title>
+        <title>View the Projects by scolling down the List</title>
 
-        <h1 className={heading}>{data.site.siteMetadata.title}</h1>
+        <h2 className={heading}>{data.site.siteMetadata.title}</h2>
 		       
-	    <div>View Posts by scrolling down the List...</div>
+	    <div>View the Projects by scrolling down the List...</div>
 
       </div>
 

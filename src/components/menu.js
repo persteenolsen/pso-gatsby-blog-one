@@ -31,16 +31,19 @@ export default function Menu() {
 						 <Link className={navLinkText} to="/listtags">Tags</Link>
 				     </li>
 					 
+					
 					<li className={navLinkItem}>
-						 <Link className={navLinkText} to="/listposts">View all Posts</Link>
+						 <Link className={navLinkText} to="/blog">View Projects by Pages</Link>
 				    </li>
+					
+					
 					<li className={navLinkItem}>
-						 <Link className={navLinkText} to="/blog">View Posts by Pagnition</Link>
+						 <Link className={navLinkText} to="/listposts">View all Projects</Link>
+				    </li> 
+					
+					<li className={navLinkItem}>
+						<Link className={navLinkText} to="/searchposts">Search in all Projects</Link>
 				    </li>
-					 <li className={navLinkItem}>
-						<Link className={navLinkText} to="/searchposts">Search in all Posts</Link>
-				     </li>
-					 
 					 
 					 
 			    </ul>

@@ -5,7 +5,7 @@ import { Link, graphql } from "gatsby"
 
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 
-// Gets both the Markdown content as well as HTML and JSX from the MDX Posts
+// Get both the Markdown content as well as HTML and JSX from the MDX Posts
 import { MDXRenderer } from 'gatsby-plugin-mdx'
  
 // Webpack will resolve the .js extension and it is optional to use the .js extension
@@ -28,7 +28,7 @@ const Categories = ({ pageContext, data }) => {
     const { category } = pageContext
     const { edges, totalCount } = data.allMdx
 	
-    const categoryHeader = `${totalCount} post${
+    const categoryHeader = `${totalCount} project${
         totalCount === 1 ? "" : "s"
         } categorized with "${category}"`
     
@@ -125,8 +125,7 @@ export const pageQuery = graphql`
             frontmatter {
             title
             date(formatString: "DD-MMMM-YYYY")
-			
-           }
+			}
 		    body
         }
       }
