@@ -27,11 +27,11 @@ const About = () => {
 			
 			   <h2 className={heading}>{title}</h2>
 							      
-                - A static site using Gatsby with Markdown files being the Posts which refers to Projects in this Blog
+                - A static site using Gatsby with Markdown files being the Posts which refers to Projects in this Blog. React and GraphQL are used in most of the modules creating the Blog. 
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 19-02-2022 <br /> <br />
+                - 20-02-2022 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
                                 

@@ -56,7 +56,7 @@ const BlogPage = ({ data, pageContext }) => {
 		<title>View the Projects by pagnition</title>
 		<h2 className={heading}>{title}</h2>
 				   
-		<div>View the Projects by the navigation at the bottom of the Page...</div>
+		<div>View the Projects by the navigation at the bottom of the Page sorted by Date...</div>
 		<br />
       </div>
 

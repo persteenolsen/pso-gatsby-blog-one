@@ -30,7 +30,7 @@ export const query = graphql
               description
             }
           }
-          allMdx(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {published: {eq: true}}}) {
+          allMdx(sort: {fields: [frontmatter___categories], order: ASC}, filter: {frontmatter: {published: {eq: true}}}) {
             nodes {
               id
               excerpt(pruneLength: 50)
@@ -63,7 +63,7 @@ const ListPosts = ({ data }) => {
 
         <h2 className={heading}>{data.site.siteMetadata.title}</h2>
 		       
-	    <div>View the Projects by scrolling down the List...</div>
+	    <div>View the Projects by scrolling down the List sorted by Categories...</div>
 
       </div>
 
