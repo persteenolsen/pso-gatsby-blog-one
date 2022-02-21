@@ -104,6 +104,7 @@ const BlogIndex = props => {
 
                   
 	  <div>Filter the Projects by Title or Tags...</div>
+	  <br />
 		
       <div className="searchBox">
         <input

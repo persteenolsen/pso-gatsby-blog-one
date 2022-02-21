@@ -41,7 +41,7 @@ const Tags = ({ pageContext, data }) => {
             <Menu />	
 		    <title>{title}</title>	
 			
-            <h3>{tagHeader}</h3>
+            <h4>{tagHeader}</h4>
 			            
 			<ul className={tempTagsNavLinks}>
 			
@@ -55,9 +55,10 @@ const Tags = ({ pageContext, data }) => {
 						   <li className={tempTagsNavLinkItem} key={node.fields.slug}>
 						                              
 							 <Link className={tempTagsNavLinkText} to={node.fields.slug}>
-                                  <h4>{title}</h4> 
+                                 {title} 
                              </Link> 
 							
+							<br /><br /> 
 							{date} 
 														
 							<br />

@@ -15,6 +15,10 @@
 
 .container-bottom {
    text-align: center;
+   font-family: verdana;
+   background-color: #F0F0F0;
+   margin-top: 25px;
+   padding: 15px;
 }
 
 .page-navigation {
@@ -35,19 +39,13 @@
 
 .image-me {
 	border-radius: 50%;
-	height: 81px;
-	width: 100px;
+	height: 121px;
+	width: 150px;
 }
 
 .image-me-lisboa {
 	height: 154px;
 	width: 260px;
-}
-.image-react {
-	
-	border-radius: 70%;
-	height: 150px;
-	width: 150px;
 }
 
 
@@ -116,8 +114,8 @@ input[type=text]:focus {
   
 }
 .categories-nav-link-item {
-  margin-right: 10px;
-  padding: 0px;
+  margin-right: 12px;
+  padding-top: 12px;
  }
 .categories-nav-link-text {
   color: green;
@@ -132,8 +130,8 @@ input[type=text]:focus {
       
 }
 .tags-nav-link-item {
-  margin-right: 10px;
-  padding: 0px;
+  margin-right: 12px;
+  padding-top: 12px;
  }
 .tags-nav-link-text {
   color: grey;
@@ -143,11 +141,11 @@ input[type=text]:focus {
 
 .temp-categories-nav-links {
   list-style: none;
-  padding: 2px;
+  padding: 0px;
       
 }
 .temp-categories-nav-link-item {
-  margin: 5px;
+  margin: 0px;
  }
 .temp-categories-nav-link-text {
   color: green;
@@ -155,11 +153,11 @@ input[type=text]:focus {
 
 .temp-tags-nav-links {
   list-style: none;
-  padding: 2px;
+  padding: 0px;
       
 }
 .temp-tags-nav-link-item {
-  margin: 5px;
+  margin: 0px;
  }
 .temp-tags-nav-link-text {
   color: grey;

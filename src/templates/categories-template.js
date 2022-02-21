@@ -41,7 +41,7 @@ const Categories = ({ pageContext, data }) => {
 			
 		    <title>{title}</title>	
 			
-            <h3>{categoryHeader}</h3>
+            <h4>{categoryHeader}</h4>
 			
             <ul className={tempCategoriesNavLinks}>
                
@@ -55,9 +55,11 @@ const Categories = ({ pageContext, data }) => {
 						  <li className={tempCategoriesNavLinkItem} key={node.fields.slug}>
                             
  							 <Link className={tempCategoriesNavLinkText} to={node.fields.slug}>
-                                  <h4>{title}</h4> 
+                                  {title}
                              </Link> 
-                            							 
+                            
+                             <br /><br />  							
+							 
 							 {date} 
 														
 							 <br />				                             

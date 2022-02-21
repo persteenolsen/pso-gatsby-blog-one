@@ -64,7 +64,8 @@ const ListPosts = ({ data }) => {
         <h2 className={heading}>{data.site.siteMetadata.title}</h2>
 		       
 	    <div>View the Projects by scrolling down the List sorted by Categories...</div>
-
+        <br />
+		
       </div>
 
 
@@ -72,11 +73,13 @@ const ListPosts = ({ data }) => {
         {data.allMdx.nodes.map(({ id, excerpt, frontmatter, fields }) => (
 
           <div key={id}>
-
+            
+			<hr />
             <Link to={fields.slug}>
-              <h4>{frontmatter.title}</h4>
+              {frontmatter.title}
             </Link>
-
+            <hr />
+			
             <p>{frontmatter.date}</p>
 
             <ul className={postCategoriesNavLinks}>
@@ -110,8 +113,7 @@ const ListPosts = ({ data }) => {
 
             <p>{excerpt}</p>
 
-			<hr />
-			
+						
           </div>
 
         ))}

@@ -56,7 +56,7 @@ const HomePage = ({ data }) => {
 
             <li className={categoriesNavLinkItem} key={category.fieldValue}>
               <Link className={categoriesNavLinkText} to={`/category/${kebabCase(category.fieldValue)}/`}>
-                <h4>{category.fieldValue} ({category.totalCount})</h4>
+                {category.fieldValue} ({category.totalCount})
               </Link>
             </li>
 

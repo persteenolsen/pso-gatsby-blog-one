@@ -55,7 +55,7 @@ const ListTags = ({ data }) => {
 
           <li className={tagsNavLinkItem} key={tag.fieldValue}>
             <Link className={tagsNavLinkText} to={`/tag/${kebabCase(tag.fieldValue)}/`}>
-              <h4>#{tag.fieldValue} ({tag.totalCount})</h4>
+              #{tag.fieldValue} ({tag.totalCount})
             </Link>
           </li>
 

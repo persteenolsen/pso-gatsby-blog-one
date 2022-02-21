@@ -70,7 +70,7 @@ const BlogPage = ({ data, pageContext }) => {
               
 			  <hr />
 			  <Link to={post.node.fields.slug}>
-                  <h4>{post.node.frontmatter.title}</h4>
+                  {post.node.frontmatter.title}
 			  </Link>
 			  <hr />
 			   
@@ -174,7 +174,7 @@ export const pageQuery = graphql
                 slug
             }
             frontmatter {
-              date(formatString: "MMMM DD, YYYY")
+              date(formatString: "DD-MMMM-YYYY")
               title
               tags
 			  categories           
