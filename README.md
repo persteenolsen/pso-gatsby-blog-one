@@ -5,3 +5,4 @@ A MD Blog in Gatsby
 - Categories are added with optimized styles
 - Search / Filter functionality to the List of Posts
 - Pagnition added to one of the list of Posts
+- There is not CMS connected at the moment
