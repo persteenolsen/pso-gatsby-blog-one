@@ -31,10 +31,11 @@ const About = () => {
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 23-02-2022 <br /> <br />
+                - 15-03-2022 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
-                                
+
+                - The content of the Blog can be updated by Foresty CMS<br/>                
                 - The Posts of the Blog refers to Projects must be created in Markdown or Mdx<br />
 				- View the Projects by scrolling down the List<br />
                 - View the Projects by searching / filtering the Title or Tags <br />
@@ -51,7 +52,9 @@ const About = () => {
 				- Support for older Browsers including IE 11<br /><br />
 				
 				<b>The Gatsby Blog</b> <br />
-                            
+
+                - Gatsby<br />
+                - Forestry CMS<br />           
                 - React <br />
 				- JavaScript <br />
                 - HTML <br />
