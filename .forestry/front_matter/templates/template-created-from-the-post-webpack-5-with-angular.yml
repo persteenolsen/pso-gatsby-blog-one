@@ -6,6 +6,8 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
@@ -18,9 +20,16 @@ fields:
 - type: list
   name: categories
   label: categories
+  config:
+    min: 3
+    max: 20
 - type: list
   name: tags
   label: tags
+  config:
+    use_select: false
+    min: 3
+    max: 20
 - name: body
   type: textarea
   default: ''
