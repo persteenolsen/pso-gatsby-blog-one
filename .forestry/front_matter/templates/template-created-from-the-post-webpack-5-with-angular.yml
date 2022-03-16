@@ -17,3 +17,12 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
