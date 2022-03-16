@@ -1,6 +1,6 @@
 ---
 title: Hello world
-date: 2022-03-15T23:00:00Z
+date: 2022-03-15T23:00:00.000+00:00
 published: true
 categories:
 - Webpack
@@ -10,6 +10,7 @@ tags:
 body: Hello world from Forestry
 
 ---
-_Hello world from Forestry_
+Hello with an image
 
- ![Image, Hello by a image](/images-posts/per.jpg)
+_  
+![](/static/images-posts/Per.jpg)_
