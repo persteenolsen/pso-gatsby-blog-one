@@ -11,5 +11,3 @@ body: Hello world from Forestry
 
 ---
 _Hello world from Forestry_
-
-![](/static/uploads/natal.jpg)
