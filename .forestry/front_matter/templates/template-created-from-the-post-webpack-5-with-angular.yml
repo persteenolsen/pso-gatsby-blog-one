@@ -9,6 +9,9 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
+  default: now
 - type: boolean
   name: published
   label: published
