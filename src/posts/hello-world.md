@@ -11,3 +11,5 @@ body: Hello world from Forestry
 
 ---
 _Hello world from Forestry_
+
+![](/static/20150623_210855.jpg)
