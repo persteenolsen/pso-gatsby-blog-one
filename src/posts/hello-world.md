@@ -11,3 +11,5 @@ body: Hello world from Forestry
 
 ---
 _Hello world from Forestry_
+
+ ![Image, Hello by a image](/images-posts/per.jpg)
