@@ -12,5 +12,4 @@ body: Hello world from Forestry
 ---
 Hello with an image
 
-_  
-![](/static/images-posts/Per.jpg)_
+![](/static/images-posts/Per.jpg)
