@@ -10,6 +10,4 @@ tags:
 body: Hello world from Forestry
 
 ---
-Hello with an image
-
-![](/static/images-posts/Per.jpg)
+Hello from Forestry
