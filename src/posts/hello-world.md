@@ -11,3 +11,7 @@ body: Hello world from Forestry
 
 ---
 Hello from Forestry
+
+![](/images-posts/Per.jpg)
+
+![](/images-posts/natal.jpg)
