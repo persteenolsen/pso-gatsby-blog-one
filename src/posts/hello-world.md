@@ -3,15 +3,10 @@ title: Hello world
 date: 2022-03-15T23:00:00.000+00:00
 published: true
 categories:
-- Webpack
+- Hello world
 tags:
-- react
-- webpack
+- hello-world
 body: Hello world from Forestry
 
 ---
-Hello from Forestry
-
-My old apartment
-
-![](/images-posts/Per.jpg)
+Hello world from Forestry CMS
