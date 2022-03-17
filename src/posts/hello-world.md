@@ -12,8 +12,6 @@ body: Hello world from Forestry
 ---
 Hello from Forestry
 
+My old apartment
+
 ![](/images-posts/Per.jpg)
-
-Natal
-
-![](/images-posts/natal.jpg)
