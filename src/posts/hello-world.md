@@ -9,6 +9,8 @@ tags:
 body: Hello world from Forestry
 
 ---
-Hello world from Forestry CMS
+_Hello world_
+
+Estou a aprender Portugues
 
 ![](/images-posts/portugues.jpg)
