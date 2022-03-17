@@ -11,7 +11,3 @@ body: Hello world from Forestry
 
 ---
 Hello from Forestry
-
-[Per](/images-posts/Per "Per")
-
-![](/static/images-posts/Per.jpg)
