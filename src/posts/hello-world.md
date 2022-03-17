@@ -12,6 +12,6 @@ body: Hello world from Forestry
 ---
 Hello from Forestry
 
-    <img src='/images-posts/Per.jpg' alt='Per'>
-    
-    <img src='../../images-posts/Per.jpg' alt='Per Olsen'>
+[Per](/images-posts/Per "Per")
+
+![](/static/images-posts/Per.jpg)
