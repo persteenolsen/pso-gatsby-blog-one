@@ -11,3 +11,7 @@ body: Hello world from Forestry
 
 ---
 Hello from Forestry
+
+    <img src='/images-posts/Per.jpg' alt='Per'>
+    
+    <img src='../../images-posts/Per.jpg' alt='Per Olsen'>
