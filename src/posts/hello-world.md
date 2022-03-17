@@ -10,3 +10,5 @@ body: Hello world from Forestry
 
 ---
 Hello world from Forestry CMS
+
+![](/images-posts/portugues.jpg)
