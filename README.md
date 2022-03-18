@@ -5,4 +5,5 @@ A MD Blog in Gatsby
 - Categories are added with optimized styles
 - Search / Filter functionality to the List of Posts
 - Pagnition added to one of the list of Posts
-- Foresty CMS added for updating the content
+- Using images in the Markdown files
+- Foresty CMS added for updating the Posts
