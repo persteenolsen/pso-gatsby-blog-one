@@ -9,6 +9,6 @@ tags:
 body: Hello world from Forestry
 
 ---
-Estou a aprender Portugues
+Eu estou a aprender Portugues
 
 ![](/images-posts/portugues.jpg)
