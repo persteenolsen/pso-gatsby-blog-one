@@ -54,7 +54,7 @@ typings/
 # dotenv environment variable files
 .env*
 
-# thump files
+# thump db files
 Thumbs.db
 *.db
 

@@ -44,7 +44,6 @@ const About = () => {
 				- One or more Tags can be added to each Projects<br />
 				- A Page showing all Categories found in the list of Projects the number of Posts in which the Category appear<br />		
 				- A Page showing all Tags found in the list of Projects and the number of Projects in which the Tag appear<br />				
-                - Showing some of the power Gatsby <br />
                 - GraphQL - A query language<br />
 				- Routing by Gatsby and React <br />
 				- Custom 404 Error page<br />

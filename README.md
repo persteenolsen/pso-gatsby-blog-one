@@ -6,4 +6,4 @@ A MD Blog in Gatsby
 - Search / Filter functionality to the List of Posts
 - Pagnition added to one of the list of Posts
 - Using images in the Markdown files
-- Foresty CMS added for manage the Posts
+- Foresty CMS added for managing the Posts
