@@ -40,5 +40,4 @@ fields:
       format: markdown
   label: body
 pages:
-- src/posts/hello-world.md
 - src/posts/my-city-slagelse.md
