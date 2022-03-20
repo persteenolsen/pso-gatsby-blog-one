@@ -40,4 +40,5 @@ fields:
       format: markdown
   label: body
 pages:
+- src/posts/Per Steen Olsen/2022/my-hometown.md
 - src/posts/my-city-slagelse.md
