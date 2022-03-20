@@ -33,7 +33,7 @@ Education
 Skills of languages
 
 * Danish as my native language, and I passed an exam with the level equal to C2
-* English exams did I pass in a level equal to B2 written and spoken
+* English exams did I pass at the level equal to B2 written and spoken
 * Portuguese exams passed in Lisbon at the level equal to B1/B2 written and spoken
-* German exam in a level equal to B1, but I forgot some of the skills
-* Swedish and Norwegian do I know almost fluently but I cant write in those languages
+* German exam at level equal to B1
+* Swedish and Norwegian without writing skills
