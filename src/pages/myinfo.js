@@ -34,12 +34,13 @@ const MyInfo = () => {
                <p>Web Developer</p>
 			   <p>Denmark</p>
 			   
-			   <img className={imageMeLisboa} src={melisboa} alt="Me in Lisboa" />
+               <p>Further information about me can be found by the Categories</p>
 			   			   
 			   <p>In my spare time I like to run, and I have been a member of a running club for many years</p>
                
-			   <p>I have been to Portugal many times and passed an excam in portuguese at a language school in Lisbon</p>
-
+			   <p>I have been to Portugal many times and passed excams in portuguese at a language school in Lisbon</p>
+                              
+			   <img className={imageMeLisboa} src={melisboa} alt="Me in Lisbob" />
                			   
 		    <Bottom />
 			 
