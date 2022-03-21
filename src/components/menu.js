@@ -15,30 +15,25 @@ export default function Menu() {
 			<nav>
 				<ul className={navLinks}>
 
+					
 					<li className={navLinkItem}>
-						<Link className={navLinkText} to="/about">About this App</Link>
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/">Categories</Link> |
+					</li>
+                    
+					<li className={navLinkItem}>
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/listtags">Tags</Link> |
+					</li>
+                    
+					<li className={navLinkItem}>
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/blog">View Projects by Pages</Link> |
+					</li>
+                    
+					<li className={navLinkItem}>
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/listposts">View all Projects</Link> |
 					</li>
 
 					<li className={navLinkItem}>
-						<Link className={navLinkText} to="/">Categories</Link>
-					</li>
-
-					<li className={navLinkItem}>
-						<Link className={navLinkText} to="/listtags">Tags</Link>
-					</li>
-
-
-					<li className={navLinkItem}>
-						<Link className={navLinkText} to="/blog">View Projects by Pages</Link>
-					</li>
-
-
-					<li className={navLinkItem}>
-						<Link className={navLinkText} to="/listposts">View all Projects</Link>
-					</li>
-
-					<li className={navLinkItem}>
-						<Link className={navLinkText} to="/searchposts">Search in all Projects</Link>
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/searchposts">Search in all Projects</Link>
 					</li>
 
 

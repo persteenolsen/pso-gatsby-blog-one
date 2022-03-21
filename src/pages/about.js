@@ -31,7 +31,7 @@ const About = () => {
                 <br/> <br/>
 				
                 <b>Last Updated</b>  <br />
-                - 20-03-2022 <br /> <br />
+                - 21-03-2022 <br /> <br />
                 				
                 <b>Main functionality</b> <br />
 
