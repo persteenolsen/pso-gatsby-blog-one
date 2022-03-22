@@ -12,9 +12,12 @@ export default function Menu() {
 	return (
 
 		<div>
+		   
 			<nav>
 				<ul className={navLinks}>
-
+                    <li className={navLinkItem}>
+					Explore the Projects by >>
+					</li>
 					
 					<li className={navLinkItem}>
 						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/">Categories</Link> |
@@ -24,16 +27,17 @@ export default function Menu() {
 						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/listtags">Tags</Link> |
 					</li>
                     
+					
 					<li className={navLinkItem}>
-						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/blog">View Projects by Pages</Link> |
-					</li>
-                    
-					<li className={navLinkItem}>
-						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/listposts">View all Projects</Link> |
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/searchposts">Searching</Link> |
 					</li>
 
 					<li className={navLinkItem}>
-						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/searchposts">Search in all Projects</Link>
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/blog">Pagination</Link> |
+					</li>
+                    
+					<li className={navLinkItem}>
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/listposts">List</Link>
 					</li>
 
 
