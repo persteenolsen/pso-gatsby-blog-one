@@ -40,5 +40,6 @@ fields:
       format: markdown
   label: body
 pages:
+- src/posts/DevOps/2022/continuous-deployment.md
 - src/posts/Per Steen Olsen/2022/my-cv.md
 - src/posts/Per Steen Olsen/2022/my-hometown.md
