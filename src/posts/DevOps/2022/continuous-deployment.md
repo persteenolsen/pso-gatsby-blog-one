@@ -19,4 +19,6 @@ The Continuous Deployment Pipeline is implemented by
 * Forestry CMS / VS Code
 * Gatsby Cloud
 
-When a developer makes a change to the code of the Blog and commit the code GitHub by VS Code or the CMS an automated Build will happen and if no errors are detected the created files from that build will be deployed to Gatsby Cloud which is hosting the Blog.
+When a developer makes a change to the code of the Blog and commit the code to GitHub by VS Code or the CMS an automated Build will happen and if no errors are detected the created files from that build will be deployed to Gatsby Cloud where the Blog is hosted.
+
+An example: A Markdown file was saved by the CMS system which starts the Continuous Deployment Pipeline by a commit to GitHub.
