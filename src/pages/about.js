@@ -47,10 +47,10 @@ const About = () => {
             - View the Projects by scrolling down the List<br />
             - View the Projects by searching / filtering the Title or Tags <br />
             - View the Projects by Pagination <br />
-            - A Category can have one or more Projects because a Projects need to belong to at least one Category<br />
-            - One or more Tags can be added to each Projects<br />
-            - A Page showing all Categories found in the list of Projects the number of Posts in which the Category appear<br />
-            - A Page showing all Tags found in the list of Projects and the number of Projects in which the Tag appear<br />
+            - A Category can have one or more Projects because a Project needs to belong to at least one Category<br />
+            - One or more Tags can be added to each Project<br />
+            - A Page showing all Categories found in the Projects and the number of Projects in which the Category appear<br />
+            - A Page showing all Tags found in the Projects and the number of Projects in which the Tag appear<br />
             - GraphQL - A query language<br />
             - Routing by Gatsby and React <br />
             - Custom 404 Error page<br />
