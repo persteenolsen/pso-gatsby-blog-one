@@ -10,6 +10,8 @@ tags:
 body: ''
 
 ---
+One of the few places at my Blog without links to Projects or GitHub 
+
 The center of the city in my Hometown Slagelse
 
 ![](/images-posts/slagelse.jpg)
