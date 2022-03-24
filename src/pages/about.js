@@ -37,6 +37,13 @@ const About = () => {
             A static site using Gatsby with Markdown files being the Posts which refers to Projects in this Blog. React and GraphQL are used in most of the modules creating the Blog.
             <br /> <br />
 
+            <b>Types of Tests making this Blog and the Web Projects</b><br />
+            - Usability Tests to involve the future Users of the Blog and Projects with the Goal of satisfied Users<br />
+            - End-to-end Tests or Functional Tests for making sure that the workflow works as expected. Authentication of a User as an example<br />
+            - Integration Tests across several units to achieve their goals<br />
+            - Unit Test for testing functions or classes by supplying input and making sure the output is as expected<br />
+            <br />
+
             <b>The static part of the Blog was last updated</b>  <br />
             - 23-03-2022 <br /> <br />
 
