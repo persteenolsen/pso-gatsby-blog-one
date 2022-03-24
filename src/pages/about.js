@@ -32,20 +32,21 @@ const About = () => {
             - Showing the Web Projects I am building by a fast Blog<br />
             - Let other developers try and use my Web Projects
             <br /><br />
+                        
+            <b>The static part of the Blog was last updated</b>  <br />
+            - 24-03-2022 <br /> <br />
 
             <b>Decription</b><br />
             A static site using Gatsby with Markdown files being the Posts which refers to Projects in this Blog. React and GraphQL are used in most of the modules creating the Blog.
             <br /> <br />
 
-            <b>Types of Tests making this Blog and the Web Projects</b><br />
-            - Usability Tests to involve the future Users of the Blog and Projects with the Goal of satisfied Users<br />
-            - End-to-end Tests or Functional Tests for making sure that the workflow works as expected. Authentication of a User as an example<br />
+            <b>Types of Tests performed making this Blog and the Web Projects</b><br />
+            - Usability Tests to involve the future Users of the Blog and Projects with the goal of satisfied Users<br />
+            - End-to-end Tests or Functional Tests for making sure that the workflows work as expected. The authentication of a User could be an example<br />
             - Integration Tests across several units to achieve their goals<br />
             - Unit Test for testing functions or classes by supplying input and making sure the output is as expected<br />
             <br />
 
-            <b>The static part of the Blog was last updated</b>  <br />
-            - 23-03-2022 <br /> <br />
 
             <b>Main functionality</b> <br />
 
