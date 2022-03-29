@@ -31,7 +31,7 @@ const About = () => {
 			<ul>
             <li>To get experience with Gatsby React and Git based CMS systems</li>
             <li>Showing the Web Projects I am building by a fast Blog</li>
-			<li>Comparing differents technologies</li>
+			<li>Comparing different technologies</li>
             <li>Let other developers try and use my Web Projects</li>
             </ul>
                         
