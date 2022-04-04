@@ -29,15 +29,16 @@ const About = () => {
 
            	<b>The purpose of this Blog</b>
 			<ul>
-            <li>To get experience with Gatsby React and Git based CMS systems</li>
+            <li>To get experience with Gatsby React GraphQL and Git based CMS systems</li>
+            <li>Comparing different technologies</li>
             <li>Showing the Web Projects I am building by a fast Blog</li>
-			<li>Comparing different technologies</li>
-            <li>Let other developers try and use my Web Projects</li>
+			<li>Help other developers building Web Projects by fork or download from my GitHub</li>
+            <li>Let the readers of the Blog get to know me as well as my IT background</li>
             </ul>
                         
             <b>The static part of the Blog was last updated</b>
             <ul>
-			<li>29-03-2022</li>
+			<li>04-04-2022</li>
 			</ul>
 			
 
