@@ -1,9 +1,9 @@
 ---
 date: 2022-03-22T14:45:45.000+00:00
-title: Continuous Deployment
+title: Continuous Deployment and CMS
 published: true
 categories:
-- Git based CMS
+- CMS
 - DevOps
 tags:
 - git-based-cms
@@ -16,7 +16,7 @@ body: ''
 ---
 The Project of this Blog are described below and by the link "About this Blog".
 
-This Blog is using a Continuous Deployment Pipeline as an important concept of DevOps. Git-based CMS are used for content administration. 
+This Blog is using a Continuous Deployment Pipeline as an important concept of DevOps. Git-based CMS are used for content administration.
 
 The Continuous Deployment Pipeline is implemented by
 
@@ -29,3 +29,10 @@ When a developer makes a change to the code of the Blog and commit the code to G
 An example: A Markdown file was saved by the CMS system which starts the Continuous Deployment Pipeline by a commit to GitHub.
 
 To get more experience with Git based CMS and as an alternative to Gatsby Cloud and Forestry Headless CMS, a copy of the Gatsby Blog is hosted and aministrated by Netlify and Netlify CMS by another repository at GitHub.
+
+In addition to Git-based CMS I have experience with the CMS listed below
+
+* WordPress
+* Drupal
+* Typo3
+* Umbraco
