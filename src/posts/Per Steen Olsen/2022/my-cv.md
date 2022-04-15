@@ -10,7 +10,7 @@ tags:
 body: ''
 
 ---
-This short version of my CV should show my technical background for making this Blog and Web Projects.  
+This short version of my CV should show my technical background for making this Blog and Web Projects.
 
 I am a Full Stack Web Developer with passion for Vanilla JavaScript, React, Vue.js, Angular, Node.js, Java and Webpack as well as other programming languages and tools.
 
@@ -19,7 +19,7 @@ IT Working experience
 * Web Developer at VM Kontorteknik
 * IT Worker at the Libraries of Slagelse
 * Web Developer at the former Jara IT
-* Web Developer at the former bankTrelleborg
+* Web Developer at the former Bank bankTrelleborg
 
 Higher education
 
