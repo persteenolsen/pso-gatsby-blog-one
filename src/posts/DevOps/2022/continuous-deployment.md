@@ -16,7 +16,7 @@ body: ''
 ---
 The Project of this Blog are described below and by the link "About this Blog".
 
-This Blog is using a Continuous Deployment Pipeline as an important concept of DevOps. Git-based CMS are used for content administration.
+This Blog is using a Continuous Deployment Pipeline as an important concept of DevOps. Git-based CMS are used for content administration by editors while VS Code and GitHub are used by developers.
 
 The Continuous Deployment Pipeline is implemented by
 
