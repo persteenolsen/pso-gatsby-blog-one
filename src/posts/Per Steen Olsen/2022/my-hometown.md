@@ -1,5 +1,5 @@
 ---
-date: 2022-03-22T13:08:31Z
+date: 2022-03-22T13:08:31.000+00:00
 title: My Hometown
 published: true
 categories:
@@ -10,7 +10,7 @@ tags:
 body: ''
 
 ---
-One of the few places at my Blog without links to Projects or GitHub 
+One of the few places at my Tech Blog without links to Projects or GitHub
 
 The center of the city in my Hometown Slagelse
 
