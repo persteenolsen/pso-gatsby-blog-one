@@ -12,6 +12,6 @@ body: ''
 ---
 One of the few places at my Tech Blog without links to Projects or GitHub
 
-The center of the city in my Hometown Slagelse
+A part of the city center in my Hometown Slagelse
 
 ![](/images-posts/slagelse.jpg)
