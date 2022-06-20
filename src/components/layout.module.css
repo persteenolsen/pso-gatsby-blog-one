@@ -1,6 +1,8 @@
 .container {
+  margin-left: 15px;	
   max-width: 750px;
   font-family: verdana;
+	
 }
 .heading {
   color: rebeccapurple;
