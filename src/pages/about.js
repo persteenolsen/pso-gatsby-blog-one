@@ -31,14 +31,14 @@ const About = () => {
 			<ul>
             <li>To get experience with Gatsby React GraphQL and Git based CMS systems</li>
             <li>Comparing different technologies</li>
-            <li>Showing the Web Projects I am building by a fast Blog</li>
+            <li>Showing the Web Projects I am building by a fast and secure Blog</li>
 			<li>Help other developers building Web Projects by fork or download from my GitHub</li>
             <li>Let the readers of the Blog get to know me as well as my IT background</li>
             </ul>
                         
             <b>The static part of the Blog was last updated</b>
             <ul>
-			<li>19-04-2022</li>
+			<li>21-06-2022</li>
 			</ul>
 			
 
