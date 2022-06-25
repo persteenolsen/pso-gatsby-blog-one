@@ -38,7 +38,7 @@ const About = () => {
                         
             <b>The static part of the Blog was last updated</b>
             <ul>
-			<li>21-06-2022</li>
+			<li>25-06-2022</li>
 			</ul>
 			
 
@@ -61,7 +61,7 @@ const About = () => {
 
             <b>Main functionality</b>
             <ul>
-            <li>The content of the Blog can be updated by Foresty CMS</li>
+            <li>The content of the Blog can be updated by Foresty CMS, GitHub or VS Code</li>
             <li>The Posts of the Blog refers to Projects must be created in Markdown or Mdx</li>
             <li>View the Projects by scrolling down the List</li>
             <li>View the Projects by searching / filtering the Title or Tags</li>
