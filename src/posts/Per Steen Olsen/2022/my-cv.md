@@ -12,7 +12,7 @@ body: ''
 ---
 This short version of my CV should show my technical background for making this Blog and Web Projects.
 
-I am a Full Stack Web Developer with passion for Vanilla JavaScript, React, Vue.js, Angular, Node.js, Java and Webpack as well as other programming languages and tools. I am using DevOps for some of my Web Projects. 
+I am a Full Stack Web Developer with passion for Vanilla JavaScript, React, Vue.js, Angular, Node.js, Java and Webpack as well as other programming languages and tools. I am using parts of DevOps like GitHub Actions for some of my Web Projects and Continuous Deployment for the Blog. 
 
 IT Working experience
 
