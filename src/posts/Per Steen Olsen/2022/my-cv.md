@@ -23,7 +23,7 @@ IT Working experience
 
 Higher education
 
-* Education in Vanilla JavaScript, Gatsby, next.js, React, Vue.js, Angular, Node.js and Java / Full Stack
+* Education in Vanilla JavaScript, Gatsby, Next.js, React, Vue.js, Angular, Node.js and Java / Full Stack
 * Online education in digital marketing
 * Developing ASP.NET MVC Web Applications (20486)
 * Portuguese language exam B1/B2
