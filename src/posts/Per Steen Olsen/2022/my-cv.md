@@ -35,5 +35,5 @@ Skills of languages
 * Danish as my native language, and I passed an exam with the level equal to C2
 * English exams did I pass at the level equal to B2 written and spoken
 * Portuguese exams passed in Lisbon at the level equal to B1/B2 written and spoken
-* German exam at level equal to B1
+* German exam at the level equal to B1
 * Swedish and Norwegian without writing skills
