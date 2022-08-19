@@ -30,17 +30,18 @@ const MyInfo = () => {
 			
 			   <h2 className={heading}>{title}</h2>
 				
-               <h4>Per Steen Olsen</h4>				
-               <p>Web Developer</p>
-			   <p>Denmark</p>
-			   
-			   <p>In my spare time I like to run, and I have been a member of a running club for many years</p>
+                <h4>Per Steen Olsen</h4>				
+                <p>Web Developer</p>
+		        <p>Denmark</p>
+                
+			    <p><a href="https://linkedin.com/in/per-steen-olsen" target="_blank">Find me at Linkedin</a></p>
+			    <p>In my spare time I practise running, and I have been a member of a running club for many years</p>
                
 			   <p>I have been to Portugal many times and passed excams in portuguese at a language school in Lisbon</p>
                               
 			   <img className={imageMeLisboa} src={melisboa} alt="Me in Lisbon" />
                
-               <p>Further information about me can be found by the Categories</p>
+                     <p>Further information about me can be found by the Categories</p>
 			   			   		   
 		    <Bottom />
 			 

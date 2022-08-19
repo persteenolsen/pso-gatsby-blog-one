@@ -28,6 +28,9 @@ export default function Header() {
 				    <Link className={headerNavLinkText} to="/">Home</Link> 
 				    <br /><br />
 				    <Link className={headerNavLinkText} to="/about">About this Blog</Link>
+
+                     <br /><br />
+				     <Link className={headerNavLinkText} to="/posts/2022-05-10-my-cv/">My CV</Link>
 				</li>
 
 				
