@@ -30,7 +30,7 @@ const About = () => {
            	<b>The purpose of this Blog</b>
 			<ul>
             <li>To get experience with Gatsby React GraphQL and Git based CMS systems</li>
-            <li>Comparing different technologies</li>
+            <li>Comparing different technologies with focus on login systems</li>
             <li>Showing the Web Projects I am building by a fast and secure Blog</li>
 			<li>Help other developers building Web Projects by fork or download from my GitHub</li>
             <li>Let the readers of the Blog get to know me as well as my IT background</li>
@@ -38,7 +38,7 @@ const About = () => {
                         
             <b>The static part of the Blog was last updated</b>
             <ul>
-			<li>19-08-2022</li>
+			<li>24-08-2022</li>
 			</ul>
 			
 
