@@ -2,7 +2,7 @@
 title: A Laravel MVC application
 date: 2021-08-12
 published: true
-categories: [ "Laravel" ]
+categories: [ "Laravel", "MySQL" ]
 tags: [ "laravel", "mvc", "php", "mysql" ]
 ---
 

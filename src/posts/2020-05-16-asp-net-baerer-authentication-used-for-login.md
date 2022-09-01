@@ -5,6 +5,7 @@ published: true
 categories:
   - NET Core
   - Angular
+  - MySQL
 tags:
   - asp-net
   - angular

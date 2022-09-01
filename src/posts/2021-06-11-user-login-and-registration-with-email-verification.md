@@ -2,7 +2,7 @@
 title: User Login and registration with Email verification
 date: 2021-06-11
 published: true
-categories: [ "Laravel" ]
+categories: [ "Laravel", "MySQL" ]
 tags: [ "laravel", "php", "mysql" ]
 ---
 

@@ -5,6 +5,7 @@ published: true
 categories:
   - Java Spring Boot
   - Azure
+  - MySQL
 tags:
   - java
   - primefaces

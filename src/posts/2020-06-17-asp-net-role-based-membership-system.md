@@ -5,6 +5,7 @@ published: true
 categories:
   - NET Core
   - React
+  - MS SQL
 tags:
   - asp-net
   - react

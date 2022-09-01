@@ -2,7 +2,7 @@
 title: Node Express orm Role based Membership system Email notification
 date: 2021-10-15
 published: true
-categories: [ "Node", "React", "TypeScript", "Azure" ]
+categories: [ "Node", "React", "TypeScript", "Azure", "MySQL" ]
 tags: [ "node", "express", "react", "typescript", "sequelize", "orm", "mysql", "azure" ]
 ---
 

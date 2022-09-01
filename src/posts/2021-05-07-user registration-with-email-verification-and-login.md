@@ -2,7 +2,7 @@
 title: User registration with Email verification and Login
 date: 2021-05-07
 published: true
-categories: [ "PHP" ]
+categories: [ "PHP", "MySQL" ]
 tags: [ "php", "react", "mysql" ]
 ---
 
