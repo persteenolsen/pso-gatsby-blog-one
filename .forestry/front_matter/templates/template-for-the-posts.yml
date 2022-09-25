@@ -17,5 +17,3 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- src/posts/testing-the-new-structure-of-the-posts.md
