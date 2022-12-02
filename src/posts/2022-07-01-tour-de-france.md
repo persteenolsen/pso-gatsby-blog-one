@@ -9,6 +9,6 @@ tags:
 - cycling
 
 ---
-Nice day for cyckling 25 km just before the 2 of July 2022 where the Tour de France will be passing the roads near to my Hometown Slagelse
+A nice day for cyckling 25 km just before the 2 of July 2022 where the Tour de France will be passing the roads near to my Hometown Slagelse
 
 ![](/images-posts/tour_de_france_3_dk_2022.jpg)
