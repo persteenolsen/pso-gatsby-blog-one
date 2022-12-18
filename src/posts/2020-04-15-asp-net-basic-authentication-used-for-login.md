@@ -1,6 +1,6 @@
 ---
 title: Asp Net Basic Authentication used for Login
-date: 2020-04-15
+date: 2022-12-17
 published: true
 categories:
   - NET Core

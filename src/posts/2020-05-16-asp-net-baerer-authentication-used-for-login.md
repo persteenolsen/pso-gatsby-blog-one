@@ -1,6 +1,6 @@
 ---
 title: Asp Net Baerer Authentication used for Login
-date: 2020-05-16
+date: 2022-12-18
 published: true
 categories:
   - NET Core
