@@ -5,12 +5,10 @@ published: true
 categories:
   - NET Core
   - Vue
-  - MySQL
 tags:
   - asp-net
   - vue
   - vuex
-  - mysql
 ---
 
 
