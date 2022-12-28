@@ -1,6 +1,6 @@
 ---
-title: Asp Net Basic Authentication used for Login - At Azure and GH Pages 
-date: 2022-12-23T09:03:42.806+00:00
+title: Asp Net Basic Authentication used for Login - Azure and GH Pages 
+date: 2022-12-28
 published: true
 categories:
   - NET Core
@@ -13,12 +13,15 @@ tags:
   - github-pages
   - azure
   - ci-cd
+  - azure-repos
 ---
 
 
 ASP.NET Core 2.2 Web API with Vue using Basic Authentication for Login
 
 The API is hosted at Microsoft Azure App Service and the Client at GitHub Pages 
+
+A CI / CD Pipeline was implemented by Azure DevOps - A Build and a Release Pipeline which deploys to Azure App Service
 
 <a href="https://persteenolsen.github.io/vue-basic-auth-gh-pages-client/" target="_blank" title="Basic Authentication">Try the demo...</a>
 
@@ -27,4 +30,5 @@ The API is hosted at Microsoft Azure App Service and the Client at GitHub Pages
 <ul>
 
 <li><a href="https://github.com/persteenolsen/vue-basic-auth-gh-pages-client" target="_blank">The Vue SPA Client at GitHub</a></li>
+<li>The source code of the Web API is hosted at Azure Repos / Private access only</li>
 </ul>
