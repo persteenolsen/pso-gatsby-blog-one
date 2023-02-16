@@ -1,6 +1,6 @@
 ---
 title: Asp Net Basic Authentication used for Login
-date: 2022-12-17
+date: 2023-01-13
 published: true
 categories:
   - NET Core
@@ -13,6 +13,8 @@ tags:
 
 
 ASP.NET Core 2.2 Web API with a Vue Vuex client using Basic Authentication for Login
+
+Traditional webhosting is used for this Application
 
 <a href="https://basic.auth.client.core.persteenolsen.com" target="_blank" title="Basic Authentication">Try the demo...</a>
 

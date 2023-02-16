@@ -1,6 +1,6 @@
 ---
-title: Asp Net Core Web Api Crud functionality
-date: 2020-03-14
+title: Asp Net Core MVC and Api Crud functionality
+date: 2023-01-15
 published: true
 categories:
   - NET Core
@@ -14,8 +14,9 @@ tags:
   - ms-sql
 ---
 
-ASP.NET Core 2.0 Web API showing a dataset of Persons
+ASP.NET Core 2.0 Web API showing a dataset of Persons by MVC / Web API
 
+Traditional webhosting is used for the Application 
 <a href="https://persons.api.core.persteenolsen.com" target="_blank" title="Show persons as a webservice">Try the demo...</a>
 
 <p>Showing / Administrate a dataset of persons as a RESTful webservice using ASP.NET Core 2.0 Web API, MS SQL Database, AngularJS, ReactJS, jQuery, Ajax and JSON dataset. Secured by HTTPS</p>

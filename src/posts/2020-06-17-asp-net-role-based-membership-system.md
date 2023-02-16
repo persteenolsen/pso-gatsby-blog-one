@@ -1,6 +1,6 @@
 ---
 title: Asp Net Role based Membership system
-date: 2020-06-17
+date: 2023-01-16
 published: true
 categories:
   - NET Core
@@ -14,6 +14,8 @@ tags:
 
 
 ASP.NET Core 2.2 Web API with React serving as Role based Membership system
+
+Traditional webhosting is used for this Application
 
 <a href="https://users.client.core.persteenolsen.com" target="_blank" title="Membership system">Try the demo...</a>
 

@@ -1,10 +1,10 @@
 ---
 title: Asp Net Baerer Authentication used for Login
-date: 2022-12-18
+date: 2023-01-12
 published: true
 categories:
   - NET Core
-  - Angular
+  - Angular  
 tags:
   - asp-net
   - angular
@@ -12,6 +12,8 @@ tags:
 
 
 ASP.NET Core 2.2 Web API with Angular using Baerer Authentication for Login
+
+Traditional webhosting is used for this Application
 
 <a href="https://baerer.auth.client.core.persteenolsen.com" target="_blank" title="Baerer Authentication">Try the demo...</a>
 

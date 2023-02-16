@@ -1,6 +1,6 @@
 ---
 title: Asp Net Baerer Authentication used for Login - Azure and GH Pages 
-date: 2022-12-28
+date: 2023-02-16
 published: true
 categories:
   - NET Core
