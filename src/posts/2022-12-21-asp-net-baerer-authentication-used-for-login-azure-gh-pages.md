@@ -1,6 +1,6 @@
 ---
 title: Asp Net Baerer Authentication used for Login - Azure and GH Pages 
-date: 2023-02-16
+date: 2023-08-15
 published: true
 categories:
   - NET Core
@@ -20,7 +20,7 @@ ASP.NET Core 2.2 Web API with Angular using Baerer Authentication for Login
 
 The API is hosted at Microsoft Azure App Service and the Client at GitHub Pages
 
-A CI / CD Pipeline was implemented by the DevOps at GitHub Actions and deployed to Azure App Service
+For the Web API a CI / CD Pipeline was implemented by the DevOps at GitHub Actions and deployed to Azure App Service
 
 <a href="https://persteenolsen.github.io/angular-jwt-auth-gh-pages-client/" target="_blank" title="Baerer Authentication">Try the demo...</a>
 

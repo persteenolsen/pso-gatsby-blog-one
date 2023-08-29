@@ -1,13 +1,15 @@
 ---
 title: Webpack 5 boilerplate with Vue
-date: 2021-03-25
+date: 2023-07-15
 published: true
-categories: [ "Webpack", "Vue" ]
-tags: [ "webpack", "vue" ]
+categories: [ "Webpack", "Vue", "Starstruck at GitHub" ]
+tags: [ "webpack", "vue", "starstruck-at-github" ]
 ---
 
 
-A Webpack 5 boilerplate with Vue
+A Webpack 5 boilerplate with Vue 
+
+The project I made with most stars at GitHub :-)
 
 <a href="https://webpack5vue.persteenolsen.com/" target="_blank">Try the demo...</a>
 

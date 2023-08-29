@@ -1,6 +1,6 @@
 ---
 title: Webpack 5 boilerplate with Vue and TypeScript
-date: 2021-03-26
+date: 2023-07-14
 published: true
 categories: [ "Webpack", "Vue", "TypeScript" ]
 tags: [ "webpack", "vue", "typescript" ]

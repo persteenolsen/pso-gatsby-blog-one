@@ -1,6 +1,6 @@
 ---
 title: Webpack 5 boilerplate with React
-date: 2021-02-25
+date: 2023-07-14
 published: true
 categories: [ "Webpack", "React" ]
 tags: [ "webpack", "react" ]
