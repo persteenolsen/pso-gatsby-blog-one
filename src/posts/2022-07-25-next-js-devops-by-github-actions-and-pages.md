@@ -3,7 +3,7 @@ title: Next.js - DevOps by GitHub Actions and Pages
 date: 2023-08-01T13:12:59.133Z
 published: true
 categories:
-  - Next
+  - Next.js
   - DevOps
   - TypeScript
 tags:

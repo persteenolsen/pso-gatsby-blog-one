@@ -3,7 +3,7 @@ title: Node Express EJS using Google Authentication
 date: 2021-07-28
 published: true
 categories:
-  - Node
+  - Node.js
   - DevOps
   - Azure
 tags:
