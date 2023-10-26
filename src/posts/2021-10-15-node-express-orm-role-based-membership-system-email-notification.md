@@ -1,14 +1,15 @@
 ---
 title: Node Express ORM Role based Membership system Email notification
-date: 2023-09-02
+date: 2023-09-22
 published: true
 categories:
   - Node.js
   - React
   - TypeScript
-  - Azure
+  - Azure App Service
   - MySQL
   - DevOps
+  - GitHub Pages
 tags:
   - node
   - express

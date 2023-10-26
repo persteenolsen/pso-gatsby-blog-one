@@ -1,8 +1,8 @@
 ---
-title: Java Spring Boot Jax-Rs Jersey Web Api
-date: 2020-02-16
+title: Java Spring Boot JAX-RS Jersey RESTful Web API
+date: 2023-10-04
 published: true
-categories: [ "Java Spring Boot", "Azure", "MySQL" ]
+categories: [ "Java Spring Boot", "Azure App Service", "MySQL" ]
 tags: [ "java", "jpa", "maven", "hibernate", "react", "mvc", "mysql", "azure" ]
 ---
 

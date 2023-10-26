@@ -1,6 +1,6 @@
 ---
 title: Next.js Web App with Basic Auth
-date: 2023-08-01T12:27:09.964Z
+date: 2023-09-24T12:27:09.964Z
 published: true
 categories:
   - Next.js

@@ -4,10 +4,10 @@ date: 2023-01-13
 published: true
 categories:
   - NET Core
-  - Vue
+  - Vue 2
 tags:
   - asp-net
-  - vue
+  - vue-2
   - vuex
 ---
 

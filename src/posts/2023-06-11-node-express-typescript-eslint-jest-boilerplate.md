@@ -1,6 +1,6 @@
 ---
 title: Node Express TypeScript Eslint Jest Boilerplate
-date: 2023-08-02T06:25:48.506Z
+date: 2023-09-22T06:25:48.506Z
 published: true
 categories:
   - Node.js

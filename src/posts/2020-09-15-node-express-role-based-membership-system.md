@@ -2,8 +2,8 @@
 title: Node Express Role based Membership system
 date: 2020-09-15
 published: true
-categories: [ "Node.js", "React", "Vue", "Angular", "Azure", "MySQL" ]
-tags: [ "node", "express", "react", "vue", "angular", "mysql", "azure" ]
+categories: [ "Node.js", "React", "Vue 2", "Angular", "Azure App Service", "MySQL" ]
+tags: [ "node", "express", "react", "vue-2", "angular", "mysql", "azure" ]
 ---
 
 

@@ -4,12 +4,13 @@ date: 2023-08-15
 published: true
 categories:
   - NET Core
-  - Vue
-  - Azure
+  - Vue 2
+  - Azure App Service
+  - GitHub Pages
   - DevOps  
 tags:
   - asp-net
-  - vue
+  - vue-2
   - github-pages
   - azure
   - ci-cd

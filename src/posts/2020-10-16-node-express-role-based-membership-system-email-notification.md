@@ -2,7 +2,7 @@
 title: Node Express Role based Membership system Email notification
 date: 2023-05-30
 published: true
-categories: [ "Node.js", "React", "Azure", "MySQL" ]
+categories: [ "Node.js", "React", "Azure App Service", "MySQL" ]
 tags: [ "node", "express", "react", "mysql", "azure" ]
 ---
 
