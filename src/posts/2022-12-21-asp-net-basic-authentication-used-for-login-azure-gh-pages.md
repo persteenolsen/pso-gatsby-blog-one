@@ -1,11 +1,11 @@
 ---
-title: Asp Net Basic Authentication used for Login - Azure and GH Pages 
+title: ASP.NET Core Basic Authentication used for Login - Azure and GH Pages 
 date: 2023-08-15
 published: true
 categories:
   - NET Core
   - Vue 2
-  - Azure App Service
+  - Azure
   - GitHub Pages
   - DevOps  
 tags:

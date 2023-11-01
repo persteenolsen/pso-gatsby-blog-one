@@ -1,5 +1,5 @@
 ---
-title: Asp Net Role based Membership system
+title: ASP.NET Core Role based Membership system
 date: 2023-10-07
 published: true
 categories:

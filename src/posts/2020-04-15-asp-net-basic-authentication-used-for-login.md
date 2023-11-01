@@ -1,5 +1,5 @@
 ---
-title: Asp Net Basic Authentication used for Login
+title: ASP.NET Core Basic Authentication used for Login
 date: 2023-01-13
 published: true
 categories:

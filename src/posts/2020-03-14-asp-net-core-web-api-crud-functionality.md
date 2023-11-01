@@ -1,5 +1,5 @@
 ---
-title: Asp Net Core MVC and Api Crud functionality
+title: ASP.NET Core MVC and Api Crud functionality
 date: 2023-01-15
 published: true
 categories:

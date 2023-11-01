@@ -6,7 +6,7 @@ categories:
   - Node.js
   - React
   - TypeScript
-  - Azure App Service
+  - Azure
   - MySQL
   - DevOps
   - GitHub Pages

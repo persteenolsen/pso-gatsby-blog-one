@@ -1,17 +1,19 @@
 ---
-title: Asp Net Baerer Authentication used for Login - Azure and GH Pages 
-date: 2023-10-26
+title: ASP.NET Core Baerer Authentication used for Login - Azure and GH Pages 
+date: 2023-10-29
 published: true
 categories:
   - NET Core
   - Vue 3
   - Angular
-  - Azure App Service
+  - Azure
   - GitHub Pages
   - DevOps  
 tags:
   - asp-net
   - vue-3
+  - vite
+  - pinia
   - angular
   - github-pages
   - azure

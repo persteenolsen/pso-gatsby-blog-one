@@ -5,7 +5,7 @@ published: true
 categories:
   - Node.js
   - DevOps
-  - Azure App Service
+  - Azure
 tags:
   - google-oauth
   - ci-cd

@@ -1,5 +1,5 @@
 ---
-title: Asp Net Baerer Authentication used for Login
+title: ASP.NET Core Baerer Authentication used for Login
 date: 2023-03-17
 published: true
 categories:
