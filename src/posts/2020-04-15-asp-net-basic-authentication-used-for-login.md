@@ -1,9 +1,9 @@
 ---
-title: ASP.NET Core Basic Authentication used for Login
+title: .NET Core 2.2 Web API with Basic Authentication
 date: 2023-01-13
 published: true
 categories:
-  - NET Core
+  - .NET Core
   - Vue 2
 tags:
   - asp-net

@@ -1,9 +1,9 @@
 ---
-title: ASP.NET Core Baerer Authentication used for Login
+title: .NET Core 2.2 Web API with JWT Authentication
 date: 2023-03-17
 published: true
 categories:
-  - NET Core
+  - .NET Core
   - Angular  
 tags:
   - asp-net
@@ -11,7 +11,7 @@ tags:
 ---
 
 
-ASP.NET Core 2.2 Web API with Angular using Baerer Authentication for Login
+ASP.NET Core 2.2 Web API with Angular using JWT Authentication for Login
 
 Traditional webhosting is used for this Application
 

@@ -1,9 +1,9 @@
 ---
-title: ASP.NET Core MVC and Api Crud functionality
+title: .NET Core 2.0 MVC and Web API with Crud functionality
 date: 2023-01-15
 published: true
 categories:
-  - NET Core
+  - .NET Core
   - React
   - MS SQL
 tags:

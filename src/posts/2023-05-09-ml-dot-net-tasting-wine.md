@@ -1,12 +1,12 @@
 ---
 title: Machine Learning to taste wine
-date: 2023-08-01T06:25:48.506Z
+date: 2023-12-07T06:25:48.506Z
 published: true
 categories:
-  - Artificial Intelligence
+  - AI
   - ML.NET
 tags:
-  - ai
+  - artificial-intelligence
   - machine-learning
   - deep-learning
   - ml-dot-net
