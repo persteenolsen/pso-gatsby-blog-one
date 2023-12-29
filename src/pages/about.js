@@ -61,7 +61,7 @@ const About = () => {
 
             <b>Main functionality</b>
             <ul>
-            <li>The content of the Blog can be updated by Foresty CMS, GitHub or VS Code</li>
+            <li>The content of the Blog can be updated by GitHub or VS Code</li>
             <li>The Posts of the Blog refers to Projects must be created in Markdown or Mdx</li>
             <li>View the Projects by scrolling down the List</li>
             <li>View the Projects by searching / filtering the Title or Tags</li>
@@ -80,7 +80,7 @@ const About = () => {
             <b>The Gatsby Blog</b>
             <ul>
             <li>Gatsby</li>
-            <li>Forestry CMS</li>
+            <li>GitHub CMS</li>
             <li>JavaScript</li>
             <li>HTML</li>
             <li>CSS</li>
@@ -88,7 +88,7 @@ const About = () => {
 			 
             <b>Node.js Version</b>
 			<ul>
-            <li>Node 14.17</li>
+            <li>Node 18</li>
             </ul>
 			
             <b>Module Bundler</b>
@@ -104,7 +104,7 @@ const About = () => {
 
             <b>Hosting</b>
 			<ul>
-			<li>The application is hosted at Gatsby Cloud</li>
+			<li>Vercel Cloud</li>
 			</ul>
 			
 

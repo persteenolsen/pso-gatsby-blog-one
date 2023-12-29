@@ -1,6 +1,6 @@
 A MD Blog in Gatsby 
 
-- Note: 20-08-2023 - Ready for local developement 
+- History of Node: 14 => 18 
 - The gatsby hello world starter was used for creating this blog with Markdown Posts
 - Tags are added with optimized styles
 - Categories are added with optimized styles
