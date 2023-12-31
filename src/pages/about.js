@@ -36,7 +36,7 @@ const About = () => {
             <li>Let the readers of the Blog get to know me as well as my IT background</li>
             </ul>
                         
-            <b>The static part of the Blog was last updated:</b>
+            <b>The static part of the Blog was last updated</b>
             <ul>
 			<li>31-12-2023</li>
 			</ul>
