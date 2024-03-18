@@ -8,16 +8,18 @@ categories:
   - React
   - MS SQL
   - RxJS
+  - C#
 tags:
   - asp-net
   - angular
   - react
   - ms-sql
   - rxjs
+  - c#
 ---
 
 
-ASP.NET Core 2.2 Web API with Angular and React serving as Role based Membership system
+ASP.NET Core 2.2 Web API with C# towards Angular and React serving as Role based Membership system
 
 Traditional webhosting is used for this Application
 
@@ -30,7 +32,7 @@ Traditional webhosting is used for this Application
 </li>
 </ul>
 
-<p>A Web API role based Membership System for authentication and registration managing Users by an Angular or React client / ASP.NET Core 2.2 Web API secured by HTTPS and Authentication by a JWT</p>
+<p>A Web API role based Membership System for authentication and registration managing Users by an Angular or React client / ASP.NET Core 2.2 Web API with C# secured by HTTPS and Authentication by a JWT</p>
 
 <p>Administrate Posts by an Angular client and the Web API after a successfully login</p>
 

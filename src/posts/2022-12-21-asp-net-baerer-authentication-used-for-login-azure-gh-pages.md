@@ -8,7 +8,8 @@ categories:
   - Angular
   - Azure
   - GitHub Pages
-  - DevOps  
+  - DevOps
+  - C#  
 tags:
   - asp-net
   - vue-3
@@ -18,10 +19,11 @@ tags:
   - github-pages
   - azure
   - ci-cd
+  - c#
 ---
 
 
-ASP.NET Core 2.2 Web API with Vue 3 and Angular clients using JWT Authentication for Login
+ASP.NET Core 2.2 Web API with C# towards Vue 3 and Angular clients using JWT Authentication for Login
 
 The Vue 3 and the Angular Clients are hosted at GitHub Pages 
 
@@ -38,7 +40,7 @@ For the Web API a CI / CD Pipeline was implemented by the DevOps at GitHub Actio
 </li>
 </ul>
 
-<p>A Login system by a Vue 3 and a Angular client / ASP.NET Core 2.2 Web API secured by HTTPS and Authentication by a JWT with the Baerer schema in the Authorization Header</p>
+<p>A Login system by a Vue 3 and a Angular client / ASP.NET Core 2.2 Web API with C# secured by HTTPS and Authentication by a JWT with the Baerer schema in the Authorization Header</p>
 
 <ul>
 <li><a href="https://github.com/persteenolsen/aspnet-core-jwt-auth-azure-api" target="_blank">The Web API at GitHub</a></li>

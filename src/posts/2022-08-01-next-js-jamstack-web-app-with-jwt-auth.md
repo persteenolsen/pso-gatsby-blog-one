@@ -1,6 +1,6 @@
 ---
 title: Next.js Web App with JWT Auth
-date: 2023-09-24T13:00:45.314Z
+date: 2024-02-15T13:00:45.314Z
 published: true
 categories:
   - Next.js

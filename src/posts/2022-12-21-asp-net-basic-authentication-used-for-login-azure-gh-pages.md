@@ -8,7 +8,8 @@ categories:
   - Vue 2
   - Azure
   - GitHub Pages
-  - DevOps  
+  - DevOps
+  - C#  
 tags:
   - asp-net
   - vue-3
@@ -19,10 +20,11 @@ tags:
   - azure
   - ci-cd
   - azure-repos
+  - c#
 ---
 
 
-ASP.NET Core 2.2 Web API with Vue using Basic Authentication for Login
+ASP.NET Core 2.2 Web API with C# towards Vue clients using Basic Authentication for Login
 
 The API is hosted at Microsoft Azure App Service and the Vue 3 and Vue 2 Clients at GitHub Pages 
 
@@ -37,7 +39,7 @@ For the Web API a CI / CD Pipeline was implemented by Azure DevOps - A Build and
 </li>
 </ul>
 
-<p>A Login system by a Vue client / ASP.NET Core 2.2 Web API secured by HTTPS and a Basic Authorization Header</p>
+<p>A Login system by a Vue client / ASP.NET Core 2.2 Web API with C# secured by HTTPS and a Basic Authorization Header</p>
 
 <ul>
 

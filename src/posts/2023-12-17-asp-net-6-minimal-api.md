@@ -4,12 +4,14 @@ date: 2023-12-17
 published: true
 categories:
   - .NET
+  - C#
 tags:
   - dot-net
+  - c#
 ---
 
 
-A minimal Web API in .NET 6
+A minimal Web API in .NET 6 with C#
 
 Traditional webhosting is used for this Application
 
