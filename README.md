@@ -2,8 +2,8 @@ A MD Blog in Gatsby
 
 Last updated: 29-11-2024
 
-- Node Version: 18.20.5
-- History of Node: 14 => 18
+- Node Version: 20.18.1
+- History of Node: 14 => 18 => 20
 - Hosted at Vercel 
 - The gatsby hello world starter was used for creating this blog with Markdown Posts
 - Tags are added with optimized styles
