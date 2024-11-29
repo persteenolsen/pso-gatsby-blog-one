@@ -1,9 +1,10 @@
 ---
-title: .NET Core 2.2 Role based Membership system
+title: .NET Core 2.2 REST API Role based Membership system
 date: 2023-10-07
 published: true
 categories:
   - .NET Core
+  - REST API
   - Angular
   - React
   - MS SQL
@@ -16,10 +17,11 @@ tags:
   - ms-sql
   - rxjs
   - c#
+  - rest-api
 ---
 
 
-ASP.NET Core 2.2 Web API with C# towards Angular and React serving as Role based Membership system
+ASP.NET Core 2.2 REST API with C# towards Angular and React serving as Role based Membership system
 
 Traditional webhosting is used for this Application
 

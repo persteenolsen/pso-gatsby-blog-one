@@ -1,6 +1,6 @@
 ---
-title: .NET 8 REST API Membership system + Email verification  
-date: 2024-10-13
+title: .NET 8 REST API Membership system + Email verification - Azure and GH Pages 
+date: 2024-11-25
 published: true
 categories:
   - .NET
@@ -8,37 +8,43 @@ categories:
   - Angular
   - Tests
   - C#
+  - MS SQL
+  - Azure
+  - DevOps
+  - GitHub Pages
 tags:
   - dot-net
   - angular
   - ef-core
-  - sqlite
+  - ms-sql
   - Jasmine
   - Karma
   - swagger
   - c#
+  - ms-sql
+  - devops
   - rest-api
 ---
 
 
-.NET 8 REST API with C# using Entity Framework Core + SQLite consuming an Angular 14 Client - serving as a Membership System
+.NET 8 REST API at Azure with C# using Entity Framework Core + MS SQL consuming an Angular 14 Client at GH Pages - serving as a Membership System
 
 Unit Testing:
 <ul>
 <li>Karma + Jasmine - Used with the Angular Client</li>
 </ul>
 
-<p><a href="https://angular.signup.email.client.persteenolsen.com" target="_blank" title="Angular 14 + Web API in .NET 8 Membership System">Try the demo...</a></p>
+<p><a href="https://persteenolsen.github.io/angular-14-example-gh-pages" target="_blank" title="Angular 14 + RESTful Web API in .NET 8 Membership System">Try the demo...</a></p>
 
 <ul>
 
 <li>
-<a href="https://github.com/persteenolsen/dotnet-8-signup-email-api" target="_blank">The Web API .NET 8 at GitHub</a>
+<a href="https://github.com/persteenolsen/angular-14-example-gh-pages" target="_blank">The Angular Client at GitHub</a>
+</li>
+<li>
+The source code of the Web API is hosted at Azure Repos / Private access only
 </li>
 
-<li>
-<a href="https://github.com/persteenolsen/angular-14-signup-email-client" target="_blank">The Angular Client at GitHub</a>
-</li>
 </ul>
 
 <p>The Web API was made without the ASP.NET Core Identity using custom JWT middleware</p>
@@ -53,18 +59,20 @@ Unit Testing:
 <li>Forgot password and reset password functionality</li>
 <li>Role based authorization with two roles "User" and "Admin"</li>
 <li>CRUD Account management routes with role based access control</li>
-
-
 </ul>
 
 <p>Tech used for building the Web App</p>
 <ul>
 <li>C#</li>
-<li>The .NET 8 Web API is hosted at a traditional Webhotel</li>
-<li>The Angular Client is hosted at a traditional Webhotel</li>
-<li>SQLite as the Database for both Dev + Prod</li>
+<li>The .NET 8 Web API is hosted at Azure App Service</li>
+<li>DevOps by Azure App Service + Repos for the .NET 8 Web API</li>
+<li>The Angular Client is hosted at GH Pages</li>
+<li>DevOps by GitHub Actions + Pages for the Angular Client</li>
+<li>MS SQL as the Database for both Dev + Prod</li>
 <li>CORS Policy implemented by .NET</li>
 <li>JWT Token for access secure routes</li>
 <li>Refresh Token by HTTP only Cookie to generate new JWT Tokens</li>
 <li>Swagger API documentation with routes</li>
 </ul>
+
+

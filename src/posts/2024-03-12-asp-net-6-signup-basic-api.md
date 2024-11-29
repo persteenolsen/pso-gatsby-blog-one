@@ -1,9 +1,10 @@
 ---
-title: .NET 6 Web API Membership system - SQLite
+title: .NET 6 REST API Membership system - SQLite
 date: 2024-03-12
 published: true
 categories:
   - .NET
+  - REST API
   - .NET Blazor
   - C#
 tags:
@@ -11,11 +12,13 @@ tags:
   - ef-core
   - sqlite
   - c#
+  - rest-api
 ---
 
 
-.NET 6 Web API with C# using Entity Framework Core + SQLite DB consumed by a Blazor Client serving as a Membership System
+.NET 6 REST API with C# using Entity Framework Core + SQLite DB consumed by a Blazor Client serving as a Membership System
 
+<p>The Web API was made without the ASP.NET Core Identity using custom JWT middleware</p>
 
 <p><a href="https://blazor.signup.basic.persteenolsen.com" target="_blank" title="Blazor + Web API in .NET 6 Membership System">Try the demo...</a></p>
 

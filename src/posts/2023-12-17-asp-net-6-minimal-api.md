@@ -1,17 +1,19 @@
 ---
-title: .NET 6 minimal Web API 
+title: .NET 6 minimal REST API 
 date: 2023-12-17
 published: true
 categories:
   - .NET
+  - REST API
   - C#
 tags:
   - dot-net
   - c#
+  - rest-api
 ---
 
 
-A minimal Web API in .NET 6 with C#
+A minimal REST API in .NET 6 with C#
 
 Traditional webhosting is used for this Application
 

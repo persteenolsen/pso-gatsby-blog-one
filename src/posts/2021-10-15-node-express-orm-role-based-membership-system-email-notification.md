@@ -1,9 +1,10 @@
 ---
-title: Node Express ORM Role based Membership system Email notification
+title: Node Express REST API Membership system + Email notification - JWT
 date: 2024-02-13
 published: true
 categories:
   - Node.js
+  - REST API
   - React
   - TypeScript
   - Azure
@@ -19,16 +20,12 @@ tags:
   - orm
   - mysql
   - azure
+  - rest-api
 ---
 
 
-Node Express Sequelize ORM React TypeScript MySQL Role based Membership system using Email notification and Forgot Password
+Node Express REST API Role based Membership system with Email Verification and Forgot Password using Sequelize ORM towards a MySQL DB - Authentication by JWT
 
-The Node Web API is hosted at Microsoft Azure App Service with the Free App Service Plan 
-
-The clients are hosted at GH Pages and at a traditional Web Hotel
-
-The React client at GH Pages uses DevOps. The React HashRouter solves most 404 / Browser refresh issues at GH Pages
 
 <ul>
 
@@ -39,7 +36,6 @@ The React client at GH Pages uses DevOps. The React HashRouter solves most 404 /
 <li><a href="https://users.ts.sequelize.basic.persteenolsen.com" target="_blank" title="Show persons">Try React TypeScript Client - Web hotel ...</a></li>
 </ul>
 
-<p>A Membership System with Authentication, User registration with Email verification and Forgot Password functionality. Secured by HTTPS, CORS and Bcrypt. For Authentication JWT access Tokens are used securing the private routes of the Web API. For testing the authentication / access token will expire after 15 minutes and a new Login is needed.</p>
 
 <p>Volta was used for Node Version Management switching between Node versions</p>
 
@@ -54,6 +50,34 @@ The React client at GH Pages uses DevOps. The React HashRouter solves most 404 /
 <li><a href="https://github.com/persteenolsen/react-typescript-sequelize-users-client-polyfill-basic" target="_blank">React TypeScript Client at GitHub - Web hotel</a></li>
 
 </ul>
+
+
+<p>Functionality of the Web App</p>
+<ul>
+
+<li>JWT authentication</li>
+<li>Email sign up and verification</li>
+<li>Forgot password and reset password functionality</li>
+<li>Role based authorization with two roles "User" and "Admin"</li>
+<li>CRUD Account management routes with role based access control</li>
+
+
+</ul>
+
+<p>Tech used for building the Web App</p>
+<ul>
+<li>Node.js</li>
+<li>Sequelize used to implement the ORM at the Web API</li>
+<li>The Node.js Web API is hosted at Azure App Service with the Free App Service Plan</li>
+<li>One React client at GH Pages which uses DevOps. The React HashRouter solves most 404 / Browser refresh issues at GH Pages</li>
+<li>One React Client is hosted at a traditional Webhotel</li>
+<li>The React TypeScript Client is hosted at a traditional Webhotel</li>
+<li>MySQL as the Database for both Dev + Prod</li>
+<li>CORS Policy implemented by Node.js and at Azure</li>
+<li>JWT Token for access secure routes</li>
+
+</ul>
+
 
 
 

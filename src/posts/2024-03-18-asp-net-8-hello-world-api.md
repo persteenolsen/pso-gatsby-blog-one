@@ -1,17 +1,19 @@
 ---
-title: .NET 8 Hello World Web API 
+title: .NET 8 Hello World REST API 
 date: 2024-03-17
 published: true
 categories:
   - .NET
+  - REST API
   - C#
 tags:
   - dot-net
   - c#
+  - rest-api
 ---
 
 
-A Hello World Web API in .NET 8 with C#
+A Hello World REST API in .NET 8 with C#
 
 Traditional webhosting is used for this Application
 
