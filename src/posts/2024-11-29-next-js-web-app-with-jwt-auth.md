@@ -12,7 +12,7 @@ tags:
   - ci-cd
   - jamstack
   - ssg
-  - vercel-cloud
+  - vercel
 ---
 A Next.js Jamstack Web App with JWT Authentication hosted at Vercel
 

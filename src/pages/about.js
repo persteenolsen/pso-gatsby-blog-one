@@ -38,7 +38,7 @@ const About = () => {
                         
             <b>The static part of the Blog was last updated</b>
             <ul>
-			<li>29-11-2024</li>
+			<li>30-11-2024</li>
 			</ul>
 			
 
@@ -88,7 +88,7 @@ const About = () => {
 			 
             <b>Node.js Version</b>
 			<ul>
-            <li>Node 18</li>
+            <li>Node 20.18.1</li>
             </ul>
 			
             <b>Module Bundler</b>

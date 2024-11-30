@@ -12,7 +12,7 @@ tags:
   - ci-cd
   - jamstack
   - ssg
-  - netlify-cloud
+  - netlify
 ---
 A Next.js Jamstack Web App with Basic Authentication hosted a Netlify
 
