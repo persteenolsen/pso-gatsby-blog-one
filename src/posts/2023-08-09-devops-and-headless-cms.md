@@ -13,7 +13,7 @@ tags:
   - decap-cms
   - tina-cms
   - strapi-cms
-  - netlify-cloud
+  - netlify
   - ci-cd
 ---
 DevOps and Git-based Headless CMS used with my Blog
