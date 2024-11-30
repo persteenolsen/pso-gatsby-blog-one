@@ -5,6 +5,7 @@ published: true
 categories:
   - Next.js
   - DevOps
+  - Vercel
 tags:
   - next-js
   - react

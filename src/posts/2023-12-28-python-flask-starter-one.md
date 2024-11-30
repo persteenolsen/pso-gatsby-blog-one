@@ -1,9 +1,10 @@
 ---
 title: Python and Flask Starter Web App
-date: 2024-08-17
+date: 2024-11-30
 published: true
 categories:
   - Python
+  - Vercel
 tags:
   - python
   - flask

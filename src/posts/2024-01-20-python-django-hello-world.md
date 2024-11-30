@@ -1,9 +1,10 @@
 ---
 title: Python and Django Hello World Web App
-date: 2024-01-20
+date: 2024-11-30
 published: true
 categories:
   - Python
+  - Vercel
 tags:
   - python
   - django
