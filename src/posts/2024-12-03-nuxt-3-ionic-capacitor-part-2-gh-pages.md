@@ -1,10 +1,9 @@
 ---
 title: Nuxt 3 Ionic Web App at GitHub Pages
-date: 2024-08-17T13:12:59.133Z
+date: 2024-12-03T13:12:59.133Z
 published: true
 categories:
   - Nuxt
-  - Ionic
   - DevOps
   - TypeScript
   - GitHub Pages
@@ -20,6 +19,8 @@ tags:
   - mobile-hybrid-apps
 ---
 Nuxt 3 Ionic TypeScript Web / Mobile Hybrid App using Capacitor IOS and Android. This starter template is hosted at GitHub Pages using GitHub Actions as DevOps
+
+Node Version: 18.20.5
 
 <a href="https://persteenolsen.github.io/nuxt-3-ionic-capacitor-part-2-gh-pages/" target="_blank">Try the demo...</a>
 

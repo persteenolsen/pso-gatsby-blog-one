@@ -1,6 +1,6 @@
 ---
 title: Node Express REST API Membership system + Email notification - JWT
-date: 2024-02-13
+date: 2025-01-10
 published: true
 categories:
   - Node.js
@@ -32,7 +32,6 @@ Node Express REST API Role based Membership system with Email Verification and 
 
 <li><a href="https://persteenolsen.github.io/gh-pages-react-node-orm-client" target="_blank" title="Show persons">Try React Client - GH Pages ...</a></li>
 
-<li><a href="https://users.sequelize.basic.persteenolsen.com" target="_blank" title="Show persons">Try React Client - Web hotel...</a></li>
 <li><a href="https://users.ts.sequelize.basic.persteenolsen.com" target="_blank" title="Show persons">Try React TypeScript Client - Web hotel ...</a></li>
 </ul>
 
@@ -42,11 +41,8 @@ Node Express REST API Role based Membership system with Email Verification and 
 <ul>
 <li><a href="https://github.com/persteenolsen/node-express-sequelize-users-api-basic" target="_blank">The Web API at GitHub</a></li>
 
-
-
 <li><a href="https://github.com/persteenolsen/gh-pages-react-node-orm-client" target="_blank">React Client at GitHub - GH Pages</a></li>
 
-<li><a href="https://github.com/persteenolsen/react-sequelize-users-client-polyfill-basic" target="_blank">React Client at GitHub - Web hotel</a></li>
 <li><a href="https://github.com/persteenolsen/react-typescript-sequelize-users-client-polyfill-basic" target="_blank">React TypeScript Client at GitHub - Web hotel</a></li>
 
 </ul>

@@ -1,6 +1,6 @@
 ---
 title: Nuxt 3 Hello World Web App at GitHub Pages
-date: 2024-08-17T13:12:59.133Z
+date: 2025-01-10T13:12:59.133Z
 published: true
 categories:
   - Nuxt
@@ -18,6 +18,8 @@ tags:
   - ssg
 ---
 Nuxt 3 Hello World Web App ready for TypeScript and hosted at GitHub Pages using GitHub Actions as DevOps
+
+Node Version: 18
 
 <a href="https://persteenolsen.github.io/nuxt-js-3-hello-world-gh-pages/" target="_blank">Try the demo...</a>
 

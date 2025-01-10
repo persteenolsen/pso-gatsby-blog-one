@@ -1,13 +1,13 @@
 ---
 title: Node Express REST API Membership system + Email notification - JWT
-date: 2023-05-30
+date: 2024-12-05
 published: true
 categories: [ "REST API", "Node.js", "React", "Azure", "MySQL" ]
 tags: [ "rest-api", "node", "express", "react", "mysql", "azure" ]
 ---
 
 
-Node Express REST API Role based Membership system with Email Verification and Forgot Password using pure SQL towards a MySQL DB - Authentication by JWT
+Node Express REST API Role based Membership system with Email Verification and Forgot Password using Pure SQL towards a MySQL DB - Authentication by JWT
 
 
 <a href="https://users.persteenolsen.com" target="_blank">Try the demo...</a>

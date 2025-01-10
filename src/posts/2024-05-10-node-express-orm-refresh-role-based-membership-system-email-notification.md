@@ -1,6 +1,6 @@
 ---
 title: Node Express REST API Membership system + Email notification - JWT and Refresh Token 
-date: 2024-08-17
+date: 2024-12-02
 published: true
 categories:
   - Node.js
@@ -21,7 +21,6 @@ tags:
 
 
 Node Express REST API Role based Membership system with Email Verification and Forgot Password using Sequelize ORM towards a MySQL DB - Authentication by JWT + Refresh Tokens
-
 
 <p>Note: Due to the resource limitations of the Microsoft Azure Free App Service Plan, the initial load time will be up to 30 seconds!</p>
 
