@@ -1,6 +1,6 @@
 ---
 title: .NET 8 Machine Learning to predict global temperature
-date: 2024-11-20
+date: 2025-01-11
 published: true
 categories:
   - AI
