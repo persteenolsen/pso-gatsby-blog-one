@@ -1,6 +1,6 @@
 ---
 title: Next.js 13 Web App with JWT Auth and MongoDB
-date: 2025-01-09
+date: 2025-03-23
 published: true
 categories:
   - Next.js

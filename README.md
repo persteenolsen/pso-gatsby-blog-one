@@ -1,6 +1,6 @@
 A MD Blog in Gatsby 
 
-Last updated 29-11-2024
+Last updated 25-05-2025
 
 - Node Version: 20.18.1
 - History of Node: 14 => 18 => 20

@@ -8,6 +8,7 @@ categories:
   - .NET Blazor
   - C#
   - MS SQL
+  - SQLite
 tags:
   - dot-net
   - ef-core
@@ -15,6 +16,7 @@ tags:
   - c#
   - ms-sql
   - rest-api
+  - sqlite
 ---
 
 

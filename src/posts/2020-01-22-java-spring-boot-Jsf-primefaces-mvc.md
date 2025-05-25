@@ -4,9 +4,6 @@ date: 2021-11-14
 published: true
 categories:
   - Java Spring Boot
-  - Azure
-  - MySQL
-  - MVC
 tags:
   - java
   - primefaces
@@ -20,13 +17,7 @@ tags:
   - mvc
 ---
 
-Java Spring Boot JSF PrimeFaces MVC
-
-<p>Note: Due to the resource limitations of the Microsoft Azure Free App Service Plan, the initial load time will be up to 2 minutes. A 403 Status code may happen too!</p>
-
-<a href="https://pso-primefaces.azurewebsites.net" target="_blank" title="Java PrimeFaces">Try the demo...</a>
-
-<br /><br />
+Java Spring Boot 2 JSF PrimeFaces MVC
 
 <a href="https://github.com/persteenolsen/springboot-jsf-primefaces-jpa" target="_blank">The source code at GitHub</a>
 

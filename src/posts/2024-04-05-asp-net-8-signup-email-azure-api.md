@@ -1,6 +1,6 @@
 ---
 title: .NET 8 REST API Membership system + Email verification - Azure and GH Pages 
-date: 2025-01-12
+date: 2025-05-08
 published: true
 categories:
   - .NET
@@ -28,6 +28,8 @@ tags:
 
 
 .NET 8 REST API at Azure with C# using Entity Framework Core + MS SQL consuming an Angular 14 Client at GH Pages - serving as a Membership System
+
+<p>Note: Due to the resource limitations of the Microsoft Azure Free App Service Plan, the initial load time will be up to 30 seconds!</p>
 
 Unit Testing:
 <ul>

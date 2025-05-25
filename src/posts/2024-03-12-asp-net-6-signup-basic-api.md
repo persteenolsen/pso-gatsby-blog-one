@@ -7,12 +7,14 @@ categories:
   - REST API
   - .NET Blazor
   - C#
+  - SQLite
 tags:
   - dot-net
   - ef-core
   - sqlite
   - c#
   - rest-api
+  - sqlite
 ---
 
 

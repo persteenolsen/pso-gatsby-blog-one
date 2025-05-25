@@ -8,6 +8,7 @@ categories:
   - Angular
   - Tests
   - C#
+  - SQLite
 tags:
   - dot-net
   - angular
@@ -18,6 +19,7 @@ tags:
   - swagger
   - c#
   - rest-api
+  - sqlite
 ---
 
 

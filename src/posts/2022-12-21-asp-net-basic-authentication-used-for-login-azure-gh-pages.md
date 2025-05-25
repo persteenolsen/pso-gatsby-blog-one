@@ -1,6 +1,6 @@
 ---
 title: .NET Core 2.2 REST API with Basic Authentication - Azure and GH Pages 
-date: 2025-01-09
+date: 2025-03-22
 published: true
 categories:
   - .NET Core

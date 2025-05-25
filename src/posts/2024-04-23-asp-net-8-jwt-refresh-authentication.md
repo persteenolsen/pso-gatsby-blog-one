@@ -7,11 +7,13 @@ categories:
   - REST API
   - Angular
   - C#
+  - SQLite
 tags:
   - dot-net
   - angular
   - c#
-  - rest-api  
+  - rest-api
+  - sqlite  
 ---
 
 
