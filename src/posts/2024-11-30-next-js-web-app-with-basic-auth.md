@@ -1,6 +1,6 @@
 ---
 title: Next.js 15 Web App with Basic Auth
-date: 2024-11-30T12:27:09.964Z
+date: 2025-06-05
 published: true
 categories:
   - Next.js
@@ -14,7 +14,7 @@ tags:
   - ssg
   - netlify
 ---
-A Next.js Jamstack Web App with Basic Authentication hosted a Netlify
+A Next.js Web Application with Basic Authentication hosted a Netlify
 
 Version used for this Web App
 

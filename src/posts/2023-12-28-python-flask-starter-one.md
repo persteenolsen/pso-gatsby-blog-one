@@ -1,6 +1,6 @@
 ---
-title: Python and Flask Starter Web App
-date: 2025-03-24
+title: Python and Flask Starter Website
+date: 2025-06-02
 published: true
 categories:
   - Python
@@ -13,11 +13,11 @@ tags:
   - mvc
 ---
 
-Python and Flask Starter Web App hosted at Vercel Cloud using Serverless Functions and implementing DevOps by GitHub + Vercel
+Python and Flask Starter Website hosted at Vercel Cloud using Serverless Functions and implementing DevOps by GitHub + Vercel
 
-<a href="https://flask-vercel-start-one.vercel.app/" target="_blank" title="Flask Web App at Vercel">Try the demo...</a>
+<a href="https://flask-vercel-start-one.vercel.app/" target="_blank" title="Flask Website at Vercel">Try the demo...</a>
 
-A Starter Flask Web App with endpoints - secured by HTTPS
+This Flask Website is serving static content - secured by HTTPS
 
 CI / CD by VS Code + GitHub + Vercel Cloud 
 

@@ -1,6 +1,6 @@
 ---
-title: Python and Django Starter Web App
-date: 2025-04-27
+title: Python and Django minimal Web App
+date: 2025-04-17
 published: true
 categories:
   - Python
@@ -13,11 +13,11 @@ tags:
   - mvc
 ---
 
-Python and Django Basic Starter Web App hosted at Vercel Cloud implementing DevOps by GitHub + Vercel
+Python and Django minimal Web App without Templates hosted at Vercel Cloud implementing DevOps by GitHub + Vercel
 
 <a href="https://django-starter-one.vercel.app/" target="_blank" title="Django Web App at Vercel">Try the demo...</a>
 
-A Django Web App without the Admin Backend configured saying Hello World from Vercel - secured by HTTPS
+A minimal Django Web App without any Templates and the Admin Backend configured saying Hello - secured by HTTPS
 
 CI / CD by VS Code + GitHub + Vercel Cloud
 

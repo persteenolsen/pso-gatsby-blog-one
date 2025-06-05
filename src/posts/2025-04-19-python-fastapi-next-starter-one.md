@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI Next.js Starter Web App
+title: Next.js 14 and Python FastAPI Starter Web App
 date: 2025-04-19
 published: true
 categories:
@@ -13,11 +13,11 @@ tags:
   - vercel
 ---
 
-Python FastAPI Next.js Starter hybrid Web App hosted at Vercel Cloud using Serverless Functions and implementing DevOps by GitHub + Vercel
+Next.js 14 and Python FastAPI Starter hybrid Web App hosted at Vercel Cloud using Serverless Functions and implementing DevOps by GitHub + Vercel
 
-<a href="https://fastapi-vercel-start-one.vercel.app/" target="_blank" title="FastAPI Next.js Web App at Vercel">Try the demo...</a>
+<a href="https://fastapi-vercel-start-one.vercel.app/" target="_blank" title="Next.js and Python FastAPI Web App at Vercel">Try the demo...</a>
 
-A Starter FastAPI + Next.js Web App with endpoints - secured by HTTPS
+A Starter Next.js + FastAPI Web App with endpoints - secured by HTTPS
 
 CI / CD by VS Code + GitHub + Vercel Cloud 
 

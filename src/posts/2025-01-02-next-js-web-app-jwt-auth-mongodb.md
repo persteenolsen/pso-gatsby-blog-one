@@ -1,6 +1,6 @@
 ---
-title: Next.js 13 Web App with JWT Auth and MongoDB
-date: 2025-03-23
+title: Next.js 13 and MongoDB Membership System  
+date: 2025-06-04
 published: true
 categories:
   - Next.js
@@ -18,11 +18,11 @@ tags:
   - mongodb
   - typescript
 ---
-A Next.js Web App with TypeScript and JWT Authentication using MongoDB and Mongoose ODM
+Full Stack Next.js Web application with TypeScript and JWT Authentication using MongoDB and Mongoose ODM serving as a Membership System
 
 Tech used for the Web Application
 
-- The Next Web App is hosted at Vercel Cloud
+- The Next.js Web App is hosted at Vercel Cloud using Serverless Functions
 - Node 22 at Vercel Cloud
 - Next Version 13
 - React 18
@@ -30,7 +30,7 @@ Tech used for the Web Application
 - Joi for validation
 - Zustand for state management
 - MongoDB was the choice of NoSQL Document Database
-- Mongoose ODM ( Object Data Modeling ) which is used for NoSQL like ORM ( Object Relational mapping ) is used for Relational databases like MySQL
+- Mongoose ODM ( Object Data Modeling ) used for NoSQL Document Database
 - The MongoDB is hosted at Mongo Atlas Cloud Platform
 
 <br />
@@ -41,6 +41,4 @@ Tech used for the Web Application
 
 <a href="https://github.com/persteenolsen/next-js-jwt-auth-mongodb" target="_blank">The code at GitHub</a>
 
-Next.js was used for creating this full stack web application "Static Site Generator" SSG serving as a login and registration system by a MongoDB. The Web App is secured by HTTPS and JWT Authentication.
-
-This Next.js with TypeScript Web Application is hosted at Vercel Cloud and uses continuous build and deployment
+Next.js was used for creating this Full Stack Web application "Static Site Generator" SSG serving as a Membership System with login and registration towards a MongoDB. The Web App is secured by HTTPS and JWT Authentication.

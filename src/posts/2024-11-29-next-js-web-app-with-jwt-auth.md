@@ -1,6 +1,6 @@
 ---
 title: Next.js 15 Web App with JWT Auth
-date: 2024-11-29T13:00:45.314Z
+date: 2025-06-05
 published: true
 categories:
   - Next.js
@@ -14,7 +14,7 @@ tags:
   - ssg
   - vercel
 ---
-A Next.js Jamstack Web App with JWT Authentication hosted at Vercel
+A Next.js Web Application with JWT Authentication hosted at Vercel
 
 Version used for this Web App
 
