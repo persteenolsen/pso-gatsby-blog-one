@@ -9,7 +9,6 @@ categories:
   - TypeScript
   - Azure
   - MySQL
-  - DevOps
   - GitHub Pages
 tags:
   - node

@@ -1,9 +1,10 @@
 ---
-title: Python and Django minimal Web App
-date: 2025-04-17
+title: Python and Django Starter Website without Database serving static files
+date: 2025-08-30
 published: true
 categories:
   - Python
+  - DevOps
   - Vercel
   - MVC
 tags:
@@ -11,14 +12,21 @@ tags:
   - django
   - vercel
   - mvc
+  - devops
 ---
 
-Python and Django minimal Web App without Templates hosted at Vercel Cloud implementing DevOps by GitHub + Vercel
+Python Django Starter Website without any Database serving static files hosted at Vercel Cloud using Serverless Functions implementing DevOps by GitHub + Vercel
 
-<a href="https://django-starter-one.vercel.app/" target="_blank" title="Django Web App at Vercel">Try the demo...</a>
+<a href="https://django-starter-one.vercel.app/" target="_blank" title="Django Website at Vercel">Try the demo...</a>
 
-A minimal Django Web App without any Templates and the Admin Backend configured saying Hello - secured by HTTPS
+Django is using the architectural pattern Model-View-Template (MVT) which is a derivation of the pattern Model View Control (MVC) 
+
+This Django Website is serving static content - secured by HTTPS
+
+This Python and Django Starther Website dont have a Database and no Django Admin Backend 
 
 CI / CD by VS Code + GitHub + Vercel Cloud
 
 <a href="https://github.com/persteenolsen/django-starter-one" target="_blank">The source code at GitHub</a>
+
+

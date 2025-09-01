@@ -4,6 +4,7 @@ date: 2025-04-19
 published: true
 categories:
   - Python
+  - DevOps
   - Next.js
   - Vercel
 tags:
@@ -11,6 +12,7 @@ tags:
   - fastapi
   - next-js
   - vercel
+  - devops
 ---
 
 Next.js 14 and Python FastAPI Starter hybrid Web App hosted at Vercel Cloud using Serverless Functions and implementing DevOps by GitHub + Vercel

@@ -1,14 +1,16 @@
 ---
 title: Java Spring Boot REST API with JWT Auth
-date: 2025-02-21
+date: 2025-09-01
 published: true
-categories: [ "Java Spring Boot", "Vue 3", "MySQL", "REST API", "Azure" ]
-tags: [ "java", "jpa", "maven", "hibernate", "vue-3" , "mysql", "security", "rest-api", "azure" ]
+categories: [ "Java Spring Boot", "Vue 3", "MySQL", "REST API", "Azure", "Vite" ]
+tags: [ "java", "jpa", "maven", "hibernate", "vue-3" , "mysql", "security", "rest-api", "azure", "vite" ]
 ---
 
 Java Spring Boot 3 REST API doing JWT Auth with a Vue 3 Client
 
 <p>Note: Due to the resource limitations of the Microsoft Azure Free App Service Plan, the initial load time will be up to 1 minute. A 403 Status code may happen too!</p>
+
+The Vue 3 client is using Vite as Build Tool
 
 <a href="https://vue.java.jwt.auth.client.persteenolsen.com" target="_blank" title="Java Spring Boot 3 REST JWT Auth">Try the demo...</a>
   

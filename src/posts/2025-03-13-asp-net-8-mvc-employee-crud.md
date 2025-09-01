@@ -1,6 +1,6 @@
 ---
-title: .NET 8 - ASP.NET Core MVC Web App - Basic Starter 
-date: 2025-03-28
+title: .NET 8 - ASP.NET Core MVC Web App - Starter 
+date: 2025-08-20
 published: true
 categories:
   - .NET
@@ -15,7 +15,7 @@ tags:
 ---
 
 
-ASP.NET Core MVC Web App using .NET 8 - A Basic Starter with CRUD functionality of Employees
+ASP.NET Core MVC Web App using .NET 8 - A Starter with CRUD functionality of Employees
 
 Traditional webhosting is used for this Application
 

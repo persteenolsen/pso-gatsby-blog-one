@@ -8,7 +8,6 @@ categories:
   - Angular
   - React
   - MS SQL
-  - RxJS
   - C#
 tags:
   - asp-net

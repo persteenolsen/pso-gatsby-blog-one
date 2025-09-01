@@ -1,6 +1,6 @@
 ---
 title: .NET 8 and Umbraco CMS Website - Starter
-date: 2025-06-01
+date: 2025-08-20
 published: true
 categories:
   - CMS
@@ -8,6 +8,7 @@ categories:
   - MVC
   - C#
   - SQLite
+  - Umbraco
 tags:
   - traditional-cms
   - umbraco-cms
@@ -15,6 +16,7 @@ tags:
   - c#
   - mvc
   - sqlite
+  - umbraco
 ---
 
 A Website by Umbraco CMS 13 and .NET 8 using SQLite DB for both Dev + Prod serving as a Starter

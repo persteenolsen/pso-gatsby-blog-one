@@ -4,11 +4,13 @@ date: 2024-11-30
 published: true
 categories:
   - Python
+  - DevOps
   - Vercel
 tags:
   - python
   - flask
   - vercel
+  - devops
 ---
 
 Python and Flask minimal Web App without Templates hosted at Vercel Cloud implementing DevOps by GitHub + Vercel
