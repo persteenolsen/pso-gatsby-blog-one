@@ -1,5 +1,5 @@
 ---
-title: Next.js 14 and Python FastAPI Starter Web App
+title: Next.js 14 and Python FastAPI Starter Web App hosted at Vercel Cloud
 date: 2025-04-19
 published: true
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Python and Flask minimal Web App 
+title: Python and Flask minimal Web App hosted at Vercel Cloud 
 date: 2024-11-30
 published: true
 categories:

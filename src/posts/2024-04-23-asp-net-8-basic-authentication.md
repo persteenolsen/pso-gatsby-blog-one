@@ -1,6 +1,6 @@
 ---
 title: .NET 8 REST API with Basic Authentication 
-date: 2025-01-11
+date: 2025-09-16
 published: true
 categories:
   - .NET
@@ -19,7 +19,7 @@ tags:
 ---
 
 
-Blazor ( .NET 6 ) and Vue 3 clients towards a REST API by .NET 8 with C# using Basic Authentication
+Blazor ( .NET 8 ) and Vue 3 clients towards a REST API by .NET 8 with C# using Basic Authentication
 
 The Vue 3 client is using Vite as Build Tool
 
@@ -27,7 +27,7 @@ Traditional webhosting is used for this Application
 
 <ul>
 <li>
-<a href="https://blazor.basic.auth.persteenolsen.com/" target="_blank" title="Blazor .NET 6 + Web API in .NET 8 using Basic Auth">Try the demo by Blazor...</a>
+<a href="https://blazor.basic.auth.persteenolsen.com/" target="_blank" title="Blazor .NET 8 + Web API in .NET 8 using Basic Auth">Try the demo by Blazor...</a>
 </li>
 
 <li>

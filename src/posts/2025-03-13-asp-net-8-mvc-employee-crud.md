@@ -1,6 +1,6 @@
 ---
 title: .NET 8 - ASP.NET Core MVC Web App - Starter 
-date: 2025-08-20
+date: 2025-10-24
 published: true
 categories:
   - .NET

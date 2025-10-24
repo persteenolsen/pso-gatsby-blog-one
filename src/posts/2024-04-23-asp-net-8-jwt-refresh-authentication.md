@@ -1,6 +1,6 @@
 ---
 title: .NET 8 REST API doing Authentication by JWT and Refresh Tokens
-date: 2024-05-05
+date: 2025-09-02
 published: true
 categories:
   - .NET

@@ -1,20 +1,18 @@
 ---
-title: Python and Django Starter Website using MySQL serving a Membership System
-date: 2025-08-31
+title: Python and Django Starter Website using MySQL hosted at Vercel Cloud serving a Membership System
+date: 2025-10-23
 published: true
 categories:
   - Python
   - DevOps
   - Vercel
   - MySQL
-  - SQLite
   - MVC
 tags:
   - python
   - django
   - vercel
   - mysql
-  - sqlite
   - mvc
   - devops
 ---
