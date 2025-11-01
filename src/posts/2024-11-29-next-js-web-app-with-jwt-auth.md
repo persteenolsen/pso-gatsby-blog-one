@@ -1,6 +1,6 @@
 ---
 title: Next.js 15 Web App with JWT Auth
-date: 2025-06-05
+date: 2025-10-24
 published: true
 categories:
   - Next.js

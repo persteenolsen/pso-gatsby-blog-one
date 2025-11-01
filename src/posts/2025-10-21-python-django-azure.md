@@ -19,7 +19,7 @@ tags:
 
 Python Django and MySQL Website serving a simple Blog hosted at Azure App Service which have a free plan as well as plans for scaling up if needed. The Website uses DevOps by GitHub Actions + Azure App Service
 
-<p>Note: Due to the resource limitations of the Microsoft Azure Free App Service Plan, the initial load time will be up to 1 minute. A white screen or 503 Status code may happen too, and you can just try again a bit later</p>
+<p>Note: Due to the resource limitations of the Microsoft Azure Free App Service Plan, the initial load time can be up to 1 minute. A white screen or 503 status code may happen too. Just try again after few minutes or a bit later until the Website loads</p>
 
 <a href="https://pso-django.azurewebsites.net" target="_blank" title="Django Website at Azure App Service">Try the demo...</a>
 
