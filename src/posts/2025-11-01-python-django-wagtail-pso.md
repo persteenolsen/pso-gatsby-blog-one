@@ -1,6 +1,6 @@
 ---
 title: Python Django and Wagtail Website using PostgreSQL hosted at Vercel serving a Demo
-date: 2025-11-01
+date: 2025-11-05
 published: true
 categories:
   - Python
@@ -8,7 +8,7 @@ categories:
   - PostgreSQL
   - DevOps
   - MVC
-  - CMS
+  - Wagtail CMS
 tags:
   - python
   - django
@@ -16,7 +16,7 @@ tags:
   - postgresql
   - devops
   - mvc
-  - cms
+  - wagtail-cms
 ---
 
 Python Django and Wagtail CMS based Website using PostgreSQL serving a Demo. Hosted at Vercel Cloud by Serverless Functions. Wagtail CMS is the Backend Administration of the Website. DevOps by GitHub + Vercel

@@ -1,23 +1,23 @@
 ---
-title: Python and Django Starter Website using MySQL hosted at Vercel Cloud serving a Blog
-date: 2025-10-16
+title: Python and Django Starter Website using MariaDB hosted at Vercel Cloud serving a Blog
+date: 2025-11-09
 published: true
 categories:
   - Python
   - DevOps
   - Vercel
-  - MySQL
+  - MariaDB
   - MVC
 tags:
   - python
   - django
   - vercel
-  - mysql
+  - mariadb
   - mvc
   - devops
 ---
 
-Python Django and MariaDB / MySQL Starter Website serving a simple Blog hosted at Vercel Cloud using Serverless Functions implementing DevOps by GitHub + Vercel
+Python Django and MariaDB Starter Website serving a simple Blog hosted at Vercel Cloud using Serverless Functions implementing DevOps by GitHub + Vercel
 
 <a href="https://django-starter-four.vercel.app/" target="_blank" title="Django Website at Vercel">Try the demo...</a>
 

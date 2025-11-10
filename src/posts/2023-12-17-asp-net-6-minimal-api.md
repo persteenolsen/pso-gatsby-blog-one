@@ -12,7 +12,6 @@ tags:
   - rest-api
 ---
 
-
 A simple REST API in .NET 6 with C# serving as a Basic Starter
 
 Traditional webhosting is used for this Application

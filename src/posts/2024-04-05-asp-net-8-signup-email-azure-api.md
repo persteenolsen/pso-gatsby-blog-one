@@ -1,6 +1,6 @@
 ---
 title: .NET 8 REST API Membership system + Email verification - Azure and GH Pages 
-date: 2025-10-07
+date: 2025-11-02
 published: true
 categories:
   - .NET

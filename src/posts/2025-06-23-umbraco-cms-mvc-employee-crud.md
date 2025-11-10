@@ -3,15 +3,12 @@ title: .NET 8 and Umbraco CMS Website with MVC - Starter
 date: 2025-09-04
 published: true
 categories:
-  - CMS
+  - Umbraco CMS
   - .NET
   - MVC
   - C#
   - SQLite
-  - Umbraco
 tags:
-  - traditional-cms
-  - umbraco-cms
   - dot-net
   - c#
   - mvc

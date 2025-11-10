@@ -1,25 +1,25 @@
 ---
-title: Python Django and Wagtail Website using MySQL hosted at Vercel serving a Demo
-date: 2025-10-31
+title: Python Django and Wagtail Website using MariaDB hosted at Vercel serving a Demo
+date: 2025-11-09
 published: true
 categories:
   - Python
   - Vercel
-  - MySQL
+  - MariaDB
   - DevOps
   - MVC
-  - CMS
+  - Wagtail CMS
 tags:
   - python
   - django
   - vercel
-  - mysql
+  - mariadb
   - devops
   - mvc
-  - cms
+  - wagtail-cms
 ---
 
-Python Django and Wagtail CMS based Website using MySQL serving a Demo. Hosted at Vercel Cloud by Serverless Functions. Wagtail CMS is the Backend Administration of the Website. DevOps by GitHub + Vercel
+Python Django and Wagtail CMS based Website using MariaDB serving a Demo. Hosted at Vercel Cloud by Serverless Functions. Wagtail CMS is the Backend Administration of the Website. DevOps by GitHub + Vercel
 
 <a href="https://wagtail-demo.vercel.app" target="_blank" title="Django and Wagtail Website at Vercel Cloud">Try the demo...</a>
 
