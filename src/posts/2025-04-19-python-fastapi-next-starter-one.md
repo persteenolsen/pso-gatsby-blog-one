@@ -4,6 +4,7 @@ date: 2025-04-19
 published: true
 categories:
   - Python
+  - FastAPI
   - DevOps
   - Next.js
   - Vercel

@@ -1,17 +1,17 @@
 ---
 title: .NET 10 and ASP.NET Core MVC Web Application
-date: 2025-11-23
+date: 2026-01-12
 published: true
 categories:
   - MVC
   - .NET
-  - MS SQL
+  - MSSQL
   - C#
 tags:
   - mvc
   - dot-net
   - c#
-  - ms-sql
+  - mssql
 ---
 
 
@@ -26,7 +26,7 @@ Traditional webhosting is used for this Application
 
 </ul>
 
-<p>An ASP.NET Core MVC Web App created by VS Code using .NET 10 serving CRUD functionality of Employees towards a MS SQL Database</p>
+<p>An ASP.NET Core MVC Web App created by VS Code using .NET 10 serving CRUD functionality of Employees towards a MSSQL Database</p>
 
 <ul>
 <li>

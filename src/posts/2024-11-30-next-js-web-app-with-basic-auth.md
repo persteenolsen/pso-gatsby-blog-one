@@ -1,6 +1,6 @@
 ---
 title: Next.js 15 Web App with Basic Auth
-date: 2025-10-24
+date: 2026-01-04
 published: true
 categories:
   - Next.js
@@ -19,7 +19,7 @@ A Next.js Web Application with Basic Authentication hosted a Netlify
 Version used for this Web App
 
 - Node 22.11.0 ( Note: Running Node 20 at Netlify for now )
-- Next 15.0.3
+- Upgraded from Next 15.0.3 to 15.0.5 due to security
 - React 18.3.1
 <br /><br />
 

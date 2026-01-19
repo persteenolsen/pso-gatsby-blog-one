@@ -4,6 +4,7 @@ date: 2025-11-09
 published: true
 categories:
   - Python
+  - Django
   - Azure
   - MariaDB
   - DevOps

@@ -1,6 +1,6 @@
 ---
 title: Python Django and Wagtail Website using MariaDB hosted at Vercel serving a Demo
-date: 2025-11-09
+date: 2025-11-30
 published: true
 categories:
   - Python

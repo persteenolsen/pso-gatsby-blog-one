@@ -1,6 +1,6 @@
 ---
 title: Next.js 15 Web App with JWT Auth
-date: 2025-10-24
+date: 2026-01-04
 published: true
 categories:
   - Next.js
@@ -19,7 +19,7 @@ A Next.js Web Application with JWT Authentication hosted at Vercel
 Version used for this Web App
 
 - Node 22.11.0
-- Next 15.0.3
+- Upgraded from Next 15.0.3 to 15.0.5 due to security
 - React 18.3.1
 <br /><br />
 

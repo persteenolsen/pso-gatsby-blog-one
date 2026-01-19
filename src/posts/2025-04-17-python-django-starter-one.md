@@ -4,6 +4,7 @@ date: 2025-10-14
 published: true
 categories:
   - Python
+  - Django
   - DevOps
   - Vercel
   - MVC

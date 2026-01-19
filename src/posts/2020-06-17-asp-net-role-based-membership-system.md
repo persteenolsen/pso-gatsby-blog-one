@@ -7,13 +7,13 @@ categories:
   - REST API
   - Angular
   - React
-  - MS SQL
+  - MSSQL
   - C#
 tags:
   - asp-net
   - angular
   - react
-  - ms-sql
+  - mssql
   - rxjs
   - c#
   - rest-api

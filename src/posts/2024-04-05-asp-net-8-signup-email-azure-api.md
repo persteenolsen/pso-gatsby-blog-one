@@ -1,6 +1,6 @@
 ---
 title: .NET 8 REST API Membership system + Email verification - Azure and GH Pages 
-date: 2025-11-02
+date: 2026-01-07
 published: true
 categories:
   - .NET
@@ -8,7 +8,7 @@ categories:
   - Angular
   - Tests
   - C#
-  - MS SQL
+  - MSSQL
   - Azure
   - DevOps
   - GitHub Pages
@@ -21,13 +21,13 @@ tags:
   - Karma
   - swagger
   - c#
-  - ms-sql
+  - mssql
   - devops
   - rest-api
 ---
 
 
-.NET 8 REST API at Azure with C# using Entity Framework Core + MS SQL consuming an Angular 14 Client at GH Pages - serving as a Membership System
+.NET 8 REST API at Azure with C# using Entity Framework Core + MSSQL consuming an Angular 14 Client at GH Pages - serving as a Membership System
 
 <p>Note: Due to the resource limitations of the Microsoft Azure Free App Service Plan, the initial load time will be up to 30 seconds!</p>
 
@@ -70,7 +70,7 @@ The source code of the Web API is hosted at Azure Repos / Private access only
 <li>DevOps by Azure App Service + Repos for the .NET 8 Web API</li>
 <li>The Angular Client is hosted at GH Pages</li>
 <li>DevOps by GitHub Actions + Pages for the Angular Client</li>
-<li>MS SQL as the Database for both Dev + Prod</li>
+<li>MSSQL as the Database for both Dev + Prod</li>
 <li>CORS Policy implemented by .NET</li>
 <li>JWT Token for access secure routes</li>
 <li>Refresh Token by HTTP only Cookie to generate new JWT Tokens</li>
