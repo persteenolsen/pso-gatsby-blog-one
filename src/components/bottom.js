@@ -11,7 +11,7 @@ export default function Bottom() {
        
       <div className={containerBottom}>
             
-	   A Blog made with Gatsby React and GraphQL	   
+	       AI and Machine Learning	   
 
       </div>
    

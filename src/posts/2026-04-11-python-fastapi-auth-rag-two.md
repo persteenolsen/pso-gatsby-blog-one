@@ -11,6 +11,8 @@ categories:
   - PostgreSQL
   - AI
   - Retrieval-Augmented Generation
+  - Groq
+  - Hugging Face
 tags:
   - python
   - fastapi
@@ -20,6 +22,8 @@ tags:
   - postgresql
   - ai
   - retrieval-augmented-generation
+  - groq
+  - hugging-face
 ---
 
 Python FastAPI with JWT Auth and OpenAPI / Swagger serving a RAG Application using Groq + Hugging Face embeddings - hosted at Vercel Cloud using Serverless Functions

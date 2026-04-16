@@ -11,6 +11,7 @@ categories:
   - PostgreSQL
   - AI
   - Retrieval-Augmented Generation
+  - Groq
 tags:
   - python
   - fastapi
@@ -20,6 +21,7 @@ tags:
   - postgresql
   - ai
   - retrieval-augmented-generation
+  - groq
 ---
 
 Python FastAPI with JWT Auth and OpenAPI / Swagger serving a RAG Application using Groq + Fake embeddings - hosted at Vercel Cloud using Serverless Functions
