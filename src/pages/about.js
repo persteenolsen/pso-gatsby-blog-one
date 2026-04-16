@@ -23,15 +23,15 @@ const About = () => {
             <Header />
             <Menu />
 
-            <title>About this Blog</title>
+            <title>About this AI Blog</title>
 
             <h2 className={heading}>{title}</h2>
 
-           	<b>The purpose of this Blog</b>
+           	<b>The purpose of this AI Blog</b>
 			<ul>
             <li>To get experience with AI, RAG and Machine Learning</li>
-            <li>Showing the Web Projects I am building by a fast and secure Blog</li>
-			<li>Help other developers building Web Projects by fork or download from my GitHub</li>
+            <li>Showing the AI Projects I am building by a fast and secure Blog</li>
+			<li>Help other developers building AI Projects by fork or download from my GitHub</li>
             <li>Let the readers of the Blog get to know me as well as my IT background</li>
             </ul>
                         

@@ -7,7 +7,7 @@
 module.exports = {
     siteMetadata: {
         title: `A Blog full of AI Projects`,
-        description: `The list of AIProjects`,
+        description: `The list of AI Projects`,
     },
     plugins: [
         {
