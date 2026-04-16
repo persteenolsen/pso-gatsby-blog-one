@@ -9,7 +9,6 @@ categories:
   - AI
   - Machine Learning
 tags:
-  - artificial-intelligence
   - machine-learning
   - ml-dot-net
   - c#
