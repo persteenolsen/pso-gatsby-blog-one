@@ -29,7 +29,7 @@ const About = () => {
 
            	<b>The purpose of this Blog</b>
 			<ul>
-            <li>To get experience with AI and Machine Learning</li>
+            <li>To get experience with AI, RAG and Machine Learning</li>
             <li>Showing the Web Projects I am building by a fast and secure Blog</li>
 			<li>Help other developers building Web Projects by fork or download from my GitHub</li>
             <li>Let the readers of the Blog get to know me as well as my IT background</li>
@@ -49,15 +49,6 @@ const About = () => {
 			</ul>
             
 
-            <b>Types of Tests performed making this Blog and the Web Projects</b>
-			<ul>
-			<li>Usability Tests to involve the future Users of the Blog and Projects with the goal of satisfied Users</li>
-            <li>End-to-end Tests or Functional Tests for making sure that the workflows work as expected. The authentication of a User could be an example</li>
-            <li>Integration Tests across several units to achieve their goals</li>
-            <li>Unit Test for testing functions or classes by supplying input and making sure the output is as expected</li>
-            </ul>
-
-
             <b>Main functionality</b>
             <ul>
             <li>The content of the Blog can be updated by GitHub or VS Code</li>
@@ -69,8 +60,6 @@ const About = () => {
             <li>One or more Tags can be added to each Project</li>
             <li>A Page showing all Categories found in the Projects and the number of Projects in which the Category appear</li>
             <li>A Page showing all Tags found in the Projects and the number of Projects in which the Tag appear</li>
-            <li>GraphQL - A query language</li>
-            <li>Routing by Gatsby and React</li>
             <li>Custom 404 Error page</li>
             <li>Serving static assets like images, styles and fonts</li>
             <li>Support for older Browsers including IE 11</li>

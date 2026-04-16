@@ -11,7 +11,7 @@ export default function Bottom() {
        
       <div className={containerBottom}>
             
-	       AI, RAG and Machine Learning	   
+	       AI - RAG - Machine Learning	   
 
       </div>
    
