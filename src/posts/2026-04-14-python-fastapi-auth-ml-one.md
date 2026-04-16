@@ -10,6 +10,7 @@ categories:
   - REST API
   - PostgreSQL
   - AI
+  - Machine Learning
 tags:
   - python
   - fastapi
@@ -18,6 +19,7 @@ tags:
   - devops
   - postgresql
   - ai
+  - machine-learning
 ---
 
 Python FastAPI with JWT Auth and OpenAPI / Swagger serving a simple ML Application Predicting House Prices - hosted at Vercel Cloud using Serverless Functions

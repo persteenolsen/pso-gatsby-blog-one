@@ -9,6 +9,7 @@ categories:
   - Vercel
   - REST API
   - AI
+  - AI Agent
 tags:
   - python
   - fastapi
@@ -16,6 +17,7 @@ tags:
   - rest-api
   - devops
   - ai
+  - ai-agent
 ---
 
 Python FastAPI with JWT Auth and OpenAPI / Swagger serving an AI Agent by Groq and Langchain - hosted at Vercel Cloud using Serverless Functions and implementing DevOps by GitHub + Vercel

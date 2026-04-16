@@ -10,6 +10,7 @@ categories:
   - REST API
   - PostgreSQL
   - AI
+  - RAG
 tags:
   - python
   - fastapi
@@ -18,6 +19,7 @@ tags:
   - devops
   - postgresql
   - ai
+  - rag
 ---
 
 Python FastAPI with JWT Auth and OpenAPI / Swagger serving a RAG Application using Groq + Fake embeddings - hosted at Vercel Cloud using Serverless Functions

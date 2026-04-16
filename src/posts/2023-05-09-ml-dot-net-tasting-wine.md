@@ -7,12 +7,14 @@ categories:
   - ML.NET
   - C#
   - AI
+  - Machine Learning
 tags:
   - artificial-intelligence
   - machine-learning
   - ml-dot-net
   - c#
   - ai
+  - machine-learning
 ---
 
 .NET 8 Console App for tasting wine using ML.NET with C#
