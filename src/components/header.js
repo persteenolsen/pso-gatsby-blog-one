@@ -27,9 +27,10 @@ export default function Header() {
 				<li className={headerNavLinkItem}>
 				    <Link className={headerNavLinkText} to="/">Home</Link> 
 				    <br /><br />
-				    <Link className={headerNavLinkText} to="/about">About this Blog</Link>
-
-                     <br /><br />
+				    					
+					 <a className={headerNavLinkText} href="https://persteenolsen.netlify.app" target="_blank" rel="noopener noreferrer">Web Projects</a>
+                      <br /><br />
+					  
 				     <Link className={headerNavLinkText} to="/posts/2022-05-10-my-cv/">My CV</Link>
 				</li>
 
