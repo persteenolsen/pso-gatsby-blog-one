@@ -6,11 +6,13 @@ categories:
   - .NET
   - ML.NET
   - C#
+  - AI
 tags:
   - artificial-intelligence
   - machine-learning
   - ml-dot-net
   - c#
+  - ai
 ---
 
 .NET 8 Console App to predict the global temperature using ML.NET with C#

@@ -31,7 +31,7 @@ const MyInfo = () => {
 			   <h2 className={heading}>{title}</h2>
 				
                 <h4>Per Steen Olsen</h4>				
-                <p>Web Developer</p>
+                <p>Software Developer</p>
 		        <p>Denmark</p>
                 
 			    <p><a href="https://linkedin.com/in/per-steen-olsen" target="_blank">Find me at Linkedin</a></p>

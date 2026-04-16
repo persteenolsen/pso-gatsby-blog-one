@@ -16,7 +16,7 @@ export default function Menu() {
 			<nav>
 				<ul className={navLinks}>
                     <li className={navLinkItem}>
-					Explore the Projects by >>
+					Explore the Projects by:
 					</li>
 					
 					<li className={navLinkItem}>
