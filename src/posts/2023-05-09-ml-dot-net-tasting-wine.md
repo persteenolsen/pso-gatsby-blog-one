@@ -1,6 +1,6 @@
 ---
 title: .NET 8 Machine Learning used for tasting wine
-date: 2026-03-16
+date: 2026-04-17
 published: true
 categories:
   - .NET
