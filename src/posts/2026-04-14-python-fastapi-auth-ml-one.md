@@ -10,7 +10,7 @@ categories:
   - REST API
   - PostgreSQL
   - AI
-  - Machine Learning
+  - Machine Learning (ML)
 tags:
   - python
   - fastapi

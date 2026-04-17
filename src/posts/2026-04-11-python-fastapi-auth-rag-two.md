@@ -10,7 +10,7 @@ categories:
   - REST API
   - PostgreSQL
   - AI
-  - Retrieval-Augmented Generation
+  - Retrieval-Augmented Generation (RAG)
   - Groq
   - Hugging Face
 tags:
