@@ -34,6 +34,8 @@ Python FastAPI with JWT Auth serving a RAG Application using Groq + fake embeddi
 
 A Starter FastAPI + JWT Auth + Retrieval-Augmented Generation (RAG) by Groq LLM + fake embeddings + OpenAPI / Swagger - secured by HTTPS
 
+A Postgres database was used with the pgvector extension
+
 During the development process, I used ChatGPT for assisting with code generation and Github Copilot for code inline suggestion
 
 DevOps by VS Code + GitHub + Vercel Cloud 
