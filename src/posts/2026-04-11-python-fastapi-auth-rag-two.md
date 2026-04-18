@@ -36,7 +36,7 @@ Python FastAPI with JWT Auth serving a RAG Application using Groq + Hugging Face
 
 A Starter FastAPI + JWT Auth + Retrieval-Augmented Generation (RAG) by Groq LLM + Real embeddings by Hugging Face model + OpenAPI / Swagger - secured by HTTPS
 
-A Postgres database was used with the pgvector extension
+A PostgreSQL database was used with the pgvector extension
 
 During the development process, I used ChatGPT for assisting with code generation and Github Copilot for code inline suggestion
 
