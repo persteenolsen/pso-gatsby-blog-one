@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth serving RAG by fake Embeddings
+title: Python FastAPI with JWT Auth serving RAG by fake Embeddings (v1)
 date: 2026-04-15
 published: true
 categories:
@@ -28,7 +28,7 @@ tags:
   - llm
 ---
 
-Python FastAPI with JWT Auth serving a RAG Application using Groq + fake embeddings - hosted at Vercel Cloud using Serverless Functions
+Python FastAPI with JWT Auth serving a RAG Application using Groq + fake embeddings (v1) - hosted at Vercel Cloud using Serverless Functions
 
 <p><a href="https://fastapi-jwt-auth-rag-one.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and RAG">Try the demo by OpenAPI...</a></p>
 

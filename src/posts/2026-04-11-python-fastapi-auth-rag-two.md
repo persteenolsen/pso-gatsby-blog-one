@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth serving RAG by Hugging Face embeddings
+title: Python FastAPI with JWT Auth serving RAG by Hugging Face embeddings (v2)
 date: 2026-04-15
 published: true
 categories:
@@ -30,7 +30,7 @@ tags:
   - llm
 ---
 
-Python FastAPI with JWT Auth serving a RAG Application using Groq + Hugging Face embeddings - hosted at Vercel Cloud using Serverless Functions
+Python FastAPI with JWT Auth serving a RAG Application using Groq + Hugging Face embeddings (v2) - hosted at Vercel Cloud using Serverless Functions
 
 <p><a href="https://fastapi-jwt-auth-rag-two.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and RAG pipeline">Try the demo by OpenAPI...</a></p>
 
