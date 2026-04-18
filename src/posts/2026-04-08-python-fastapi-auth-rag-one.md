@@ -12,6 +12,8 @@ categories:
   - AI
   - Retrieval-Augmented Generation (RAG)
   - Groq
+  - Embeddings
+  - LLM
 tags:
   - python
   - fastapi
@@ -22,6 +24,8 @@ tags:
   - ai
   - retrieval-augmented-generation
   - groq
+  - embeddings
+  - llm
 ---
 
 Python FastAPI with JWT Auth serving a RAG Application using Groq + fake embeddings - hosted at Vercel Cloud using Serverless Functions

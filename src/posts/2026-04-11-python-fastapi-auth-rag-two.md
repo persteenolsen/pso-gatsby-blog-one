@@ -13,6 +13,8 @@ categories:
   - Retrieval-Augmented Generation (RAG)
   - Groq
   - Hugging Face
+  - Embeddings
+  - LLM
 tags:
   - python
   - fastapi
@@ -24,6 +26,8 @@ tags:
   - retrieval-augmented-generation
   - groq
   - hugging-face
+  - embeddings
+  - llm
 ---
 
 Python FastAPI with JWT Auth serving a RAG Application using Groq + Hugging Face embeddings - hosted at Vercel Cloud using Serverless Functions

@@ -12,6 +12,7 @@ categories:
   - AI Agent
   - Groq
   - Langchain
+  - LLM
 tags:
   - python
   - fastapi
@@ -22,6 +23,7 @@ tags:
   - ai-agent
   - groq
   - langchain
+  - llm
 ---
 
 Python FastAPI with JWT Auth serving an AI Agent by Groq and Langchain - hosted at Vercel Cloud using Serverless Functions
