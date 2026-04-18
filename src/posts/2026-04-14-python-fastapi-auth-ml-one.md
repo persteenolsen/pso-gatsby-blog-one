@@ -20,7 +20,7 @@ tags:
   - machine-learning
 ---
 
-Python FastAPI with JWT Auth serving a simple Machine Learning Application Predicting House Prices - v1 - hosted at Vercel Cloud using Serverless Functions
+Python FastAPI with JWT Auth serving a simple Machine Learning Application Predicting House Prices (v1) - hosted at Vercel Cloud using Serverless Functions
 
 <p><a href="https://fastapi-jwt-auth-ml-one.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and ML">Try the demo by OpenAPI...</a></p>
 
