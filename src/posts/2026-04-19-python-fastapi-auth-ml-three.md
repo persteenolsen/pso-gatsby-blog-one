@@ -22,7 +22,7 @@ tags:
   - postgresql
 ---
 
-Python FastAPI with JWT Auth using PostgreSQL serving an extended Machine Learning Application Predicting House Prices (v3) - hosted at Vercel Cloud using Serverless Functions
+Python FastAPI with JWT Auth using PostgreSQL serving a Machine Learning Application Predicting House Prices (v3) - hosted at Vercel Cloud using Serverless Functions
 
 <p><a href="https://fastapi-jwt-auth-ml-three.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and ML">Try the demo by OpenAPI...</a></p>
 
