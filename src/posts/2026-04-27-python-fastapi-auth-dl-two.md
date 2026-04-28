@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving ML Inference API predicting house prices using Neural Network (v5)
-date: 2026-04-27
+date: 2026-04-28
 published: true
 categories:
   - Python
