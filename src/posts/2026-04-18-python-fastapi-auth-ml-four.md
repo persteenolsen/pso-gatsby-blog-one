@@ -26,7 +26,7 @@ tags:
 
 Python FastAPI with JWT Auth serving a Machine Learning Application with ONNX Predicting House Prices (v4) - hosted at Vercel Cloud using Serverless Functions
 
-<p><a href="https://fastapi-jwt-auth-onnx-ml-four.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and ML using ONNX">Try the demo by OpenAPI...</a></p>
+<p><a href="https://fastapi-jwt-auth-ml-four.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and ML using ONNX">Try the demo by OpenAPI...</a></p>
 
 A Starter FastAPI + JWT Auth + ML + ONNX + Predicting house prices + OpenAPI / Swagger - secured by HTTPS
 
@@ -34,7 +34,7 @@ During the development process, I used ChatGPT for assisting with code generatio
 
 DevOps by VS Code + GitHub + Vercel Cloud 
 
-<a href="https://github.com/persteenolsen/fastapi-jwt-auth-onnx-ml-four" target="_blank">
+<a href="https://github.com/persteenolsen/fastapi-jwt-auth-ml-four" target="_blank">
 The Web API at GitHub
 </a>
 
