@@ -11,6 +11,7 @@ categories:
   - AI
   - Machine Learning (ML)
   - PostgreSQL
+  - House Price Predicting
 tags:
   - python
   - fastapi
@@ -20,6 +21,7 @@ tags:
   - ai
   - machine-learning
   - postgresql
+  - house-price-predicting
 ---
 
 Python FastAPI with JWT Auth using PostgreSQL serving a Machine Learning Application Predicting House Prices (v3) - hosted at Vercel Cloud using Serverless Functions

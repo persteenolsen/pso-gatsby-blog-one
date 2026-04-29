@@ -12,6 +12,7 @@ categories:
   - Machine Learning (ML)
   - Deep Learning
   - ONNX
+  - House Price Predicting
 tags:
   - python
   - fastapi
@@ -22,6 +23,7 @@ tags:
   - machine-learning
   - deep-learning
   - onnx
+  - house-price-predicting
 ---
 
 Python FastAPI with JWT Auth serving a PyTorch-trained MLP model exported to ONNX serving Predicting House Prices using Ames Housing Dataset (v6) - hosted at Vercel Cloud using Serverless Functions

@@ -10,6 +10,7 @@ categories:
   - REST API
   - AI
   - Machine Learning (ML)
+  - House Price Predicting
 tags:
   - python
   - fastapi
@@ -18,6 +19,7 @@ tags:
   - devops
   - ai
   - machine-learning
+  - house-price-predicting
 ---
 
 Python FastAPI with JWT Auth serving a simple Machine Learning Application Predicting House Prices (v1) - hosted at Vercel Cloud using Serverless Functions

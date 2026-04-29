@@ -11,6 +11,7 @@ categories:
   - AI
   - Machine Learning (ML)
   - ONNX
+  - House Price Predicting
 tags:
   - python
   - fastapi
@@ -20,6 +21,7 @@ tags:
   - ai
   - machine-learning
   - onnx
+  - house-price-predicting
 ---
 
 Python FastAPI with JWT Auth serving a Machine Learning Application with ONNX Predicting House Prices (v4) - hosted at Vercel Cloud using Serverless Functions
