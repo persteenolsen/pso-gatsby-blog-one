@@ -28,6 +28,8 @@ tags:
 
 Python FastAPI with JWT Auth serving a PyTorch-trained MLP model exported to ONNX serving Predicting House Prices using Ames Housing Dataset (v6) - hosted at Vercel Cloud using Serverless Functions
 
+Things I learned: For Ames Housing Dataset which are tabular data using a Neural Network is not the best choice. My (v7) which is also using Ames Housing Dataset performs better using Linear Regression
+
 <p><a href="https://fastapi-jwt-auth-dl-three.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and DL using ONNX">Try the demo by OpenAPI...</a></p>
 
 A Starter FastAPI + JWT Auth + DL + ONNX + House Price Predicting + Ames Housing Real Dataset + Neural Network + OpenAPI / Swagger - secured by HTTPS
