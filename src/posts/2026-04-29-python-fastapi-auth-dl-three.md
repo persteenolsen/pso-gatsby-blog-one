@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving ML Inference API predicting house prices using Ames Dataset and Neural Network (v6)
-date: 2026-04-30
+date: 2026-05-01
 published: true
 categories:
   - Python
@@ -28,7 +28,7 @@ tags:
 
 Python FastAPI with JWT Auth serving a PyTorch-trained MLP model exported to ONNX serving Predicting House Prices using Ames Housing Dataset (v6) - hosted at Vercel Cloud using Serverless Functions
 
-Things I learned: For Ames Housing Dataset which are tabular data using a Neural Network is not the best choice. My (v7) which is also using Ames Housing Dataset performs better using Linear Regression
+Things I learned: For Ames Housing Dataset which are tabular data using a Neural Network was a great learning experience. My (v7) which is also using Ames Housing Dataset performs "better" using Linear Regression, but both are great :-) 
 
 <p><a href="https://fastapi-jwt-auth-dl-three.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and DL using ONNX">Try the demo by OpenAPI...</a></p>
 
