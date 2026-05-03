@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving ML Inference API - XOR Neural Network
-date: 2026-04-25
+date: 2026-05-03
 published: true
 categories:
   - Python
