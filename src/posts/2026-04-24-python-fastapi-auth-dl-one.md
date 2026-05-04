@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving ML Inference API solving the XOR Problem by PyTorch
-date: 2026-05-03
+date: 2026-05-02
 published: true
 categories:
   - Python
