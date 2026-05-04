@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth predicting house prices by Machine Learning (v3)
+title: Python FastAPI with JWT Auth predicting house prices by Machine Learning using Linear Regression (v3)
 date: 2026-04-20
 published: true
 categories:
@@ -24,11 +24,11 @@ tags:
   - house-price-predicting
 ---
 
-Python FastAPI with JWT Auth using PostgreSQL serving a Machine Learning Application Predicting House Prices (v3) - hosted at Vercel Cloud using Serverless Functions
+Python FastAPI with JWT Auth using PostgreSQL serving a Machine Learning Application Predicting House Prices using Linear Regression (v3) - hosted at Vercel Cloud using Serverless Functions
 
 <p><a href="https://fastapi-jwt-auth-ml-three.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and ML">Try the demo by OpenAPI...</a></p>
 
-A Starter FastAPI + JWT Auth + PostgreSQL + ML Predicting house prices + OpenAPI / Swagger - secured by HTTPS
+A Starter FastAPI + JWT Auth + PostgreSQL + ML + Linear Regression + Predicting house prices + OpenAPI / Swagger - secured by HTTPS
 
 During the development process, I used ChatGPT for assisting with code generation and Github Copilot for code inline suggestion
 
