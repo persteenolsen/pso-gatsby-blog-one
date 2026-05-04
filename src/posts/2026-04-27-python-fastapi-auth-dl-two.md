@@ -28,7 +28,7 @@ tags:
   - pytorch
 ---
 
-Python FastAPI with JWT Auth serving a PyTorch-trained MLP model exported to ONNX serving Predicting House Prices (v5) - hosted at Vercel Cloud using Serverless Functions
+Python FastAPI with JWT Auth serving a PyTorch-trained MLP model exported to ONNX predicting House Prices (v5) - hosted at Vercel Cloud using Serverless Functions
 
 This version is like v4 but the model is trained by Pytorch instead for using Linear Regression
 
