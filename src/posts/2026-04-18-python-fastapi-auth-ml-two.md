@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth predicting house prices by Machine Learning using Linear Regression (v2)
-date: 2026-04-20
+date: 2026-04-19
 published: true
 categories:
   - Python
