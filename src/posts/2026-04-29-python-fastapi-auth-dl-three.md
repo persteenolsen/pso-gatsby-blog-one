@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving ML Inference API predicting house prices using Ames Dataset and Neural Network (v6)
-date: 2026-05-03
+date: 2026-05-04
 published: true
 categories:
   - Python
