@@ -24,6 +24,8 @@ tags:
 
 Python FastAPI with JWT Auth serving a Machine Learning Application Predicting House Prices using Linear Regression (v2) - hosted at Vercel Cloud using Serverless Functions
 
+This version predict the house price by size, number of rooms, year built, location and condition and saves the model in pkl 
+
 <p><a href="https://fastapi-jwt-auth-ml-two.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and ML">Try the demo by OpenAPI...</a></p>
 
 A Starter FastAPI + JWT Auth + ML + Linear Regression + Predicting house prices + OpenAPI / Swagger - secured by HTTPS

@@ -26,6 +26,8 @@ tags:
 
 Python FastAPI with JWT Auth serving a Machine Learning Application using Linear Regression and ONNX Predicting House Prices (v4) - hosted at Vercel Cloud using Serverless Functions
 
+This version predict the house price by size, number of rooms, year built, location and condition and saves the model in ONNX. This format is great for Vercel Serverless as well as other platforms
+
 <p><a href="https://fastapi-jwt-auth-ml-four.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and ML using ONNX">Try the demo by OpenAPI...</a></p>
 
 A Starter FastAPI + JWT Auth + ML + Linear Regression + ONNX + Predicting house prices + OpenAPI / Swagger - secured by HTTPS

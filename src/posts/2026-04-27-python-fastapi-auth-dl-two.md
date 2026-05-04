@@ -30,6 +30,8 @@ tags:
 
 Python FastAPI with JWT Auth serving a PyTorch-trained MLP model exported to ONNX serving Predicting House Prices (v5) - hosted at Vercel Cloud using Serverless Functions
 
+This version is like v4 but the model is trained by Pytorch instead for using Linear Regression
+
 <p><a href="https://fastapi-jwt-auth-dl-two.vercel.app/docs" target="_blank" title="FastAPI serving JWT Auth and DL using ONNX">Try the demo by OpenAPI...</a></p>
 
 A Starter FastAPI + JWT Auth + Deep Learning + ONNX + House Price Predicting + OpenAPI / Swagger - secured by HTTPS
