@@ -50,8 +50,8 @@ DevOps by VS Code + GitHub + Vercel Cloud
 The Web API at GitHub
 </a></p>
 
-<p><a href="https://github.com/persteenolsen/vue-fastapi-jwt-auth-dl-four" target="_blank">
+<a href="https://github.com/persteenolsen/vue-fastapi-jwt-auth-dl-four" target="_blank">
 The Vue SPA at GitHub
-</a></p>
+</a>
 
 
