@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth serving House Price Predicting using the Ames Housing Dataset and Linear Regression (v7)
+title: Python FastAPI with JWT Auth serving House Price Predicting using Classic Machine Learning with the Ames Housing Datase (v7)
 date: 2026-05-06
 published: true
 categories:
@@ -24,7 +24,7 @@ tags:
   - house-price-predicting
 ---
 
-Python FastAPI with JWT Auth prediction House Prices (v7) - hosted at Vercel Cloud using Serverless Functions
+Python FastAPI with JWT Auth prediction House Prices using Linear Regression (v7) - hosted at Vercel Cloud using Serverless Functions
 
 This version is using the Ames Housing Dataset predicting houce prices by a model trained by Linear Regression exported to ONNX format ready for running at various platforms
 
