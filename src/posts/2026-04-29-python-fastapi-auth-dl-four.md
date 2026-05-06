@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth serving a final vervion of House Price Predicting focusing on Tests (v8)
+title: Python FastAPI with JWT Auth serving House Price Predicting focusing on Tests using PyTorch (v8)
 date: 2026-05-06
 published: true
 categories:
