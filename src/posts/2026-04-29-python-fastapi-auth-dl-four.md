@@ -38,7 +38,7 @@ This version is using the Ames Housing Dataset predicting houce prices by a PyTo
 
 <p><a href="https://fastapi-jwt-auth-dl-four.vercel.app/docs" target="_blank" title="FastAPI predicting house prices by PyTorch">Try the demo by OpenAPI...</a></p>
 
-<p><a href="https://vue.fastapi.jwt.auth.dl.four.persteenolsen.com" target="_blank" title="FastAPI predicting house prices by PyTorch">Try the demo by a Vue Client...</a></p>
+<p><a href="https://vue.fastapi.jwt.auth.dl.four.persteenolsen.com" target="_blank" title="FastAPI predicting house prices by PyTorch">Try the demo by a Vue 3 SPA...</a></p>
 
 A Starter FastAPI + JWT Auth + Deep Learning + Tests + ONNX + House Price Predicting + Ames Housing Dataset + OpenAPI / Swagger + Vue SPA - secured by HTTPS
 
@@ -46,12 +46,12 @@ During the development process, I used ChatGPT for assisting with code generatio
 
 DevOps by VS Code + GitHub + Vercel Cloud 
 
-<a href="https://github.com/persteenolsen/fastapi-jwt-auth-dl-four" target="_blank">
+<p><a href="https://github.com/persteenolsen/fastapi-jwt-auth-dl-four" target="_blank">
 The Web API at GitHub
-</a>
+</a></p>
 
-<a href="https://github.com/persteenolsen/vue-fastapi-jwt-auth-dl-four" target="_blank">
+<p><a href="https://github.com/persteenolsen/vue-fastapi-jwt-auth-dl-four" target="_blank">
 The Vue SPA at GitHub
-</a>
+</a></p>
 
 
