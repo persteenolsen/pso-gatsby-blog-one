@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth serving House Price Predicting using PyTorch (v8)
+title: Python FastAPI with JWT Auth serving House Price Predicting using the Ames Housing Dataset and PyTorch (v8)
 date: 2026-05-06
 published: true
 categories:
