@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving House Price Predicting using Deep Learning with the Ames Housing Dataset (v8)
-date: 2026-05-06
+date: 2026-05-07
 published: true
 categories:
   - Python
@@ -34,7 +34,7 @@ tags:
 
 Python FastAPI with JWT Auth predicting House Prices using PyTorch and focusing on Tests (v8) - hosted at Vercel Cloud using Serverless Functions
 
-This version is using the Ames Housing Dataset predicting houce prices by a PyTorch-trained MLP model exported to ONNX format ready for running at various platforms and focusing of different kinds of Tests
+This version is using the Ames Housing Dataset predicting houce prices by a PyTorch-trained MLP model exported to ONNX format ready for running at various platforms and focusing of different kinds of Tests and a Vue 3 SPA
 
 <p><a href="https://fastapi-jwt-auth-dl-four.vercel.app/docs" target="_blank" title="FastAPI predicting house prices by PyTorch">Try the demo by OpenAPI...</a></p>
 
