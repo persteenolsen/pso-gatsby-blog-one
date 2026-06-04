@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving an AI Agent
-date: 2026-04-15
+date: 2026-06-04
 published: true
 categories:
   - Python
