@@ -27,9 +27,9 @@ tags:
 ---
 
 
-Python FastAPI with JWT Auth serving an AI Agent - hosted at Render Cloud by Webservice
+Python FastAPI with JWT Auth serving a Tool using AI Agent - hosted at Render Cloud by Webservice
 
-The AI Agent was created with a minimum of Langchain
+The AI Agent was created with a minimum of Langchain with Wikipedia and Calculator Tools available
 
 <p><a href="https://fastapi-jwt-auth-ai-agent-two.onrender.com/docs" target="_blank" title="FastAPI JWT Auth and an AI Agent">Try the demo by OpenAPI...</a></p>
 
@@ -37,7 +37,7 @@ A Starter FastAPI + JWT Auth + AI Agent + OpenAPI / Swagger - secured by HTTPS
 
 During the development process, I used ChatGPT for assisting with code generation and Github Copilot for code inline suggestion
 
-DevOps by VS Code + GitHub + Vercel Cloud 
+DevOps by VS Code + GitHub + Render Cloud 
 
 <a href="https://github.com/persteenolsen/fastapi-jwt-auth-ai-agent-two" target="_blank">
 The Web API at GitHub
