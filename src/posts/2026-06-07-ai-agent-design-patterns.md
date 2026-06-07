@@ -14,9 +14,10 @@ tags:
   - llm
 ---
 
-<div>AI Agent Design Patterns</div>
+<p>AI Agent Design Patterns</p>
 
-<div>ReAct (Reason + Act)</div>
+<p><b>ReAct (Reason + Act)</b></p>
+
 <p>Concept: Alternate between reasoning steps and taking actions (tool calls, API calls, etc.)</p>
 <p>Flow:</p>
 <ol>
@@ -27,7 +28,8 @@ tags:
 <p>Strengths: Multi-step problem solving, tool orchestration, grounded responses</p>
 <p>Use case: Complex question answering, multi-tool agents, decision-making systems</p>
 
-<div>Tool-Calling / Tool-Augmented Agents</div>
+<p><b>Tool-Calling / Tool-Augmented Agents</b></p>
+
 <p>Concept: The LLM acts as a controller that decides whether to call external tools</p>
 <p>Flow:</p>
 <ol>
@@ -39,13 +41,15 @@ tags:
 <p>Strengths: Reduces hallucinations, improves grounding, enables use of APIs and external systems</p>
 <p>Use case: Wikipedia-style assistants, math solvers, structured data retrieval</p>
 
-<div>Reflex / Reactive Agents</div>
+<p><b>Reflex / Reactive Agents</b></p>
+
 <p>Concept: Immediate response without planning or multi-step reasoning</p>
 <p>Flow: Input → Response</p>
 <p>Strengths: Very fast, low complexity, low cost</p>
 <p>Use case: Chatbots, simple Q&A systems</p>
 
-<div>Plan-and-Execute / Hierarchical Planning Agents</div>
+<p><b>Plan-and-Execute / Hierarchical Planning Agents</b></p>
+
 <p>Concept: The agent first creates a plan, then executes steps sequentially</p>
 <p>Flow:</p>
 <ol>
@@ -56,7 +60,8 @@ tags:
 <p>Strengths: Strong for complex workflows and multi-step tasks</p>
 <p>Use case: Automation systems, workflow orchestration, research agents</p>
 
-<div>Debate / Self-Reflection Agents</div>
+<p><b>Debate / Self-Reflection Agents</b></p>
+
 <p>Concept: Multiple candidate outputs are generated and evaluated before final selection</p>
 <p>Flow:</p>
 <ol>
@@ -67,7 +72,8 @@ tags:
 <p>Strengths: Reduces errors, improves reliability, reduces hallucinations</p>
 <p>Use case: Code review, summarization, high-accuracy Q&A</p>
 
-<div>Memory-Augmented Agents</div>
+<p><b>Memory-Augmented Agents</b></p>
+
 <p>Concept: The agent stores and retrieves long-term memory to maintain context</p>
 <p>Flow:</p>
 <ol>
