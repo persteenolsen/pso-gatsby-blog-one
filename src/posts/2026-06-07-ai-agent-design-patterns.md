@@ -14,8 +14,6 @@ tags:
   - llm
 ---
 
-<p>AI Agent Design Patterns</p>
-
 <p><b>ReAct (Reason + Act)</b></p>
 
 <p>Concept: Alternate between reasoning steps and taking actions (tool calls, API calls, etc.)</p>
