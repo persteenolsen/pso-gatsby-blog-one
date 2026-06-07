@@ -28,7 +28,7 @@ tags:
 
 Python FastAPI with JWT Auth serving an AI Agent by Groq and Langchain - hosted at Vercel Cloud using Serverless Functions
 
-The AI Agent was created by using a lot of Langchain with Wikipedia Tool available
+The AI agent was built with LangChain, with access to a Wikipedia tool, and follows the ReAct (Reasoning + Acting) pattern
 
 <p><a href="https://fastapi-jwt-auth-ai-agent-one.vercel.app/docs" target="_blank" title="FastAPI JWT Auth and an AI Agent">Try the demo by OpenAPI...</a></p>
 

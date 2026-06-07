@@ -29,7 +29,7 @@ tags:
 
 Python FastAPI with JWT Auth serving a Tool using AI Agent - hosted at Render Cloud by Webservice
 
-The AI Agent was created with a minimum of Langchain with Wikipedia and Calculator Tools available
+The AI agent, using minimal LangChain, follows a tool-calling pattern with access to Wikipedia and a calculator
 
 <p><a href="https://fastapi-jwt-auth-ai-agent-two.onrender.com/docs" target="_blank" title="FastAPI JWT Auth and an AI Agent">Try the demo by OpenAPI...</a></p>
 
