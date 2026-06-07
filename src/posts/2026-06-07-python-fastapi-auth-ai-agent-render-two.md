@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth serving an AI Agent hosted at Render 
+title: Python FastAPI with JWT Auth serving an AI Agent using a minimum of Langchain
 date: 2026-06-07
 published: true
 categories:
@@ -27,7 +27,7 @@ tags:
 ---
 
 
-Python FastAPI with JWT Auth serving an AI Agent - hosted at Render Cloud using Serverless Functions
+Python FastAPI with JWT Auth serving an AI Agent - hosted at Render Cloud by Webservice
 
 The AI Agent was created with a minimum of Langchain
 

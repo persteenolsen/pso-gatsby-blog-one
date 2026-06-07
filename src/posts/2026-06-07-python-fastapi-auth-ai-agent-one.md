@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth serving an AI Agent
+title: Python FastAPI with JWT Auth serving an AI Agent using a lot of Langchain
 date: 2026-06-07
 published: true
 categories:
@@ -27,6 +27,8 @@ tags:
 ---
 
 Python FastAPI with JWT Auth serving an AI Agent by Groq and Langchain - hosted at Vercel Cloud using Serverless Functions
+
+The AI Agent was created by using a lot of Langchain
 
 <p><a href="https://fastapi-jwt-auth-ai-agent-one.vercel.app/docs" target="_blank" title="FastAPI JWT Auth and an AI Agent">Try the demo by OpenAPI...</a></p>
 
