@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving an AI Agent using a minimum of Langchain
-date: 2026-06-07
+date: 2026-06-08
 published: true
 categories:
   - Python
