@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving a LangChain ReAct AI Agent
-date: 2026-06-09
+date: 2026-06-10
 published: true
 categories:
   - Python
