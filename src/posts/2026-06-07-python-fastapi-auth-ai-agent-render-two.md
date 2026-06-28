@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving a Tool-Calling AI Agent
-date: 2026-06-27
+date: 2026-06-28
 published: true
 categories:
   - Python
@@ -29,7 +29,7 @@ tags:
 
 Python FastAPI with JWT Auth serving a Tool using AI Agent - hosted at Render Cloud by Webservice
 
-The AI agent, using minimal LangChain, follows a tool-calling pattern where the LLM decides which tools to use, with access to Wikipedia and a calculator
+The AI agent implements a modern 3-phase Tool Agent Pipeline (Plan → Execute → Synthesize) where tools are safely selected, executed, and used to generate grounded responses using a minimal of Langchain
 
 <p><a href="https://fastapi-jwt-auth-ai-agent-two.onrender.com/docs" target="_blank" title="FastAPI JWT Auth and an AI Agent">Try the demo by OpenAPI...</a></p>
 
