@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving RAG by fake Embeddings (v1)
-date: 2026-04-15
+date: 2026-06-29
 published: true
 categories:
   - Python
