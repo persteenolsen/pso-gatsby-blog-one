@@ -1,5 +1,5 @@
 ---
-title: Python FastAPI with JWT Auth serving a LangChain ReAct AI Agent
+title: Python FastAPI with JWT Auth serving a ReAct-inspired AI agent system using LangChain
 date: 2026-07-01
 published: true
 categories:
@@ -26,13 +26,13 @@ tags:
   - llm
 ---
 
-Python FastAPI with JWT Auth serving an AI Agent by Groq and Langchain - hosted at Vercel Cloud using Serverless Functions
+Python FastAPI with JWT Auth serving a ReAct-inspired AI agent system using LangChain - hosted at Vercel Cloud using Serverless Functions
 
-The AI agent is built with LangChain and follows a lightweight ReAct-style pipeline. A simple router decides when to use a Wikipedia tool, which retrieves and selects relevant information before the model generates the final answer
+The AI agent system is built with LangChain and follows a lightweight ReAct-inspired flow. A simple router determines when to use a Wikipedia tool, and the retrieved context is passed to the model to generate the final answer
 
 <p><a href="https://fastapi-jwt-auth-ai-agent-one.vercel.app/docs" target="_blank" title="FastAPI JWT Auth and an AI Agent">Try the demo by OpenAPI...</a></p>
 
-A Starter FastAPI + JWT Auth + AI Agent + Groq + LLM + Langchain + OpenAPI / Swagger - secured by HTTPS
+A Starter FastAPI + JWT Auth + AI Agent system + Groq + LLM + Langchain + OpenAPI / Swagger - secured by HTTPS
 
 During the development process, I used ChatGPT for assisting with code generation and Github Copilot for code inline suggestion
 
