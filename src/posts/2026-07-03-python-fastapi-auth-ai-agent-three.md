@@ -31,7 +31,7 @@ Python FastAPI with JWT Auth serving a Tool-Calling AI Agent using LangChain - h
 
 A production-style FastAPI backend built with LangChain, Groq LLMs, and JWT authentication. The system implements a modern tool-calling AI agent architecture that automatically decides when to use external tools such as Wikipedia for factual retrieval
 
-<p><a href="https://fastapi-jwt-auth-ai-agent-three.vercel.app/docs" target="_blank" title="FastAPI JWT Auth serving a AI Agent">Try the demo by OpenAPI...</a></p>
+<p><a href="https://fastapi-jwt-auth-ai-agent-three.vercel.app/docs" target="_blank" title="FastAPI with JWT Auth serving a AI Agent">Try the demo by OpenAPI...</a></p>
 
 A Starter FastAPI + JWT Auth + LangChain + AI Agent + OpenAPI / Swagger - secured by HTTPS
 
