@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving a ReAct-inspired AI agent system
-date: 2026-07-01
+date: 2026-07-03
 published: true
 categories:
   - Python
