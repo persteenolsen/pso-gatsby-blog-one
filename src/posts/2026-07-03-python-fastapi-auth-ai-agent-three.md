@@ -27,8 +27,7 @@ tags:
 ---
 
 
-Python FastAPI with JWT Auth serving a Tool using AI Agent using LangChain - hosted at Vercel Cloud using Serverless Functions
-
+Python FastAPI with JWT Auth serving a Tool-Calling AI Agent using LangChain - hosted at Vercel Cloud using Serverless Functions
 
 A production-style FastAPI backend built with LangChain, Groq LLMs, and JWT authentication. The system implements a modern tool-calling AI agent architecture that automatically decides when to use external tools such as Wikipedia for factual retrieval
 

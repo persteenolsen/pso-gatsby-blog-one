@@ -27,11 +27,11 @@ tags:
 ---
 
 
-Python FastAPI with JWT Auth serving a Tool using AI Agent - hosted at Render Cloud by Webservice
+Python FastAPI with JWT Auth serving a Tool-Calling AI Agent - hosted at Render Cloud by Webservice
 
 The AI agent implements a modern 3-phase Tool Agent Pipeline (Plan → Execute → Synthesize) where tools are safely selected, executed, and used to generate grounded responses using a minimal of Langchain
 
-<p><a href="https://fastapi-jwt-auth-ai-agent-two.onrender.com/docs" target="_blank" title="FastAPI JWT Auth and an AI Agent">Try the demo by OpenAPI...</a></p>
+<p><a href="https://fastapi-jwt-auth-ai-agent-two.onrender.com/docs" target="_blank" title="FastAPI JWT Auth serving an AI Agent">Try the demo by OpenAPI...</a></p>
 
 A Starter FastAPI + JWT Auth + AI Agent + OpenAPI / Swagger - secured by HTTPS
 
