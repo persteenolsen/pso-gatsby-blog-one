@@ -28,9 +28,9 @@ tags:
 
 Python FastAPI with JWT Auth serving a ReAct-inspired AI agent system - hosted at Vercel Cloud using Serverless Functions
 
-The AI agent system is built with LangChain and follows a lightweight ReAct-inspired flow. A simple router determines when to use a Wikipedia tool, and the retrieved context is passed to the model to generate the final answer using a minimal of Langchain
+The AI agent system is follows a lightweight ReAct-inspired flow. A simple router determines when to use a Wikipedia tool, and the retrieved context is passed to the model to generate the final answer using a minimal of Langchain
 
-<p><a href="https://fastapi-jwt-auth-ai-agent-one.vercel.app/docs" target="_blank" title="FastAPI JWT Auth and an AI Agent">Try the demo by OpenAPI...</a></p>
+<p><a href="https://fastapi-jwt-auth-ai-agent-one.vercel.app/docs" target="_blank" title="FastAPI JWT Auth serving a AI Agent system">Try the demo by OpenAPI...</a></p>
 
 A Starter FastAPI + JWT Auth + AI Agent system + OpenAPI / Swagger - secured by HTTPS
 
