@@ -11,7 +11,6 @@ categories:
   - Vercel
   - REST API
   - Vue 3
-  - Vite
   - Tests
 tags:
   - python
@@ -22,7 +21,6 @@ tags:
   - rest-api
   - devops
   - vue-3
-  - vite
   - tests
 ---
 
