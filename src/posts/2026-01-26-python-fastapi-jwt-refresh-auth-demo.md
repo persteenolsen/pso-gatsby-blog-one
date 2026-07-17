@@ -3,25 +3,9 @@ title: Python FastAPI with PostgreSQL JWT Authentication using Refresh Token Ren
 date: 2026-07-14
 published: true
 categories:
-  - Python
-  - FastAPI
-  - FastAPI Auth Starters
-  - DevOps
-  - PostgreSQL
-  - Vercel
-  - REST API
-  - Vue 3
-  - Tests
+  - FastAPI Auth Use Cases
 tags:
-  - python
-  - fastapi
-  - fastapi-auth-starters
-  - postgresql
-  - vercel
-  - rest-api
-  - devops
-  - vue-3
-  - tests
+  - fastapi-auth-use-cases
 ---
 
 A production-style starter project showcasing secure JWT authentication with Refresh Token Renewal. It includes OpenAPI / Swagger, SQLAlchemy, Alembic, PostgreSQL, and is hosted on Vercel Cloud with Serverless Functions using a GitHub-based CI/CD workflow

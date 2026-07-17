@@ -3,25 +3,9 @@ title: Python FastAPI with PostgreSQL and JWT Authentication
 date: 2026-07-14
 published: true
 categories:
-  - Python
-  - FastAPI
-  - FastAPI Auth Starters
-  - DevOps
-  - PostgreSQL
-  - Vercel
-  - REST API
-  - Vue 3
-  - Tests
+  - FastAPI Auth Use Cases
 tags:
-  - python
-  - fastapi
-  - fastapi-auth-starters
-  - postgresql
-  - vercel
-  - rest-api
-  - devops
-  - vue-3
-  - tests
+  - fastapi-auth-use-cases
 ---
 
 A starter project showcasing secure JWT authentication. It includes OpenAPI / Swagger, SQLAlchemy, Alembic, PostgreSQL, and is hosted on Vercel Cloud with Serverless Functions using a GitHub-based CI/CD workflow
