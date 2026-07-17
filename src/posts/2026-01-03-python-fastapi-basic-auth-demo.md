@@ -8,7 +8,7 @@ tags:
   - fastapi-authentication-use-cases
 ---
 
-A production-style starter project showcasing HTTP Basic authentication. It includes OpenAPI / Swagger, SQLAlchemy, Alembic, PostgreSQL, and is hosted on Vercel Cloud with Serverless Functions using a GitHub-based CI/CD workflow
+A starter project showcasing HTTP Basic authentication. It includes OpenAPI / Swagger, SQLAlchemy, Alembic, PostgreSQL, and is hosted on Vercel Cloud with Serverless Functions using a GitHub-based CI/CD workflow
 
 The included Vue 3 SPA supports silent authentication, allowing users to stay signed in even after refreshing the browser
 
