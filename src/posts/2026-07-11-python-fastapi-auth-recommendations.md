@@ -23,7 +23,7 @@ The right choice depends on the security requirements, application type, and des
 1. HTTP Basic Authentication
 </p>
 
-<p><a href="https://persteenolsen.netlify.app/posts/2026-01-03-python-fastapi-basic-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
+<p><a href="https://persteenolsen.vercel.app/posts/2026-01-03-python-fastapi-basic-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
 
 <p>
 Recommended for:
@@ -63,7 +63,7 @@ Not recommended for:
 </p>
 
 
-<p><a href="https://persteenolsen.netlify.app/posts/2025-12-19-python-fastapi-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
+<p><a href="https://persteenolsen.vercel.app/posts/2025-12-19-python-fastapi-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
 
 <p>
 Recommended for:
@@ -112,7 +112,7 @@ Limitations:
 3. JWT Refresh Token Renewal
 </p>
 
-<p><a href="https://persteenolsen.netlify.app/posts/2026-01-26-python-fastapi-jwt-refresh-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
+<p><a href="https://persteenolsen.vercel.app/posts/2026-01-26-python-fastapi-jwt-refresh-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
 
 <p>
 Recommended for:
@@ -161,7 +161,7 @@ Limitations:
 </p>
 
 
-<p><a href="https://persteenolsen.netlify.app/posts/2026-07-07-python-fastapi-jwt-rotation-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
+<p><a href="https://persteenolsen.vercel.app/posts/2026-07-07-python-fastapi-jwt-rotation-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
 
 <p>
 Recommended for:
@@ -210,7 +210,7 @@ Limitations:
 </p>
 
 
-<p><a href="https://persteenolsen.netlify.app/posts/2026-07-08-python-fastapi-jwt-reuse-detection-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
+<p><a href="https://persteenolsen.vercel.app/posts/2026-07-08-python-fastapi-jwt-reuse-detection-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
 
 <p>
 Recommended for:
@@ -257,7 +257,7 @@ Limitations:
 6. Refresh Token Reuse Detection with HTTP-only Cookies
 </p>
 
-<p><a href="https://persteenolsen.netlify.app/posts/2026-07-09-python-fastapi-jwt-reuse-detection-httponly-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
+<p><a href="https://persteenolsen.vercel.app/posts/2026-07-09-python-fastapi-jwt-reuse-detection-httponly-auth-demo/" target="_top" title="FastAPI Authentication Recommencations and Use Cases">My Project...</a></p>
 
 <p>
 Recommended for:

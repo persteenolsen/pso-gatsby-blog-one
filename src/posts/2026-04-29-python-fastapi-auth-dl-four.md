@@ -15,7 +15,7 @@ categories:
   - House Price Predicting
   - PyTorch
   - Tests
-  - Vue
+  - Vue 3
 tags:
   - python
   - fastapi
@@ -29,7 +29,7 @@ tags:
   - house-price-predicting
   - pytorch
   - tests
-  - vue
+  - vue-3
 ---
 
 Python FastAPI with JWT Auth predicting House Prices using PyTorch and focusing on Tests (v8) - hosted at Vercel Cloud using Serverless Functions
