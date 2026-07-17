@@ -3,12 +3,12 @@ title: Python FastAPI with PostgreSQL and HTTP Basic Authentication
 date: 2026-07-14
 published: true
 categories:
-  - FastAPI Auth Use Cases
+  - FastAPI Authentication Use Cases
 tags:
-  - fastapi-auth-use-cases
+  - fastapi-authentication-use-cases
 ---
 
-A starter project showcasing HTTP Basic authentication. It includes OpenAPI / Swagger, SQLAlchemy, Alembic, PostgreSQL, and is hosted on Vercel Cloud with Serverless Functions using a GitHub-based CI/CD workflow
+A production-style starter project showcasing HTTP Basic authentication. It includes OpenAPI / Swagger, SQLAlchemy, Alembic, PostgreSQL, and is hosted on Vercel Cloud with Serverless Functions using a GitHub-based CI/CD workflow
 
 The included Vue 3 SPA supports silent authentication, allowing users to stay signed in even after refreshing the browser
 
