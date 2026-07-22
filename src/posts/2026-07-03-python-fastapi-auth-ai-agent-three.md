@@ -50,7 +50,7 @@ The Web API at GitHub
 </a></p>
 
 <a href="https://github.com/persteenolsen/vue-fastapi-jwt-auth-ai-agent-three" target="_blank">
-The Vue SPA at GitHub
+The Vue SPA at GitHub</a>
 
 
 
