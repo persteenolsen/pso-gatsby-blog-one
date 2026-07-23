@@ -39,7 +39,7 @@ A production-style FastAPI backend built with LangChain, Groq LLMs, and JWT auth
 
 <p><a href="https://vue.fastapi.jwt.auth.ai.agent.three.persteenolsen.com" target="_blank" title="FastAPI with JWT Auth serving a AI Agent">Try the demo by Vue 3 SPA...</a></p>
 
-A Starter FastAPI + JWT Auth + LangChain + AI Agent + Vue 3 SPA + OpenAPI / Swagger - secured by HTTPS
+A Starter FastAPI + JWT Auth + AI Agent + LangChain + Vue 3 + OpenAPI / Swagger - secured by HTTPS
 
 During the development process, I used ChatGPT for assisting with code generation and Github Copilot for code inline suggestion
 
