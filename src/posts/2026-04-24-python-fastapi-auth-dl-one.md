@@ -10,7 +10,7 @@ categories:
   - REST API
   - AI
   - Machine Learning (ML)
-  - Deep Learning
+  - Deep Learning (DL)
   - ONNX
   - PyTorch
 tags:
