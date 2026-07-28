@@ -11,7 +11,7 @@ export default function Bottom() {
        
       <div className={containerBottom}>
             
-	       AI - ML - DL - RAG - Agentic AI  
+	       ML - DL - RAG - Agentic AI  
 
       </div>
    
