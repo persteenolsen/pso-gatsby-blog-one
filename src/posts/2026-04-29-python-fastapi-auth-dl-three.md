@@ -9,8 +9,8 @@ categories:
   - Vercel
   - REST API
   - AI
-  - Machine Learning (ML)
-  - Deep Learning (DL)
+  - Machine Learning
+  - Deep Learning
   - ONNX
   - House Price Predicting
   - PyTorch

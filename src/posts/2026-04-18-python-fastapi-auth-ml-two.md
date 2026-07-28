@@ -9,7 +9,7 @@ categories:
   - Vercel
   - REST API
   - AI
-  - Machine Learning (ML)
+  - Machine Learning
   - House Price Predicting
 tags:
   - python
