@@ -11,7 +11,7 @@ export default function Bottom() {
        
       <div className={containerBottom}>
             
-	       Machine Learning - Deep Learning - RAG - Agentic AI  
+	       Software Developer - Per Olsen - Denmark  
 
       </div>
    
