@@ -27,20 +27,11 @@ export default function Menu() {
 						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/listtags">Tags</Link> |
 					</li>
                     
-					
 					<li className={navLinkItem}>
-						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/searchposts">Searching</Link> |
-					</li>
-
-					<li className={navLinkItem}>
-						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/blog">Pagination</Link> |
+						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/blog">Pagination</Link>
 					</li>
                     
-					<li className={navLinkItem}>
-						<Link activeStyle={{ fontWeight: "bold" }} className={navLinkText} to="/listposts">List</Link>
-					</li>
-
-
+					
 				</ul>
 			</nav>
 
