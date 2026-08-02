@@ -5,7 +5,7 @@ published: true
 categories:
   - 
 tags:
-  - fastapi-authentication-use-cases
+  - 
 ---
 
 A starter project showcasing HTTP Basic authentication. It includes OpenAPI / Swagger, SQLAlchemy, Alembic, PostgreSQL, and is hosted on Vercel Cloud with Serverless Functions using a GitHub-based CI/CD workflow
