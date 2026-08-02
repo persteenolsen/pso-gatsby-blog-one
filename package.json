@@ -30,9 +30,9 @@
     "url": "https://github.com/persteenolsen/pso-gatsby-blog-one"
   },
   "engines": {
-    "node": "20.18.1"
+    "node": "22.x"
   },
   "volta": {
-    "node": "20.18.1"
+    "node": "22.20.0"
   }
 }
