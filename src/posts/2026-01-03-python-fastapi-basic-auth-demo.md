@@ -1,9 +1,9 @@
 ---
 title: Python FastAPI with PostgreSQL and HTTP Basic Authentication
 date: 2026-07-15
-published: false
+published: true
 categories:
-  - FastAPI Authentication Use Cases
+  - 
 tags:
   - fastapi-authentication-use-cases
 ---
