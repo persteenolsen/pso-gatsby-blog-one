@@ -76,7 +76,7 @@ const About = () => {
 			 
             <b>Node.js Version</b>
 			<ul>
-            <li>Node 20.18.1</li>
+            <li>Node 22.x</li>
             </ul>
 			
             <b>Module Bundler</b>
