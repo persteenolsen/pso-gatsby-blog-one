@@ -17,39 +17,68 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 const path = require("path")
 const _ = require("lodash")
 
+// 08-08-2026 - Posts with published: false will not be shown in the pagnition list of posts, 
+// but they will still be available as a single post page if the user knows the URL of the post
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
   const result = await graphql
     (`
-        query {
-            allMdx {
-                edges {
-                    node {
-                        id
-                        fields {
-                        slug
-                        }
-						 frontmatter {
-                         title
-                          tags
-						  categories
-                        }
-                    }
+      query {
+       allMdx {
+        edges {
+            node {
+                id
+                fields {
+                    slug
+                }
+                frontmatter {
+                    title
+                    tags
+                    categories
                 }
             }
-		    tagsGroup: allMdx(limit: 2000) {
-              group(field: frontmatter___tags) {
-                fieldValue
-               }
-            }
-			categoriesGroup: allMdx(limit: 2000) {
-              group(field: frontmatter___categories) {
-                fieldValue
-               }
+        }
+    }
+
+    publishedMdx: allMdx(
+        filter: { frontmatter: { published: { eq: true } } }
+    ) {
+        edges {
+            node {
+                id
+                fields {
+                    slug
+                }
+                frontmatter {
+                    title
+                    tags
+                    categories
+                }
             }
         }
-    `)
+    }
+
+    tagsGroup: allMdx(
+        limit: 2000
+        filter: { frontmatter: { published: { eq: true } } }
+    ) {
+        group(field: frontmatter___tags) {
+            fieldValue
+        }
+    }
+
+    categoriesGroup: allMdx(
+        limit: 2000
+        filter: { frontmatter: { published: { eq: true } } }
+    ) {
+        group(field: frontmatter___categories) {
+            fieldValue
+        }
+    }
+  }
+
+ `)
 
   if (result.errors) {
     reporter.panicOnBuild('ERROR: Loading "createPages" query')
@@ -102,7 +131,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
 
   // Create blog post pages with pagnition of 5 Posts per Page
-  const postspagnition = result.data.allMdx.edges
+  // 08-08-2026 - Posts with published: false will not be shown in the pagnition list of posts, 
+  // but they will still be available as a single post page if the user knows the URL of the post
+  const postspagnition = result.data.publishedMdx.edges
+
   const postsPerPage = 5
   const numPages = Math.ceil(postspagnition.length / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {

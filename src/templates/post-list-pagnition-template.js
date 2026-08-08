@@ -157,11 +157,14 @@ const BlogPage = ({ data, pageContext }) => {
 
 export default BlogPage;
 
+// 08-08-2026 - Posts with published: false will not be shown in the pagnition list of posts, 
+// but they will still be available as a single post page if the user knows the URL of the post
 // Get all markdown files, in descending order by date, and grab the id, excerpt, slug, date, and title
 export const pageQuery = graphql
   `
   query($skip: Int!, $limit: Int!) {
     allMdx(
+      filter: { frontmatter: { published: { eq: true } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
