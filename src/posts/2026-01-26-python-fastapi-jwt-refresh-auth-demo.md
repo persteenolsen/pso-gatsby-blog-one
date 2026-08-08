@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with PostgreSQL JWT Authentication using Refresh Token Renewal
-date: 2026-07-14
+date: 2026-08-08
 published: true
 categories:
   - 
