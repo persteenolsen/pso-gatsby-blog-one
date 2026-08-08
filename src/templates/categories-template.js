@@ -114,7 +114,7 @@ export const pageQuery = graphql`
      allMdx(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: [$category] } } }
+      filter: { frontmatter: { categories: { in: [$category] }, published: { eq: true } } }
     ) {
 	 
       totalCount
