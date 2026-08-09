@@ -30,7 +30,7 @@ const MyInfo = () => {
 			
 			   <h2 className={heading}>{title}</h2>
 				
-                <h4>Per Steen Olsen</h4>				
+                <h4>Per Olsen</h4>				
                 <p>Software Developer</p>
 		        <p>Denmark</p>
                 
