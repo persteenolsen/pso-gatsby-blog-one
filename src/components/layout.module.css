@@ -10,16 +10,27 @@
 
 
 .container-header {
-   text-align: left;
-      
+  text-align: left;
+
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.70),
+      rgba(255, 255, 255, 0.70)
+    ),
+    url("/images-components/aione.jpg");
+
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
+
 .container-bottom {
-   text-align: center;
-   font-family: verdana;
-   background-color: #F0F0F0;
-   margin-top: 20px;
-   padding: 15px;
+  text-align: center;
+  font-family: verdana;
+  background-color: #F0F0F0;
+  margin-top: 20px;
+  padding: 15px;
 }
 
 .page-navigation {
