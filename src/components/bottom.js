@@ -11,7 +11,7 @@ export default function Bottom() {
        
       <div className={containerBottom}>
             
-	       Software Developer - Per Olsen - Denmark  
+	      Software Developer - Per Olsen - Denmark  
 
       </div>
    

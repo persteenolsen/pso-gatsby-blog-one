@@ -1,15 +1,23 @@
+body {
+  margin: 0;
+}
+
 .container {
-  margin-left: 15px;	
+ 
+  margin: 0 auto;
+
   max-width: 750px;
   font-family: verdana;
 	
 }
 .heading {
   color: orange;
+   
 }
 
 
 .container-header {
+  
   text-align: left;
 
   background-image:
@@ -91,7 +99,10 @@ input[type=text]:focus {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 2px;
+  
+  padding:0;
+  margin: 0;
+
   align-items: center;
   
  }

@@ -44,6 +44,7 @@ const HomePage = ({ data }) => {
     <div className={container}>
 
       <Header />
+      
       <Menu />
 
       <title>View the Projects by Categories</title>
