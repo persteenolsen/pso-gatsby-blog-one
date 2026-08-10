@@ -5,16 +5,16 @@ body {
 .container {
  
   margin: 0 auto;
-
+  padding: 0px 15px;
   max-width: 750px;
   font-family: verdana;
 	
 }
+
 .heading {
   color: orange;
    
 }
-
 
 .container-header {
   
