@@ -1,25 +1,22 @@
 body {
-  margin: 0;
+  margin: 0; /* Remove the browser's default outer spacing */
 }
 
 .container {
- 
-  margin: 0 auto;
-  padding: 0px 15px;
-  max-width: 750px;
-  font-family: verdana;
-	
+  margin: 0 auto; /* Center the main content */
+  padding: 0px 15px; /* Add space on the left and right */
+  max-width: 750px; /* Limit the content width */
+  font-family: verdana; /* Set the main font */
 }
 
 .heading {
-  color: orange;
-   
+  color: orange; /* Color for headings */
 }
 
 .container-header {
-  
-  text-align: left;
+  text-align: left; /* Align header content to the left */
 
+  /* Add a light overlay on top of the header image */
   background-image:
     linear-gradient(
       rgba(255, 255, 255, 0.70),
@@ -27,193 +24,221 @@ body {
     ),
     url("/images-components/aione.jpg");
 
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+  background-size: cover; /* Make the image fill the header */
+  background-position: center top; /* Position the image at the top center */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
 
+/* Footer with a soft grey-blue gradient */
 .container-bottom {
-  text-align: center;
-  font-family: verdana;
-  background-color: #F0F0F0;
-  margin-top: 20px;
-  padding: 15px;
+  text-align: center; /* Center the footer content */
+  font-family: Verdana, sans-serif; /* Set the footer font */
+
+  background: linear-gradient(
+    rgba(160, 174, 181, 0.40),
+    rgba(145, 162, 170, 0.30)
+  );
+
+  margin-top: 20px; /* Add space above the footer */
+  padding: 15px; /* Add space inside the footer */
 }
 
+
+/* Page navigation container */
 .page-navigation {
-	display: flex;
-  flex-wrap: wrap;
-	padding: 10px;
-	
+  display: flex; /* Place items in a row */
+  flex-wrap: wrap; /* Allow items to move to a new line */
+  padding: 10px; /* Add space around the navigation */
 }
 
 .page-navigation-space {
-	width: 10px;
+  width: 10px; /* Add space between navigation elements */
 }
 
 .page-navigation-link {
-     padding: 10px;
-	
+  padding: 10px; /* Add space around each link */
 }
 
+
+/* Circular profile image */
 .image-me {
-	border-radius: 50%;
-	height: 121px;
-	width: 150px;
+  border-radius: 50%; /* Make the image circular */
+  height: 121px; /* Set image height */
+  width: 150px; /* Set image width */
 }
 
+/* Lisboa image */
 .image-me-lisboa {
-	height: 154px;
-	width: 260px;
+  height: 154px; /* Set image height */
+  width: 260px; /* Set image width */
 }
 
 
+/* General links */
 a {
-  text-decoration: none;
-  color: grey;
+  text-decoration: none; /* Remove the default underline */
+  color: grey; /* Set the link color */
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underline links when hovered */
 }
 
 
+/* Text input field */
 input[type=text] {
-  width: 75%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
+  width: 75%; /* Set the input width */
+  padding: 12px 20px; /* Add space inside the input */
+  margin: 8px 0; /* Add space above and below */
+  box-sizing: border-box; /* Include padding in the width */
+  border: 2px solid #ccc; /* Set the normal border */
+  -webkit-transition: 0.5s; /* Smooth transition for older browsers */
+  transition: 0.5s; /* Smooth transition when focused */
+  outline: none; /* Remove the default focus outline */
 }
 
 input[type=text]:focus {
-  border: 2px solid #555;
+  border: 2px solid #555; /* Darken the border when selected */
 }
 
 
+/* Header navigation */
 .header-nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  
-  padding:0;
-  margin: 0;
+  display: flex; /* Arrange links in a row */
+  flex-wrap: wrap; /* Allow links to wrap */
+  list-style: none; /* Remove list bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  align-items: center; /* Vertically center the links */
+}
 
-  align-items: center;
-  
- }
-.header-nav-link-item {  
-  margin: 5px;
- }
+.header-nav-link-item {
+  margin: 5px; /* Add space around each link */
+}
+
 .header-nav-link-text {
-  color: black;
+  color: black; /* Set header link text color */
 }
 
 
+/* Main navigation links */
 .nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 2px;
-  background-color: #F0F0F0;
- }
-.nav-link-item {  
-  margin: 5px;
- }
+  display: flex; /* Arrange links in a row */
+  flex-wrap: wrap; /* Allow links to wrap */
+  list-style: none; /* Remove list bullets */
+  padding: 5px; /* Add space around the navigation */
+
+  /* Soft, subtle grey-blue */
+  background-color: rgba(160, 174, 181, 0.40);
+}
+
+.nav-link-item {
+  margin: 5px; /* Add space around each link */
+}
+
 .nav-link-text {
-  color: black;
+  color: black; /* Set navigation link text color */
 }
 
 
+/* Category navigation */
 .categories-nav-links {
- display: flex;
- flex-wrap: wrap;
- list-style: none;
- padding: 0px;
- margin-bottom: 0px;
-  
+  display: flex; /* Arrange categories in a row */
+  flex-wrap: wrap; /* Allow categories to wrap */
+  list-style: none; /* Remove list bullets */
+  padding: 0px; /* Remove default padding */
+  margin-bottom: 0px; /* Remove bottom spacing */
 }
+
 .categories-nav-link-item {
-  margin-right: 10px;
-  padding-top: 10px;
- }
+  margin-right: 10px; /* Add space between categories */
+  padding-top: 10px; /* Add space above each category */
+}
+
 .categories-nav-link-text {
-  color: green;
+  color: green; /* Set category text color */
 }
 
+
+/* Tag navigation */
 .tags-nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0px;
-  margin-bottom: 0px;
-      
+  display: flex; /* Arrange tags in a row */
+  flex-wrap: wrap; /* Allow tags to wrap */
+  list-style: none; /* Remove list bullets */
+  padding: 0px; /* Remove default padding */
+  margin-bottom: 0px; /* Remove bottom spacing */
 }
+
 .tags-nav-link-item {
-  margin-right: 10px;
-  padding-top: 10px;
- }
+  margin-right: 10px; /* Add space between tags */
+  padding-top: 10px; /* Add space above each tag */
+}
+
 .tags-nav-link-text {
-  color: grey;
+  color: grey; /* Set tag text color */
 }
 
 
-
+/* Temporary category navigation */
 .temp-categories-nav-links {
-  list-style: none;
-  padding: 0px;
-      
+  list-style: none; /* Remove list bullets */
+  padding: 0px; /* Remove default padding */
 }
+
 .temp-categories-nav-link-item {
-  margin: 0px;
- }
+  margin: 0px; /* Remove spacing around items */
+}
+
 .temp-categories-nav-link-text {
-  color: green;
+  color: green; /* Set category text color */
 }
 
+
+/* Temporary tag navigation */
 .temp-tags-nav-links {
-  list-style: none;
-  padding: 0px;
-      
+  list-style: none; /* Remove list bullets */
+  padding: 0px; /* Remove default padding */
 }
+
 .temp-tags-nav-link-item {
-  margin: 0px;
- }
+  margin: 0px; /* Remove spacing around items */
+}
+
 .temp-tags-nav-link-text {
-  color: grey;
+  color: grey; /* Set tag text color */
 }
 
 
-
+/* Categories shown on individual posts */
 .post-categories-nav-links {
-  display: flex;
-  
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 1px;
-  
-}
-.post-categories-nav-link-item {
-  margin: 3px;
- }
-.post-categories-nav-link-text {
-  color: green;
+  display: flex; /* Arrange categories in a row */
+  flex-wrap: wrap; /* Allow categories to wrap */
+  list-style: none; /* Remove list bullets */
+  padding: 1px; /* Add a small amount of spacing */
 }
 
-.post-tags-nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 1px;
-  
+.post-categories-nav-link-item {
+  margin: 3px; /* Add space around each category */
 }
+
+.post-categories-nav-link-text {
+  color: green; /* Set category text color */
+}
+
+
+/* Tags shown on individual posts */
+.post-tags-nav-links {
+  display: flex; /* Arrange tags in a row */
+  flex-wrap: wrap; /* Allow tags to wrap */
+  list-style: none; /* Remove list bullets */
+  padding: 1px; /* Add a small amount of spacing */
+}
+
 .post-tags-nav-link-item {
-  margin: 3px;
- }
+  margin: 3px; /* Add space around each tag */
+}
+
 .post-tags-nav-link-text {
-  color: grey;
+  color: grey; /* Set tag text color */
 }
