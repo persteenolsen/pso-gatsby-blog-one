@@ -1,3 +1,10 @@
+/* Always reserve space for the vertical scrollbar.
+   This prevents the centered layout from shifting horizontally
+   on pages that are shorter than the viewport. */
+html {
+  overflow-y: scroll;
+}
+
 body {
   margin: 0; /* Remove the browser's default outer spacing */
 }
