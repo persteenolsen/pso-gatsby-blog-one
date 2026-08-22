@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving House Price Predicting using Deep Learning with the Ames Housing Dataset (v8)
-date: 2026-08-15
+date: 2026-08-22
 published: true
 categories:
   - Python
