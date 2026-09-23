@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving RAG by Hugging Face embeddings (v2)
-date: 2026-09-17
+date: 2026-09-23
 published: true
 categories:
   - Python
