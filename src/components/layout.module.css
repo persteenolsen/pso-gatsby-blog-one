@@ -26,8 +26,8 @@ body {
   /* Add a light overlay on top of the header image */
   background-image:
     linear-gradient(
-      rgba(255, 255, 255, 0.50),
-      rgba(255, 255, 255, 0.50)
+      rgba(255, 255, 255, 0.45),
+      rgba(255, 255, 255, 0.55)
     ),
     url("/images-components/aione.jpg");
 
