@@ -41,7 +41,7 @@ There is a Vue 3 SPA for the FastAPI
 <p><a href="https://vue.fastapi.jwt.auth.rag.two.persteenolsen.com" target="_blank" title="FastAPI serving JWT Auth and RAG pipeline">Try the demo by Vue 3 SPA...</a></p>
 
 
-A Starter FastAPI + JWT Auth + Retrieval-Augmented Generation (RAG) by Groq LLM + Real embeddings by Hugging Face model + Vue 3 SPA + OpenAPI / Swagger - secured by HTTPS
+A Starter FastAPI + JWT Auth + Retrieval-Augmented Generation (RAG) by Groq LLM + Embeddings by Hugging Face model + Vue 3 SPA + OpenAPI / Swagger - secured by HTTPS
 
 A PostgreSQL database was used with the pgvector extension
 
