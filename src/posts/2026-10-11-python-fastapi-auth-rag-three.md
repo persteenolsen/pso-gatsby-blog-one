@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving RAG by Voyage AI embeddings (v3)
-date: 2026-10-16
+date: 2026-10-25
 published: true
 categories:
   - Python
