@@ -15,6 +15,7 @@ categories:
   - LLM
   - Vue 3
   - MCP
+  - PostgreSQL
 tags:
   - python
   - fastapi
@@ -28,6 +29,7 @@ tags:
   - llm
   - vue-3
   - mcp
+  - postgresql
 ---
 
 
