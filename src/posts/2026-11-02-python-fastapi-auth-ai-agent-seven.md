@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving a LangChain AI Agent for Simply.com Private MCP OAuth 2.1
-date: 2026-11-02 12:00
+date: 2026-11-03 12:00
 published: true
 categories:
   - Python
@@ -16,6 +16,7 @@ categories:
   - Vue 3
   - MCP
   - PostgreSQL
+  - Tests
 tags:
   - python
   - fastapi
@@ -30,6 +31,7 @@ tags:
   - vue-3
   - mcp
   - postgresql
+  - tests
 ---
 
 
@@ -55,6 +57,13 @@ The Web API at GitHub
 
 <a href="https://github.com/persteenolsen/vue-fastapi-jwt-auth-ai-agent-seven" target="_blank">
 The Vue SPA at GitHub</a>
+
+Local Test Application build with Python FastAPI with JWT Auth and a LangChain AI Agent for Simply.com MCP OAuth 2.1. This version stores the credentials from the Simply MCP in .env instead of PostgreSQL
+
+<p><a href="https://github.com/persteenolsen/fastapi-jwt-auth-ai-agent-six" target="_blank">
+The Web API at GitHub
+</a></p>
+
 
 
 
