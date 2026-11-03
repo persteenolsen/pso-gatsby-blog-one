@@ -60,9 +60,9 @@ The Vue SPA at GitHub</a>
 
 Local Test Application build with Python FastAPI with JWT Auth and a LangChain AI Agent for Simply.com MCP OAuth 2.1. This version stores the credentials from the Simply MCP in .env instead of PostgreSQL
 
-<p><a href="https://github.com/persteenolsen/fastapi-jwt-auth-ai-agent-six" target="_blank">
+<a href="https://github.com/persteenolsen/fastapi-jwt-auth-ai-agent-six" target="_blank">
 The Web API at GitHub
-</a></p>
+</a>
 
 
 
