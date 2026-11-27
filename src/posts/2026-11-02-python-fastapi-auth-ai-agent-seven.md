@@ -1,6 +1,6 @@
 ---
 title: Python FastAPI with JWT Auth serving a LangChain AI Agent for Simply.com Private MCP OAuth 2.1
-date: 2026-11-19 12:00
+date: 2026-11-27 12:00
 published: true
 categories:
   - Python
